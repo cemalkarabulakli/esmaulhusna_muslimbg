@@ -22,12 +22,6 @@ export 'src/constants/constants.dart';
 /// Models exports
 export 'src/models/models.dart';
 
-/// Services exports
-export 'src/services/services.dart';
-
-/// Repository exports
-export 'src/repository/repository.dart';
-
 /// Providers exports
 export 'src/providers/providers.dart';
 
