@@ -1,15 +1,20 @@
-# esmaulhusna
+# Esmaul Husna Package
 
-A new Flutter plugin project.
+A Flutter package that provides the 99 Names of Allah (Esmaul Husna) in multiple languages with their meanings and descriptions.
+
+## Features
+
+- Get all 99 Names of Allah in multiple languages
+- Access individual names with their meanings and descriptions
+- Support for multiple languages (currently English, planning to add Turkish and Arabic)
+- Simple and easy to use API
+- No external dependencies
 
 ## Getting Started
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/to/develop-plugins),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+Add this to your package's `pubspec.yaml` file:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+
 
