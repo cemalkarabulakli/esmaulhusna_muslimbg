@@ -1,25 +1,19 @@
 PODS:
-  - esmaulhusna (0.0.1):
-    - Flutter
   - Flutter (1.0.0)
   - integration_test (0.0.1):
     - Flutter
 
 DEPENDENCIES:
-  - esmaulhusna (from `.symlinks/plugins/esmaulhusna/ios`)
   - Flutter (from `Flutter`)
   - integration_test (from `.symlinks/plugins/integration_test/ios`)
 
 EXTERNAL SOURCES:
-  esmaulhusna:
-    :path: ".symlinks/plugins/esmaulhusna/ios"
   Flutter:
     :path: Flutter
   integration_test:
     :path: ".symlinks/plugins/integration_test/ios"
 
 SPEC CHECKSUMS:
-  esmaulhusna: e7fb83b4dbb5d7a8b33307d15d9891d83ef54681
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
   integration_test: 4a889634ef21a45d28d50d622cf412dc6d9f586e
 

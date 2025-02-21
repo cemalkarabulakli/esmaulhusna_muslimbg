@@ -1,8 +1,5 @@
+import 'src/esmaulhusna_base.dart';
 
-import 'esmaulhusna_platform_interface.dart';
+export 'src/esmaulhusna_base.dart';
 
-class Esmaulhusna {
-  Future<String?> getPlatformVersion() {
-    return EsmaulhusnaPlatform.instance.getPlatformVersion();
-  }
-}
+// No need for platform-specific code since we're just providing data
