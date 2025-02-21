@@ -15,6 +15,14 @@ class EsmaulHusna {
     return _names[number - 1]['arabic'] as String;
   }
 
+  /// Get Turkish name for given number (1-99)
+  static String getTurkishName(int number) {
+    if (number < 1 || number > 99) {
+      throw RangeError('Number must be between 1 and 99');
+    }
+    return _names[number - 1]['turkish'] as String;
+  }
+
   /// Get Bulgarian name for given number (1-99)
   static String getBulgarianName(int number) {
     if (number < 1 || number > 99) {
@@ -41,6 +49,11 @@ class EsmaulHusna {
     return _names.map((name) => name['arabic'] as String).toList();
   }
 
+  /// Get list of all Turkish names
+  static List<String> getAllTurkishNames() {
+    return _names.map((name) => name['turkish'] as String).toList();
+  }
+
   /// Get list of all Bulgarian names
   static List<String> getAllBulgarianNames() {
     return _names.map((name) => name['bulgarian'] as String).toList();
@@ -50,12 +63,14 @@ class EsmaulHusna {
     {
       'english': 'Ar-Rahman',
       'arabic': 'الرَّحْمَنُ',
+      'turkish': 'Rahman',
       'bulgarian': 'Всемилостивият',
       'description': 'The Most Gracious',
     },
     {
       'english': 'Ar-Raheem',
       'arabic': 'الرَّحِيمُ',
+      'turkish': 'Rahim',
       'bulgarian': 'Милосърдният',
       'description': 'The Most Merciful',
     },
