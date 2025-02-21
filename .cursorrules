@@ -1,0 +1,55 @@
+# Flutter Package Development Rules
+
+# Package Structure
+- Must have a `pubspec.yaml` file in root directory
+- Must have a `lib` directory containing package code
+- Must have a `LICENSE` file
+- Should have a `README.md` with clear documentation
+- Should have an `example` directory with sample usage
+- Package name must follow `lowercase_with_underscores` format
+
+# Pubspec Requirements
+- Must declare Flutter SDK constraints
+- Must specify supported platforms
+- Must have accurate package description
+- Must list all dependencies properly
+- Version number should follow semantic versioning
+
+# Code Organization
+- Public API should be in `lib/src`
+- Export public API through `lib/[package_name].dart`
+- Keep implementation details private
+- Use platform-specific code directories if needed
+  - `android/` for Android-specific code
+  - `ios/` for iOS-specific code
+  - `web/` for web-specific code
+
+# Testing
+- Include unit tests in `test` directory
+- Write integration tests if applicable
+- Test on all supported platforms
+- Maintain test coverage
+
+# Documentation
+- Document all public APIs
+- Include code examples
+- Specify platform support
+- List dependencies and requirements
+- Provide clear installation instructions
+
+# Publishing
+- Run `flutter pub publish --dry-run` before publishing
+- Ensure all tests pass
+- Update CHANGELOG.md
+- Tag releases in version control
+- Use `flutter pub publish` to publish
+
+# Best Practices
+- Follow Dart style guide
+- Handle errors gracefully
+- Support null safety
+- Minimize platform-specific code
+- Keep dependencies up to date
+- Respond to issues and pull requests
+
+
