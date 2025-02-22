@@ -3,12 +3,78 @@ name: Publish to pub.dev
 on:
   push:
     tags:
-      - 'v[0-9]+.[0-9]+.[0-9]+*'
+      - 'v[0-9]+.[0-9]+.[0-9]+*'  # Matches tags like v1.0.0, v2.1.0-beta, etc.
 
 jobs:
   publish:
+    name: Publish to pub.dev
+    runs-on: ubuntu-latest
     permissions:
-      id-token: write # Required for authentication using OIDC
-    uses: dart-lang/setup-dart/.github/workflows/publish.yml@v1
-    # with:
-    #   working-directory: path/to/package/within/repository
+      id-token: write # Required for pub.dev publication
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.19.0'
+          channel: 'stable'
+      
+      - name: Install dependencies
+        working-directory: esmaulhusna
+        run: flutter pub get
+        
+      - name: Format code
+        working-directory: esmaulhusna
+        run: dart format .
+        
+      - name: Verify formatting
+        working-directory: esmaulhusna
+        run: dart format --output=none --set-exit-if-changed .
+        
+      - name: Analyze project source
+        working-directory: esmaulhusna
+        run: dart analyze
+
+      - name: Generate tests
+        working-directory: esmaulhusna
+        run: |
+          mkdir -p test
+          cat > test/esmaulhusna_test.dart << 'EOF'
+          import 'package:flutter_test/flutter_test.dart';
+          import 'package:esmaulhusna_muslimbg/esmaulhusna.dart';
+
+          void main() {
+            group('EsmaulHusna Tests', () {
+              test('getNames returns correct data structure', () async {
+                final names = await EsmaulHusna.getNames('en');
+                expect(names, isA<List<Map<String, String>>>());
+                expect(names.length, equals(99));
+                expect(names[0].keys, containsAll(['arabic', 'name', 'translation']));
+              });
+
+              test('getRandomName returns valid name', () async {
+                final name = await EsmaulHusna.getRandomName('en');
+                expect(name, isA<Map<String, String>>());
+                expect(name.keys, containsAll(['arabic', 'name', 'translation']));
+                expect(name.values.every((v) => v.isNotEmpty), isTrue);
+              });
+
+              test('supports all languages', () async {
+                for (final lang in ['en', 'ar', 'tr', 'bg']) {
+                  final names = await EsmaulHusna.getNames(lang);
+                  expect(names.length, equals(99));
+                }
+              });
+            });
+          }
+          EOF
+        
+      - name: Run tests
+        working-directory: esmaulhusna
+        run: flutter test
+        
+      - name: Publish to pub.dev
+        working-directory: esmaulhusna
+        run: dart pub publish --force
