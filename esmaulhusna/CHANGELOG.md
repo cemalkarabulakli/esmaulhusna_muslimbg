@@ -1,3 +1,5 @@
+# Changelog
+
 ## 0.0.4
 
 * Added new `getRandomName` method for random name selection

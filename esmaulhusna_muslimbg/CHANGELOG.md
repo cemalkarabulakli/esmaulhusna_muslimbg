@@ -1,7 +1,13 @@
-## 0.0.3
+# Changelog
 
-* Updated Arabic translations for all 99 Names of Allah to ensure accurate representation in Arabic script
-  * For example, "الرَّحْمَنُ" is now correctly displayed for the name "The Most Gracious"
+## 0.0.4
+
+* Added new `getRandomName` method for random name selection
+* Improved error handling in translation loading
+* Added comprehensive test suite
+* Updated documentation with new examples
+* Fixed asset loading in package environment
+* Added GitHub Actions for automated publishing
 * Minor documentation updates to reflect the changes in the Arabic names
 * Improved error handling for translation loading
 * Added proper asset bundling support
