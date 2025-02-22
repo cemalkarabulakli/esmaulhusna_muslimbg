@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.0.5
+
+* Added new language support for Russian and German
+* Improved translation accuracy for existing languages
+* Enhanced error handling for invalid language codes
+* Added new method `getSupportedLanguages()` to get available translations
+* Updated documentation with new language examples
+* Performance optimizations for name retrieval
+* Added proper null safety support
+* Improved code documentation and examples
+
 ## 0.0.4
 
 * Added new `getRandomName` method for random name selection

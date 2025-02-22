@@ -36,12 +36,12 @@ class EsmaulHusna {
   /// Loads and parses translations from JSON file for the specified language
   static Future<List<Map<String, String>>> _loadTranslation(
       String language) async {
-    const int namesCount = 99;
+    const int namesCount = 100;
     final translations = List<Map<String, String>>.generate(
       namesCount,
       (_) => const {},
     );
-
+    language = "${language}_esmaulhusna";
     try {
       final jsonString = await rootBundle.loadString(
           'packages/esmaulhusna_muslimbg/lib/assets/translations/$language.json');
