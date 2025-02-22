@@ -2,8 +2,8 @@ name: Publish to pub.dev
 
 on:
   push:
-    tags:
-      - 'v[0-9]+.[0-9]+.[0-9]+*'
+    branches:
+      - main
 
 jobs:
   publish:
@@ -17,7 +17,7 @@ jobs:
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: 'latest' # Specify the Flutter version you want to use
+          channel: 'stable' # Use stable channel instead of specific version
 
       - name: Install dependencies
         run: flutter pub get # Use flutter pub instead of dart pub
