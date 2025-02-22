@@ -35,7 +35,7 @@ jobs:
         
       - name: Analyze project source
         working-directory: esmaulhusna
-        run: dart analyze
+        run: flutter analyze
 
       - name: Generate tests
         working-directory: esmaulhusna
@@ -77,4 +77,4 @@ jobs:
         
       - name: Publish to pub.dev
         working-directory: esmaulhusna
-        run: dart pub publish --force
+        run: flutter pub publish --force
