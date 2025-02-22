@@ -1,72 +1,117 @@
-# Esmaul Husna Flutter Package | MuslimBG 
+# Esmaul Husna - 99 Names of Allah | MuslimBG
 
-[![Publish to pub.dev](https://github.com/cemalkarabulakli/esmaulhusna_muslimbg/actions/workflows/dart.yml/badge.svg)](https://github.com/cemalkarabulakli/esmaulhusna_muslimbg/actions/workflows/dart.yml)
-
-A Flutter package that provides the **99 Names of Allah (Esmaul Husna)** with their meanings and descriptions in **Bulgarian, English, and Turkish**. This package helps developers integrate Esmaul Husna into their Flutter applications easily. Ideal for Islamic apps like Quran apps, and other religious applications.
+A Flutter package providing access to the 99 Names of Allah (Esmaul Husna) in multiple languages with descriptions and meanings.
 
 ## Features
-- List of **99 Names of Allah** with Arabic script, transliteration, and meanings in **Bulgarian, English, and Turkish**.
-- Ability to fetch a random name.
-- Offline support (data is bundled with the package).
-- Simple and lightweight.
-- Perfect for Islamic apps, Quran study apps, and prayer apps.
+
+- 📚 Support for multiple languages:
+  - English
+  - Turkish
+  - Bulgarian
+- 🔍 Detailed descriptions and meanings
+- ⚡ Async loading for better performance
+- 🛡️ Type-safe API
+- 🌐 Proper Unicode support for Arabic text
 
 ## Installation
-Add the following dependency to your `pubspec.yaml` file:
+
+Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  esmaulhusna_muslimbg: latest_version # Replace with the latest version
-```
-
-Then run:
-
-```sh
-flutter pub get
+  esmaulhusna_muslimbg: latest_version
 ```
 
 ## Usage
 
-Import the package:
+### Basic Usage
 
 ```dart
-import 'package:esmaulhusna/esmaulhusna.dart';
+import 'package:esmaulhusna_muslimbg/esmaulhusna.dart';
+
+// Get names in English
+final englishNames = await EsmaulHusna.getNames('bg');
+
+// Access first name (Al-Rahman)
+print(englishNames[0]['name']);       // The Most Gracious
+print(englishNames[0]['arabic']);     // الرَّحْمَنُ
+print(englishNames[0]['translation']); // The description/meaning
 ```
 
-### Get All Names
-```dart 
-// Get names in Bulgarian
-final bulgarianNames = await EsmaulHusna.getNames('bg');
+### Available Languages
 
-// Access first name
-print(bulgarianNames[0]['name']); // Name in Bulgarian
-print(bulgarianNames[0]['arabic']); // Arabic text
-print(bulgarianNames[0]['translation']); // Description in Bulgarian
-```
-
-### Display Names in a ListView
 ```dart
- return ListView.builder(
-            itemCount: names.length,
+// Get names in different languages
+final arabicNames = await EsmaulHusna.getNames('bg');
+final turkishNames = await EsmaulHusna.getNames('tr');
+final bulgarianNames = await EsmaulHusna.getNames('en');
+```
+
+```dart
+// Get a random name in Bulgarian. This can be used for daily notification or random name.
+final randomName = await EsmaulHusna.getRandomName('bg');
+print(randomName['name']); // Name in Bulgarian
+print(randomName['arabic']); // Arabic text of the name
+print(randomName['translation']); // Description/meaning in Bulgarian
+```
+
+### Response Format
+
+Each name in the returned list contains:
+
+```dart
+{
+  'arabic': 'Arabic text of the name',
+  'name': 'Name in requested language',
+  'translation': 'Description/meaning in requested language'
+}
+```
+
+## Error Handling
+
+The package includes proper error handling:
+
+```dart
+try {
+  final names = await EsmaulHusna.getNames('bg');
+  // Use the names...
+} catch (e) {
+  print('Error loading names: $e');
+}
+```
+
+## Example
+
+A complete example showing how to display the names in a ListView:
+
+```dart
+class NamesListView extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return FutureBuilder<List<Map<String, String>>>(
+      future: EsmaulHusna.getNames('bg'),
+      builder: (context, snapshot) {
+        if (snapshot.hasData) {
+          return ListView.builder(
+            itemCount: snapshot.data!.length,
             itemBuilder: (context, index) {
-              final name = names[index];
+              final name = snapshot.data![index];
               return ListTile(
-                title: Text(name['name'] ?? ''),
-                subtitle: Text(name['arabic'] ?? ''),
-                trailing: Text((index + 1).toString()),
-                onTap: () {
-                  showDialog(
-                    context: context,
-                    builder:
-                        (context) => AlertDialog(
-                          title: Center(child: Text(name['name'] ?? '')),
-                          content: Text(name['translation'] ?? ''),
-                        ),
-                  );
-                },
+                title: Text(name['name']!),
+                subtitle: Text(name['translation']!),
+                leading: Text(name['arabic']!),
               );
             },
           );
+        }
+        if (snapshot.hasError) {
+          return Center(child: Text('Error: ${snapshot.error}'));
+        }
+        return Center(child: CircularProgressIndicator());
+      },
+    );
+  }
+}
 ```
 
 ## Example App
