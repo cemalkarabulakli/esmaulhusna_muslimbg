@@ -1,29 +1,16 @@
-name: Publish to pub.dev
+# A CI configuration to write comments on PRs.
+
+name: Comment on the pull request
 
 on:
-  push:
-    branches:
-      - main
+  workflow_run:
+    workflows: 
+      - Publish
+    types:
+      - completed
 
 jobs:
-  publish:
-    permissions:
-      id-token: write # Required for authentication using OIDC
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Set up Flutter
-        uses: subosito/flutter-action@v2
-        with:
-          channel: 'stable' # Use stable channel instead of specific version
-          cache: true
-
-      - name: Install dependencies
-        working-directory: ./esmaulhusna # Set the working directory to your project root
-        run: flutter pub get # Use flutter pub instead of dart pub
-
-      - name: Publish package
-        working-directory: ./esmaulhusna # Set the working directory to your project root
-        run: flutter pub publish --force
+    publish:
+      uses: dart-lang/ecosystem/.github/workflows/publish.yml@main
+      with:
+        environment: pub.dev # Can be any name, this is the convention though.      
