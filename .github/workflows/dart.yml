@@ -27,11 +27,11 @@ jobs:
         
       - name: Format code
         working-directory: esmaulhusna
-        run: dart format .
+        run: flutter format .
         
       - name: Verify formatting
         working-directory: esmaulhusna
-        run: dart format --output=none --set-exit-if-changed .
+        run: flutter format --output=none --set-exit-if-changed .
         
       - name: Analyze project source
         working-directory: esmaulhusna
