@@ -10,8 +10,7 @@ on:
 jobs:
   publish:
     uses: dart-lang/ecosystem/.github/workflows/publish.yaml@main
-    permissions:
-      pull-requests: write
+    permissions: 
       id-token: write
     with:
       environment: cemal_esmaulhusna
