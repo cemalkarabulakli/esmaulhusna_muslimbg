@@ -17,7 +17,8 @@ jobs:
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: 'latest' # Specify the Flutter version you want to use
+          channel: 'stable' # Use stable channel instead of specific version
+          cache: true
 
       - name: Install dependencies
         working-directory: ./esmaulhusna # Set the working directory to your project root
