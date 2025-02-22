@@ -1,7 +1,6 @@
 # Esmaul Husna Flutter Package | MuslimBG 
 
-![Esmaul Husna](https://img.shields.io/badge/Esmaul%20Husna-99%20Names-blue)
-![Flutter](https://img.shields.io/badge/Flutter-Package-blue)
+[![Publish to pub.dev](https://github.com/cemalkarabulakli/esmaulhusna_muslimbg/actions/workflows/dart.yml/badge.svg)](https://github.com/cemalkarabulakli/esmaulhusna_muslimbg/actions/workflows/dart.yml)
 
 A Flutter package that provides the **99 Names of Allah (Esmaul Husna)** with their meanings and descriptions in **Bulgarian, English, and Turkish**. This package helps developers integrate Esmaul Husna into their Flutter applications easily. Ideal for Islamic apps like Quran apps, and other religious applications.
 
