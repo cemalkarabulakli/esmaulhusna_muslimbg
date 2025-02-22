@@ -20,7 +20,9 @@ jobs:
           channel: 'stable' # Use stable channel instead of specific version
 
       - name: Install dependencies
+        working-directory: ./
         run: flutter pub get # Use flutter pub instead of dart pub
 
       - name: Publish package
+        working-directory: ./
         run: flutter pub publish --force
