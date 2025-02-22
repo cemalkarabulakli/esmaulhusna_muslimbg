@@ -44,7 +44,7 @@ class EsmaulHusna {
 
     try {
       final jsonString = await rootBundle.loadString(
-          'packages/esmaulhusna/lib/assets/translations/$language.json');
+          'packages/esmaulhusna_muslimbg/lib/assets/translations/$language.json');
       final jsonTranslations = jsonDecode(jsonString) as Map<String, dynamic>;
 
       for (var i = 1; i <= namesCount; i++) {

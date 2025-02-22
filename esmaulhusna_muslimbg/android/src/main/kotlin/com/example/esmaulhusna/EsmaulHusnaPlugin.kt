@@ -1,4 +1,4 @@
-package com.example.esmaulhusna
+package com.example.esmaulhusna_muslimbg
 
 import androidx.annotation.NonNull
 import io.flutter.embedding.engine.plugins.FlutterPlugin
@@ -11,7 +11,7 @@ class EsmaulHusnaPlugin: FlutterPlugin, MethodCallHandler {
   private lateinit var channel : MethodChannel
 
   override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
-    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "esmaulhusna")
+    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "esmaulhusna_muslimbg")
     channel.setMethodCallHandler(this)
   }
 

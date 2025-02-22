@@ -1,4 +1,4 @@
-#include "include/esmaulhusna/esmaulhusna_plugin_c_api.h"
+#include "include/esmaulhusna_muslimbg/esmaulhusna_plugin_c_api.h"
 
 #include <flutter/plugin_registrar_windows.h>
 
@@ -6,7 +6,7 @@
 
 void EsmaulhusnaPluginCApiRegisterWithRegistrar(
     FlutterDesktopPluginRegistrarRef registrar) {
-  esmaulhusna::EsmaulhusnaPlugin::RegisterWithRegistrar(
+  esmaulhusna_muslimbg::EsmaulhusnaPlugin::RegisterWithRegistrar(
       flutter::PluginRegistrarManager::GetInstance()
           ->GetRegistrar<flutter::PluginRegistrarWindows>(registrar));
 }

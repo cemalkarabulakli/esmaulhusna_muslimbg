@@ -8,7 +8,7 @@
 PRODUCT_NAME = esmaulhusna_example
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = cemalkarabulakli.esmaulhusna.esmaulhusnaExample
+PRODUCT_BUNDLE_IDENTIFIER = cemalkarabulakli.esmaulhusna_muslimbg.esmaulhusnaExample
 
 // The copyright displayed in application information
-PRODUCT_COPYRIGHT = Copyright © 2025 cemalkarabulakli.esmaulhusna. All rights reserved.
+PRODUCT_COPYRIGHT = Copyright © 2025 cemalkarabulakli.esmaulhusna_muslimbg. All rights reserved.

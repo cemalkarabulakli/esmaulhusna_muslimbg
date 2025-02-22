@@ -13,14 +13,14 @@
 #include <memory>
 #include <sstream>
 
-namespace esmaulhusna {
+namespace esmaulhusna_muslimbg {
 
 // static
 void EsmaulhusnaPlugin::RegisterWithRegistrar(
     flutter::PluginRegistrarWindows *registrar) {
   auto channel =
       std::make_unique<flutter::MethodChannel<flutter::EncodableValue>>(
-          registrar->messenger(), "esmaulhusna",
+          registrar->messenger(), "esmaulhusna_muslimbg",
           &flutter::StandardMethodCodec::GetInstance());
 
   auto plugin = std::make_unique<EsmaulhusnaPlugin>();
@@ -56,4 +56,4 @@ void EsmaulhusnaPlugin::HandleMethodCall(
   }
 }
 
-}  // namespace esmaulhusna
+}  // namespace esmaulhusna_muslimbg

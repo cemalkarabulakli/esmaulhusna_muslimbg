@@ -17,7 +17,7 @@ Add the following dependency to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  esmaulhusna: latest_version # Replace with the latest version
+  esmaulhusna_muslimbg: latest_version # Replace with the latest version
 ```
 
 Then run:
@@ -31,7 +31,7 @@ flutter pub get
 Import the package:
 
 ```dart
-import 'package:esmaulhusna/esmaulhusna.dart';
+import 'package:esmaulhusna_muslimbg/esmaulhusna_muslimbg.dart';
 ```
 
 ### Get a Specific Name by Number
@@ -77,7 +77,7 @@ ListView.builder(
 Check the `example/` directory for a complete working app that demonstrates how to use the package.
 
 ## Repository
-The source code for this package is available on GitHub: [cemalkarabulakli/esmaulhusna](https://github.com/cemalkarabulakli/esmaulhusna)
+The source code for this package is available on GitHub: [cemalkarabulakli/esmaulhusna_muslimbg](https://github.com/cemalkarabulakli/esmaulhusna_muslimbg)
 
 ## Contributing
 Contributions are welcome! Feel free to submit a pull request or open an issue for feature requests and bug reports.

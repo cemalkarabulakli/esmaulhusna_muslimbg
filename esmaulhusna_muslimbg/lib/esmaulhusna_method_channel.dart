@@ -7,11 +7,12 @@ import 'esmaulhusna_platform_interface.dart';
 class MethodChannelEsmaulhusna extends EsmaulhusnaPlatform {
   /// The method channel used to interact with the native platform.
   @visibleForTesting
-  final methodChannel = const MethodChannel('esmaulhusna');
+  final methodChannel = const MethodChannel('esmaulhusna_muslimbg');
 
   @override
   Future<String?> getPlatformVersion() async {
-    final version = await methodChannel.invokeMethod<String>('getPlatformVersion');
+    final version =
+        await methodChannel.invokeMethod<String>('getPlatformVersion');
     return version;
   }
 }

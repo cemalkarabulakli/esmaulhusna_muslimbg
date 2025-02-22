@@ -10,7 +10,7 @@
 
 #include "esmaulhusna_plugin.h"
 
-namespace esmaulhusna {
+namespace esmaulhusna_muslimbg {
 namespace test {
 
 namespace {
@@ -40,4 +40,4 @@ TEST(EsmaulhusnaPlugin, GetPlatformVersion) {
 }
 
 }  // namespace test
-}  // namespace esmaulhusna
+}  // namespace esmaulhusna_muslimbg

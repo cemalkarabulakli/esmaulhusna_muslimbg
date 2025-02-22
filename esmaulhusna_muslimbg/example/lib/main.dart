@@ -1,5 +1,5 @@
+import 'package:esmaulhusna_muslimbg/esmaulhusna.dart';
 import 'package:flutter/material.dart';
-import 'package:esmaulhusna/esmaulhusna.dart';
 
 void main() {
   runApp(const MyApp());

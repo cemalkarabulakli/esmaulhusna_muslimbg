@@ -27,7 +27,7 @@ dependencies:
 ### Basic Usage
 
 ```dart
-import 'package:esmaulhusna_muslimbg/esmaulhusna.dart';
+import 'package:esmaulhusna_muslimbg/esmaulhusna_muslimbg.dart';
 
 // Get names in English
 final englishNames = await EsmaulHusna.getNames('bg');
@@ -118,7 +118,7 @@ class NamesListView extends StatelessWidget {
 Check the `example/` directory for a complete working app that demonstrates how to use the package.
 
 ## Repository
-The source code for this package is available on GitHub: [cemalkarabulakli/esmaulhusna](https://github.com/cemalkarabulakli/esmaulhusna)
+The source code for this package is available on GitHub: [cemalkarabulakli/esmaulhusna_muslimbg](https://github.com/cemalkarabulakli/esmaulhusna_muslimbg)
 
 ## Contributing
 Contributions are welcome! Feel free to submit a pull request or open an issue for feature requests and bug reports.

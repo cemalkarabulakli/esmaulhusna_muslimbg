@@ -26,7 +26,7 @@
 
 ## 0.0.2+1
 
-* Fixed package name from 'esmaulhusna' to 'esmaulhusna_muslimbg'
+* Fixed package name from 'esmaulhusna_muslimbg' to 'esmaulhusna_muslimbg'
 * Updated documentation with detailed usage examples:
 
   ```dart

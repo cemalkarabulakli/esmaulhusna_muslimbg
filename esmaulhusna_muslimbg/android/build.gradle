@@ -1,4 +1,4 @@
-group = "cemalkarabulakli.esmaulhusna.esmaulhusna"
+group = "cemalkarabulakli.esmaulhusna_muslimbg.esmaulhusna_muslimbg"
 version = "1.0-SNAPSHOT"
 
 buildscript {
@@ -25,7 +25,7 @@ apply plugin: "com.android.library"
 apply plugin: "kotlin-android"
 
 android {
-    namespace = "cemalkarabulakli.esmaulhusna.esmaulhusna"
+    namespace = "cemalkarabulakli.esmaulhusna_muslimbg"
 
     compileSdk = 35
 

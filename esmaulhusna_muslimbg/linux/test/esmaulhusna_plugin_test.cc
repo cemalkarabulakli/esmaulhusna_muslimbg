@@ -2,7 +2,7 @@
 #include <gmock/gmock.h>
 #include <gtest/gtest.h>
 
-#include "include/esmaulhusna/esmaulhusna_plugin.h"
+#include "include/esmaulhusna_muslimbg/esmaulhusna_plugin.h"
 #include "esmaulhusna_plugin_private.h"
 
 // This demonstrates a simple unit test of the C portion of this plugin's
@@ -13,7 +13,7 @@
 // built for x64 debug, run:
 // $ build/linux/x64/debug/plugins/my_plugin/my_plugin_test
 
-namespace esmaulhusna {
+namespace esmaulhusna_muslimbg {
 namespace test {
 
 TEST(EsmaulhusnaPlugin, GetPlatformVersion) {
@@ -28,4 +28,4 @@ TEST(EsmaulhusnaPlugin, GetPlatformVersion) {
 }
 
 }  // namespace test
-}  // namespace esmaulhusna
+}  // namespace esmaulhusna_muslimbg

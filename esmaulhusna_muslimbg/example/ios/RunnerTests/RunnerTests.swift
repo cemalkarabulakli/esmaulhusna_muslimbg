@@ -3,7 +3,7 @@ import UIKit
 import XCTest
 
 
-@testable import esmaulhusna
+@testable import esmaulhusna_muslimbg
 
 // This demonstrates a simple unit test of the Swift portion of this plugin's implementation.
 //

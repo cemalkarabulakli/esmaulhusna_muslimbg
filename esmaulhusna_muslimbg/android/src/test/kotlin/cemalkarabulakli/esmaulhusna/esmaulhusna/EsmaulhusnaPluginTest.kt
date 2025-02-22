@@ -1,4 +1,4 @@
-package cemalkarabulakli.esmaulhusna.esmaulhusna
+package cemalkarabulakli.esmaulhusna_muslimbg.esmaulhusna_muslimbg
 
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel

@@ -6,7 +6,7 @@
 
 #include <memory>
 
-namespace esmaulhusna {
+namespace esmaulhusna_muslimbg {
 
 class EsmaulhusnaPlugin : public flutter::Plugin {
  public:
@@ -26,6 +26,6 @@ class EsmaulhusnaPlugin : public flutter::Plugin {
       std::unique_ptr<flutter::MethodResult<flutter::EncodableValue>> result);
 };
 
-}  // namespace esmaulhusna
+}  // namespace esmaulhusna_muslimbg
 
 #endif  // FLUTTER_PLUGIN_ESMAULHUSNA_PLUGIN_H_
