@@ -34,43 +34,40 @@ Import the package:
 import 'package:esmaulhusna/esmaulhusna.dart';
 ```
 
-### Get a Specific Name by Number
-```dart
-int number = 1; // Replace with any number between 1-99
-print("English: ${EsmaulHusna.getEnglishName(number)}");
-print("Arabic: ${EsmaulHusna.getArabicName(number)}");
-print("Turkish: ${EsmaulHusna.getTurkishName(number)}");
-print("Bulgarian: ${EsmaulHusna.getBulgarianName(number)}");
-print("Description: ${EsmaulHusna.getDescription(number)}");
-```
-
 ### Get All Names
-```dart
-List<String> englishNames = EsmaulHusna.getAllEnglishNames();
-List<String> arabicNames = EsmaulHusna.getAllArabicNames();
-List<String> turkishNames = EsmaulHusna.getAllTurkishNames();
-List<String> bulgarianNames = EsmaulHusna.getAllBulgarianNames();
+```dart 
+// Get names in Bulgarian
+final bulgarianNames = await EsmaulHusna.getNames('bg');
+
+// Access first name
+print(bulgarianNames[0]['name']); // Name in Bulgarian
+print(bulgarianNames[0]['arabic']); // Arabic text
+print(bulgarianNames[0]['translation']); // Description in Bulgarian
 ```
 
 ### Display Names in a ListView
 ```dart
-ListView.builder(
-  itemCount: EsmaulHusna.getAllEnglishNames().length,
-  itemBuilder: (context, index) {
-    return ListTile(
-      title: Text(EsmaulHusna.getArabicName(index + 1), style: TextStyle(fontSize: 20)),
-      subtitle: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text("English: ${EsmaulHusna.getEnglishName(index + 1)}"),
-          Text("Turkish: ${EsmaulHusna.getTurkishName(index + 1)}"),
-          Text("Bulgarian: ${EsmaulHusna.getBulgarianName(index + 1)}"),
-          Text("Description: ${EsmaulHusna.getDescription(index + 1)}"),
-        ],
-      ),
-    );
-  },
-)
+ return ListView.builder(
+            itemCount: names.length,
+            itemBuilder: (context, index) {
+              final name = names[index];
+              return ListTile(
+                title: Text(name['name'] ?? ''),
+                subtitle: Text(name['arabic'] ?? ''),
+                trailing: Text((index + 1).toString()),
+                onTap: () {
+                  showDialog(
+                    context: context,
+                    builder:
+                        (context) => AlertDialog(
+                          title: Center(child: Text(name['name'] ?? '')),
+                          content: Text(name['translation'] ?? ''),
+                        ),
+                  );
+                },
+              );
+            },
+          );
 ```
 
 ## Example App
