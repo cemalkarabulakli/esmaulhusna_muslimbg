@@ -1,16 +1,17 @@
-# A CI configuration to write comments on PRs.
+# A CI configuration to auto-publish pub packages.
 
-name: Comment on the pull request
+name: Publish
 
 on:
-  workflow_run:
-    workflows: 
-      - Publish
-    types:
-      - completed
+  pull_request:
+    branches: [ main ]
+    types: [opened, synchronize, reopened, labeled, unlabeled]
+  push:
+    tags: [ 'v[0-9]+.[0-9]+.[0-9]+' ]
 
 jobs:
-    publish:
-      uses: dart-lang/ecosystem/.github/workflows/publish.yml@main
-      with:
-        environment: pub.dev # Can be any name, this is the convention though.      
+  publish:
+    uses: dart-lang/ecosystem/.github/workflows/publish.yaml@main
+    with:
+      environment: cemal_esmaulhusna
+      write-comments: false
