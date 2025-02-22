@@ -1,1 +1,502 @@
-//TODO: Add translations for English
+{
+    "1": {
+        "arabic": "ٱللَّهُ",
+        "name": "Allah",
+        "translation": "The One and Only God"
+    },
+    "2": {
+        "arabic": "ٱلرَّحْمَٰنُ",
+        "name": "Ar-Rahmaan",
+        "translation": "The Most or Entirely Merciful"
+    },
+    "3": {
+        "arabic": "ٱلرَّحِيمُ",
+        "name": "Ar-Raheem",
+        "translation": "The Bestower of Mercy"
+    },
+    "4": {
+        "arabic": "ٱلْمَلِكُ",
+        "name": "Al-Malik",
+        "translation": "The King and Owner of Dominion"
+    },
+    "5": {
+        "arabic": "ٱلْقُدُّوسُ",
+        "name": "Al-Quddus",
+        "translation": "The Absolutely Pure"
+    },
+    "6": {
+        "arabic": "ٱلسَّلَامُ",
+        "name": "As-Salaam",
+        "translation": "The Perfection and Giver of Peace"
+    },
+    "7": {
+        "arabic": "ٱلْمُؤْمِنُ",
+        "name": "Al-Mu'min",
+        "translation": "The One Who gives Emaan and Security"
+    },
+    "8": {
+        "arabic": "ٱلْمُهَيْمِنُ",
+        "name": "Al-Muhaymin",
+        "translation": "The Guardian, The Witness, The Overseer"
+    },
+    "9": {
+        "arabic": "ٱلْعَزِيزُ",
+        "name": "Al-Azeez",
+        "translation": "The All Mighty"
+    },
+    "10": {
+        "arabic": "ٱلْجَبَّارُ",
+        "name": "Al-Jabbaar",
+        "translation": "The Compeller, The Restorer"
+    },
+    "11": {
+        "arabic": "ٱلْمُتَكَبِّرُ",
+        "name": "Al-Mutakabbir",
+        "translation": "The Supreme, The Majestic"
+    },
+    "12": {
+        "arabic": "ٱلْخَٰلِقُ",
+        "name": "Al-Khaaliq",
+        "translation": "The Creator, The Maker"
+    },
+    "13": {
+        "arabic": "ٱلْبَارِئُ",
+        "name": "Al-Baari'",
+        "translation": "The Originator"
+    },
+    "14": {
+        "arabic": "ٱلْمُصَوِّرُ",
+        "name": "Al-Musawwir",
+        "translation": "The Fashioner"
+    },
+    "15": {
+        "arabic": "ٱلْغَفَّارُ",
+        "name": "Al-Ghaffaar",
+        "translation": "The All- and Oft-Forgiving"
+    },
+    "16": {
+        "arabic": "ٱلْقَهَّارُ",
+        "name": "Al-Qahhaar",
+        "translation": "The Subduer, The Ever-Dominating"
+    },
+    "17": {
+        "arabic": "ٱلْوَهَّابُ",
+        "name": "Al-Wahhaab",
+        "translation": "The Giver of Gifts"
+    },
+    "18": {
+        "arabic": "ٱلْرَّزَّاقُ",
+        "name": "Ar-Razzaaq",
+        "translation": "The Provider"
+    },
+    "19": {
+        "arabic": "ٱلْفَتَّاحُ",
+        "name": "Al-Fattah",
+        "translation": "The Opener, The Judge"
+    },
+    "20": {
+        "arabic": "ٱلْعَلِيمُ",
+        "name": "Al-'Aleem",
+        "translation": "The All-Knowing, The Omniscient"
+    },
+    "21": {
+        "arabic": "ٱلْقَابِضُ",
+        "name": "Al-Qaabid",
+        "translation": "The Withholder"
+    },
+    "22": {
+        "arabic": "ٱلْبَاسِطُ",
+        "name": "Al-Baasit",
+        "translation": "The Extender"
+    },
+    "23": {
+        "arabic": "ٱلْخَافِضُ",
+        "name": "Al-Khaafidh",
+        "translation": "The Reducer, The Abaser"
+    },
+    "24": {
+        "arabic": "ٱلْرَّافِعُ",
+        "name": "Ar-Raafi'",
+        "translation": "The Exalter, The Elevator"
+    },
+    "25": {
+        "arabic": "ٱلْمُعِزُّ",
+        "name": "Al-Mu'izz",
+        "translation": "The Honourer, The Bestower"
+    },
+    "26": {
+        "arabic": "ٱلْمُذِلُّ",
+        "name": "Al-Muzil",
+        "translation": "The Dishonourer, The Humiliator"
+    },
+    "27": {
+        "arabic": "ٱلسَّمِيعُ",
+        "name": "As-Samee'",
+        "translation": "The All-Hearing"
+    },
+    "28": {
+        "arabic": "ٱلْبَصِيرُ",
+        "name": "Al-Baseer",
+        "translation": "The All-Seeing"
+    },
+    "29": {
+        "arabic": "ٱلْحَكَمُ",
+        "name": "Al-Hakam",
+        "translation": "The Judge, The Giver of Justice"
+    },
+    "30": {
+        "arabic": "ٱلْعَدْلُ",
+        "name": "Al-'Adl",
+        "translation": "The Utterly Just"
+    },
+    "31": {
+        "arabic": "ٱللَّطِيفُ",
+        "name": "Al-Lateef",
+        "translation": "The Subtle One, The Most Gentle"
+    },
+    "32": {
+        "arabic": "ٱلْخَبِيرُ",
+        "name": "Al-Khabeer",
+        "translation": "The Acquainted, The All-Aware"
+    },
+    "33": {
+        "arabic": "ٱلْحَلِيمُ",
+        "name": "Al-Haleem",
+        "translation": "The Most Forbearing"
+    },
+    "34": {
+        "arabic": "ٱلْعَظِيمُ",
+        "name": "Al-'Azeem",
+        "translation": "The Magnificent, The Supreme"
+    },
+    "35": {
+        "arabic": "ٱلْغَفُورُ",
+        "name": "Al-Ghafoor",
+        "translation": "The Forgiving, The Exceedingly Forgiving"
+    },
+    "36": {
+        "arabic": "ٱلشَّكُورُ",
+        "name": "Ash-Shaakoor",
+        "translation": "The Most Appreciative"
+    },
+    "37": {
+        "arabic": "ٱلْعَلِيُّ",
+        "name": "Al-'Alee",
+        "translation": "The Most High, The Exalted"
+    },
+    "38": {
+        "arabic": "ٱلْكَبِيرُ",
+        "name": "Al-Kabeer",
+        "translation": "The Greatest, The Most Grand"
+    },
+    "39": {
+        "arabic": "ٱلْحَفِيظُ",
+        "name": "Al-Hafeedh",
+        "translation": "The Preserver, The All-Heedful and All-Protecting"
+    },
+    "40": {
+        "arabic": "ٱلْمُقيِتُ",
+        "name": "Al-Muqeet",
+        "translation": "The Sustainer, The Maintainer"
+    },
+    "41": {
+        "arabic": "ٱلْحَسِيبُ",
+        "name": "Al-Hasib",
+        "translation": "The Reckoner"
+    },
+    "42": {
+        "arabic": "ٱلْجَلِيلُ",
+        "name": "Al-Jaleel",
+        "translation": "The Majestic"
+    },
+    "43": {
+        "arabic": "ٱلْكَرِيمُ",
+        "name": "Al-Kareem",
+        "translation": "The Most Generous, The Most Esteemed"
+    },
+    "44": {
+        "arabic": "ٱلْرَّقِيبُ",
+        "name": "Ar-Raqeeb",
+        "translation": "The Watchful, The All-Watchful"
+    },
+    "45": {
+        "arabic": "ٱلْمُجِيبُ",
+        "name": "Al-Mujeeb",
+        "translation": "The Responsive, The Answerer"
+    },
+    "46": {
+        "arabic": "ٱلْوَاسِعُ",
+        "name": "Al-Waasi'",
+        "translation": "The All-Encompassing, the Boundless"
+    },
+    "47": {
+        "arabic": "ٱلْحَكِيمُ",
+        "name": "Al-Hakeem",
+        "translation": "The All-Wise"
+    },
+    "48": {
+        "arabic": "ٱلْوَدُودُ",
+        "name": "Al-Wadud",
+        "translation": "The Most Loving"
+    },
+    "49": {
+        "arabic": "ٱلْمَجِيدُ",
+        "name": "Al-Majeed",
+        "translation": "The Glorious, The Most Honorable"
+    },
+    "50": {
+        "arabic": "ٱلْبَاعِثُ",
+        "name": "Al-Baa'ith",
+        "translation": "The Infuser of New Life"
+    },
+    "51": {
+        "arabic": "ٱلْشَّهِيدُ",
+        "name": "As-Shaheed",
+        "translation": "The All Observing Witnessing"
+    },
+    "52": {
+        "arabic": "ٱلْحَقُّ",
+        "name": "Al-Haqq",
+        "translation": "The Absolute Truth"
+    },
+    "53": {
+        "arabic": "ٱلْوَكِيلُ",
+        "name": "Al-Wakeel",
+        "translation": "The Trustee, The Disposer of Affairs"
+    },
+    "54": {
+        "arabic": "ٱلْقَوِيِيُ",
+        "name": "Al-Qawiyy",
+        "translation": "The All-Strong"
+    },
+    "55": {
+        "arabic": "ٱلْمَتِينُ",
+        "name": "Al-Mateen",
+        "translation": "The Firm, The Steadfast"
+    },
+    "56": {
+        "arabic": "ٱلْوَلِيُ",
+        "name": "Al-Walee",
+        "translation": "The Protecting Associate"
+    },
+    "57": {
+        "arabic": "ٱلْحَمِيدُ",
+        "name": "Al-Hameed",
+        "translation": "The Praiseworthy"
+    },
+    "58": {
+        "arabic": "ٱلْمُحْصِي",
+        "name": "Al-Muhsee",
+        "translation": "The All-Enumerating, The Counter"
+    },
+    "59": {
+        "arabic": "ٱلْمُبْدِئُ",
+        "name": "Al-Mubdi'",
+        "translation": "The Originator, The Initiator"
+    },
+    "60": {
+        "arabic": "ٱلْمُعِيدُ",
+        "name": "Al-Mu'id",
+        "translation": "The Restorer, The Reinstater"
+    },
+    "61": {
+        "arabic": "ٱلْمُحْيِي",
+        "name": "Al-Muhyee",
+        "translation": "The Giver of Life"
+    },
+    "62": {
+        "arabic": "ٱلْمُمِيتُ",
+        "name": "Al-Mumeet",
+        "translation": "The Creator of Death"
+    },
+    "63": {
+        "arabic": "ٱلْحَيِّيُ",
+        "name": "Al-Hayy",
+        "translation": "The Ever-Living"
+    },
+    "64": {
+        "arabic": "ٱلْقَيُّومُ",
+        "name": "Al-Qayyoom",
+        "translation": "The Sustainer, The Self-Subsisting"
+    },
+    "65": {
+        "arabic": "ٱلْوَاجِدُ",
+        "name": "Al-Waajid",
+        "translation": "The Perceiver"
+    },
+    "66": {
+        "arabic": "ٱلْمَاجِدُ",
+        "name": "Al-Maajid",
+        "translation": "The Illustrious, The Magnificent"
+    },
+    "67": {
+        "arabic": "ٱلْوَاحِدُ",
+        "name": "Al-Waahid",
+        "translation": "The One, The Indivisible"
+    },
+    "68": {
+        "arabic": "ٱلْأَحَدُ",
+        "name": "Al-Ahad",
+        "translation": "The Unique, The Only One"
+    },
+    "69": {
+        "arabic": "ٱلصَّمَدُ",
+        "name": "As-Samad",
+        "translation": "The Eternal, Satisfier of Needs"
+    },
+    "70": {
+        "arabic": "ٱلْقَادِرُ",
+        "name": "Al-Qaadir",
+        "translation": "The Omnipotent"
+    },
+    "71": {
+        "arabic": "ٱلْمُقْتَدِرُ",
+        "name": "Al-Muqtadir",
+        "translation": "The Powerful"
+    },
+    "72": {
+        "arabic": "ٱلْمُقَدِّمُ",
+        "name": "Al-Muqaddim",
+        "translation": "The Expediter, The Promoter"
+    },
+    "73": {
+        "arabic": "ٱلْمُؤَخِّرُ",
+        "name": "Al-Mu'akhkhir",
+        "translation": "The Delayer"
+    },
+    "74": {
+        "arabic": "ٱلْأوَّلُ",
+        "name": "Al-Awwal",
+        "translation": "The First"
+    },
+    "75": {
+        "arabic": "ٱلْآخِرُ",
+        "name": "Al-Aakhir",
+        "translation": "The Last, The Utmost"
+    },
+    "76": {
+        "arabic": "ٱلظَّٰهِرُ",
+        "name": "Az-Zaahir",
+        "translation": "The Manifest, The All-Surpassing"
+    },
+    "77": {
+        "arabic": "ٱلْبَاطِنُ",
+        "name": "Al-Baatin",
+        "translation": "The Hidden One, Knower of the Hidden"
+    },
+    "78": {
+        "arabic": "ٱلْوَالِي",
+        "name": "Al-Waalee",
+        "translation": "The Sole Governor"
+    },
+    "79": {
+        "arabic": "ٱلْمُتَعَالِي",
+        "name": "Al-Muta'ali",
+        "translation": "The Self Exalted"
+    },
+    "80": {
+        "arabic": "ٱلْبَرُّ",
+        "name": "Al-Barr",
+        "translation": "The Source of All Goodness"
+    },
+    "81": {
+        "arabic": "ٱلتَّوَابُ",
+        "name": "At-Tawwaab",
+        "translation": "The Ever-Pardoning"
+    },
+    "82": {
+        "arabic": "ٱلْمُنْتَقِمُ",
+        "name": "Al-Muntaqim",
+        "translation": "The Avenger"
+    },
+    "83": {
+        "arabic": "ٱلْعَفُوُ",
+        "name": "Al-'Afuww",
+        "translation": "The Pardoner"
+    },
+    "84": {
+        "arabic": "ٱلْرَّؤُوفُ",
+        "name": "Ar-Ra'ooof",
+        "translation": "The Most Kind"
+    },
+    "85": {
+        "arabic": "مَالِكُ ٱلْمُلْكُ",
+        "name": "Maalik-al-Mulk",
+        "translation": "Master of the Dominion, Owner of the Kingdom"
+    },
+    "86": {
+        "arabic": "ذُوالْجَلاَلِ وَالإكْرَامِ",
+        "name": "Thul-Jalaali wal-Ikraam",
+        "translation": "Possessor of Glory and Honour"
+    },
+    "87": {
+        "arabic": "ٱلْمُقْسِطُ",
+        "name": "Al-Muqsiṭ",
+        "translation": "The Just One"
+    },
+    "88": {
+        "arabic": "ٱلْجَامِعُ",
+        "name": "Al-Jaami'",
+        "translation": "The Gatherer, the Uniter"
+    },
+    "89": {
+        "arabic": "ٱلْغَنيُّ",
+        "name": "Al-Ghaniyy",
+        "translation": "The Self-Sufficient, The Wealthy"
+    },
+    "90": {
+        "arabic": "ٱلْمُغْنِيُ",
+        "name": "Al-Mughniyy",
+        "translation": "The Enricher"
+    },
+    "91": {
+        "arabic": "ٱلْمَانِعُ",
+        "name": "Al-Maani'",
+        "translation": "The Withholder"
+    },
+    "92": {
+        "arabic": "ٱلضَّٰرَ",
+        "name": "Ad-Dhaarr",
+        "translation": "The Distresser"
+    },
+    "93": {
+        "arabic": "ٱلنَّافِعُ",
+        "name": "An-Naafi'",
+        "translation": "The Propitious, The Benefactor"
+    },
+    "94": {
+        "arabic": "ٱلْنُورُ",
+        "name": "An-Noor",
+        "translation": "The Light"
+    },
+    "95": {
+        "arabic": "ٱلْهَادِي",
+        "name": "Al-Haadi",
+        "translation": "The Guide"
+    },
+    "96": {
+        "arabic": "ٱلْبَدِيعُ",
+        "name": "Al-Badee'",
+        "translation": "The Incomparable Originator"
+    },
+    "97": {
+        "arabic": "ٱلْبَاقِي",
+        "name": "Al-Baaqi",
+        "translation": "The Ever-Lasting"
+    },
+    "98": {
+        "arabic": "ٱلْوَارِثُ",
+        "name": "Al-Waarith",
+        "translation": "The Inheritor"
+    },
+    "99": {
+        "arabic": "ٱلرَّشِيدُ",
+        "name": "Ar-Rasheed",
+        "translation": "The Guide to the Right Path"
+    },
+    "100": {
+        "arabic": "ٱلصَّبُورُ",
+        "name": "Al-Saboor",
+        "translation": "The Patient"
+    }
+}

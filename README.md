@@ -17,7 +17,7 @@ Add the following dependency to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  esmaulhusna: latest_version # Replace with the latest version
+  esmaulhusna_muslimbg: latest_version # Replace with the latest version
 ```
 
 Then run:

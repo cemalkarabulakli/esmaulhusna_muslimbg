@@ -1,12 +1,35 @@
+## 0.0.3
+
+* Updated Arabic translations for all 99 Names of Allah to ensure accurate representation in Arabic script
+  * For example, "الرَّحْمَنُ" is now correctly displayed for the name "The Most Gracious"
+* Minor documentation updates to reflect the changes in the Arabic names
+* Improved error handling for translation loading
+* Added proper asset bundling support
+* Major API changes for better async support:
+
+  ```dart
+  // New async API for getting names
+  final names = await EsmaulHusna.getNames('bg');
+  final randomName = await EsmaulHusna.getRandomName('bg');
+  ```
+
+* Added support for structured JSON translations
+* Improved asset loading for package usage
+* Fixed file path issues when used as a package
+* Updated translation file naming convention to `{language}_name_value.json`
+
 ## 0.0.2+1
 
 * Fixed package name from 'esmaulhusna' to 'esmaulhusna_muslimbg'
 * Updated documentation with detailed usage examples:
+
   ```dart
   // Get specific name
-  print(EsmaulHusna.getEnglishName(1)); // Returns: The Most Gracious
-  print(EsmaulHusna.getArabicName(1));  // Returns: الرَّحْمَنُ
+  final names = await EsmaulHusna.getNames('en');
+  print(names[0]['name']); // Returns: The Most Gracious
+  print(names[0]['arabic']);  // Returns: الرَّحْمَنُ
   ```
+
 * Added example app demonstrating:
   * ListView of all 99 names
   * Individual name lookup
@@ -18,35 +41,26 @@
 ## 0.0.2
 
 * Added comprehensive support for multiple languages:
+
   ```dart
   // Example usage for all supported languages
-  EsmaulHusna.getEnglishName(1);    // The Most Gracious
-  EsmaulHusna.getArabicName(1);     // الرَّحْمَنُ
-  EsmaulHusna.getTurkishName(1);    // Rahman
-  EsmaulHusna.getBulgarianName(1);  // Всемилостивият
+  final englishNames = await EsmaulHusna.getNames('en'); 
+  final turkishNames = await EsmaulHusna.getNames('tr');
+  final bulgarianNames = await EsmaulHusna.getNames('bg');
   ```
-* Implemented complete collection of 99 Names with descriptions:
+
+* Each name entry now contains:
+
   ```dart
-  // Get description
-  EsmaulHusna.getDescription(1); // Returns detailed meaning and context
-  ```
-* Created API methods for bulk operations:
-  ```dart
-  List<String> allNames = EsmaulHusna.getAllEnglishNames();
-  ```
-* Added type safety and input validation:
-  ```dart
-  // Validates number range (1-99)
-  if (number < 1 || number > 99) throw RangeError
+  {
+    'arabic': 'Arabic text of the name',
+    'name': 'Name in requested language',
+    'translation': 'Description/meaning in requested language'
+  }
   ```
 
 ## 0.0.1
 
-* Initial release establishing foundation:
-  ```dart
-  // Basic name retrieval
-  EsmaulHusna.getEnglishName(1);
-  ```
-* Core data structure implementation
-* Essential API methods
-* Basic documentation and README
+* Initial release with basic functionality
+* Support for English, Arabic, Turkish, and Bulgarian translations
+* Basic error handling and input validation

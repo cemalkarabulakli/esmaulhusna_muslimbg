@@ -25,22 +25,37 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Esmaul Husna')),
-      body: ListView.builder(
-        itemCount: 99,
-        itemBuilder: (context, index) {
-          final number = index + 1;
-          return ListTile(
-            title: Text(EsmaulHusna.getEnglishName(number)),
-            subtitle: Text(EsmaulHusna.getArabicName(number)),
-            trailing: Text(number.toString()),
-            onTap: () {
-              showDialog(
-                context: context,
-                builder:
-                    (context) => AlertDialog(
-                      title: Text(EsmaulHusna.getEnglishName(number)),
-                      content: Text(EsmaulHusna.getDescription(number)),
-                    ),
+      body: FutureBuilder<List<Map<String, String>>>(
+        future: EsmaulHusna.getNames('bg'),
+        builder: (context, snapshot) {
+          if (snapshot.hasError) {
+            return Center(child: Text('Error: ${snapshot.error}'));
+          }
+
+          if (!snapshot.hasData) {
+            return const Center(child: CircularProgressIndicator());
+          }
+
+          final names = snapshot.data!;
+
+          return ListView.builder(
+            itemCount: names.length,
+            itemBuilder: (context, index) {
+              final name = names[index];
+              return ListTile(
+                title: Text(name['name'] ?? ''),
+                subtitle: Text(name['arabic'] ?? ''),
+                trailing: Text((index + 1).toString()),
+                onTap: () {
+                  showDialog(
+                    context: context,
+                    builder:
+                        (context) => AlertDialog(
+                          title: Center(child: Text(name['name'] ?? '')),
+                          content: Text(name['translation'] ?? ''),
+                        ),
+                  );
+                },
               );
             },
           );

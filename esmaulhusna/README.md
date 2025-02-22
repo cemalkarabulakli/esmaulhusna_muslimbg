@@ -1,91 +1,123 @@
-# Esmaul Husna Flutter Package | MuslimBG 
+# Esmaul Husna - 99 Names of Allah | MuslimBG
 
-![Esmaul Husna](https://img.shields.io/badge/Esmaul%20Husna-99%20Names-blue)
-![Flutter](https://img.shields.io/badge/Flutter-Package-blue)
-
-A Flutter package that provides the **99 Names of Allah (Esmaul Husna)** with their meanings and descriptions in **Bulgarian, English, and Turkish**. This package helps developers integrate Esmaul Husna into their Flutter applications easily. Ideal for Islamic apps like Quran apps, and other religious applications.
+A Flutter package providing access to the 99 Names of Allah (Esmaul Husna) in multiple languages with descriptions and meanings.
 
 ## Features
-- List of **99 Names of Allah** with Arabic script, transliteration, and meanings in **Bulgarian, English, and Turkish**.
-- Ability to fetch a random name.
-- Offline support (data is bundled with the package).
-- Simple and lightweight.
-- Perfect for Islamic apps, Quran study apps, and prayer apps.
+
+- 📚 Support for multiple languages:
+  - English
+  - Turkish
+  - Bulgarian
+- 🔍 Detailed descriptions and meanings
+- ⚡ Async loading for better performance
+- 🛡️ Type-safe API
+- 🌐 Proper Unicode support for Arabic text
 
 ## Installation
-Add the following dependency to your `pubspec.yaml` file:
+
+Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  esmaulhusna: latest_version # Replace with the latest version
-```
-
-Then run:
-
-```sh
-flutter pub get
+  esmaulhusna_muslimbg: latest_version
 ```
 
 ## Usage
 
-Import the package:
+### Basic Usage
 
 ```dart
-import 'package:esmaulhusna/esmaulhusna.dart';
+import 'package:esmaulhusna_muslimbg/esmaulhusna.dart';
+
+// Get names in English
+final englishNames = await EsmaulHusna.getNames('bg');
+
+// Access first name (Al-Rahman)
+print(englishNames[0]['name']);       // The Most Gracious
+print(englishNames[0]['arabic']);     // الرَّحْمَنُ
+print(englishNames[0]['translation']); // The description/meaning
 ```
 
-### Get a Specific Name by Number
+### Available Languages
+
 ```dart
-int number = 1; // Replace with any number between 1-99
-print("English: ${EsmaulHusna.getEnglishName(number)}");
-print("Arabic: ${EsmaulHusna.getArabicName(number)}");
-print("Turkish: ${EsmaulHusna.getTurkishName(number)}");
-print("Bulgarian: ${EsmaulHusna.getBulgarianName(number)}");
-print("Description: ${EsmaulHusna.getDescription(number)}");
+// Get names in different languages
+final arabicNames = await EsmaulHusna.getNames('bg');
+final turkishNames = await EsmaulHusna.getNames('tr');
+final bulgarianNames = await EsmaulHusna.getNames('en');
 ```
 
-### Get All Names
 ```dart
-List<String> englishNames = EsmaulHusna.getAllEnglishNames();
-List<String> arabicNames = EsmaulHusna.getAllArabicNames();
-List<String> turkishNames = EsmaulHusna.getAllTurkishNames();
-List<String> bulgarianNames = EsmaulHusna.getAllBulgarianNames();
+// Get a random name in Bulgarian. This can be used for daily notification or random name.
+final randomName = await EsmaulHusna.getRandomName('bg');
+print(randomName['name']); // Name in Bulgarian
+print(randomName['arabic']); // Arabic text of the name
+print(randomName['translation']); // Description/meaning in Bulgarian
 ```
 
-### Display Names in a ListView
+### Response Format
+
+Each name in the returned list contains:
+
 ```dart
-ListView.builder(
-  itemCount: EsmaulHusna.getAllEnglishNames().length,
-  itemBuilder: (context, index) {
-    return ListTile(
-      title: Text(EsmaulHusna.getArabicName(index + 1), style: TextStyle(fontSize: 20)),
-      subtitle: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text("English: ${EsmaulHusna.getEnglishName(index + 1)}"),
-          Text("Turkish: ${EsmaulHusna.getTurkishName(index + 1)}"),
-          Text("Bulgarian: ${EsmaulHusna.getBulgarianName(index + 1)}"),
-          Text("Description: ${EsmaulHusna.getDescription(index + 1)}"),
-        ],
-      ),
+{
+  'arabic': 'Arabic text of the name',
+  'name': 'Name in requested language',
+  'translation': 'Description/meaning in requested language'
+}
+```
+
+## Error Handling
+
+The package includes proper error handling:
+
+```dart
+try {
+  final names = await EsmaulHusna.getNames('bg');
+  // Use the names...
+} catch (e) {
+  print('Error loading names: $e');
+}
+```
+
+## Example
+
+A complete example showing how to display the names in a ListView:
+
+```dart
+class NamesListView extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return FutureBuilder<List<Map<String, String>>>(
+      future: EsmaulHusna.getNames('bg'),
+      builder: (context, snapshot) {
+        if (snapshot.hasData) {
+          return ListView.builder(
+            itemCount: snapshot.data!.length,
+            itemBuilder: (context, index) {
+              final name = snapshot.data![index];
+              return ListTile(
+                title: Text(name['name']!),
+                subtitle: Text(name['translation']!),
+                leading: Text(name['arabic']!),
+              );
+            },
+          );
+        }
+        if (snapshot.hasError) {
+          return Center(child: Text('Error: ${snapshot.error}'));
+        }
+        return Center(child: CircularProgressIndicator());
+      },
     );
-  },
-)
+  }
+}
 ```
-
-## Example App
-Check the `example/` directory for a complete working app that demonstrates how to use the package.
-
-## Repository
-The source code for this package is available on GitHub: [cemalkarabulakli/esmaulhusna](https://github.com/cemalkarabulakli/esmaulhusna)
 
 ## Contributing
-Contributions are welcome! Feel free to submit a pull request or open an issue for feature requests and bug reports.
+
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
-This package is released under the **MIT License**.
 
-## Support
-If you find this package useful, consider giving it a ⭐ on GitHub!
-
-This package is perfect for developing **Islamic apps**, **Quran**, and other prayer-related applications.
+This project is licensed under the MIT License - see the LICENSE file for details.

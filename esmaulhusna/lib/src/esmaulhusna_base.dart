@@ -1,79 +1,73 @@
+import 'dart:convert';
+import 'dart:math';
+import 'package:flutter/services.dart' show rootBundle;
+
 class EsmaulHusna {
-  /// Get English name for given number (1-99)
-  static String getEnglishName(int number) {
-    if (number < 1 || number > 99) {
-      throw RangeError('Number must be between 1 and 99');
+  /// Returns a list of Esmaul Husna (99 Names of Allah) translations for the specified language
+  ///
+  /// [language] parameter accepts following values:
+  /// - 'english': Returns English translations
+  /// - 'arabic': Returns Arabic translations
+  /// - 'turkish': Returns Turkish translations
+  /// - 'bulgarian': Returns Bulgarian translations
+  ///
+  /// Returns a List of Maps containing:
+  /// - 'arabic': Arabic text of the name
+  /// - 'name': Translated name in specified language
+  /// - 'description': Description/meaning in specified language
+  static Future<List<Map<String, String>>> getNames(String language) async {
+    return _loadTranslation(language);
+  }
+
+  /// Returns a random name from the 99 Names of Allah in the specified language
+  ///
+  /// [language] parameter accepts the same values as [getNames]
+  ///
+  /// Returns a Map containing:
+  /// - 'arabic': Arabic text of the name
+  /// - 'name': Translated name in specified language
+  /// - 'description': Description/meaning in specified language
+  static Future<Map<String, String>> getRandomName(String language) async {
+    final names = await getNames(language);
+    final random = Random();
+    return names[random.nextInt(names.length)];
+  }
+
+  /// Loads and parses translations from JSON file for the specified language
+  static Future<List<Map<String, String>>> _loadTranslation(
+      String language) async {
+    const int namesCount = 99;
+    final translations = List<Map<String, String>>.generate(
+      namesCount,
+      (_) => const {},
+    );
+
+    try {
+      final jsonString = await rootBundle.loadString(
+          'packages/esmaulhusna/lib/assets/translations/$language.json');
+      final jsonTranslations = jsonDecode(jsonString) as Map<String, dynamic>;
+
+      for (var i = 1; i <= namesCount; i++) {
+        final number = i.toString();
+        if (!jsonTranslations.containsKey(number)) continue;
+
+        final translation = jsonTranslations[number];
+        translations[i - 1] = translation is Map
+            ? {
+                'arabic': translation['arabic'] as String? ?? '',
+                'name': translation['name'] as String? ?? '',
+                'translation': translation['translation'] as String? ?? '',
+              }
+            : {
+                'arabic': translation.toString(),
+                'name': '',
+                'translation': '',
+              };
+      }
+    } catch (e) {
+      print('Error loading translations for $language: $e');
     }
-    return _names[number - 1]['english'] as String;
-  }
 
-  /// Get Arabic name for given number (1-99)
-  static String getArabicName(int number) {
-    if (number < 1 || number > 99) {
-      throw RangeError('Number must be between 1 and 99');
-    }
-    return _names[number - 1]['arabic'] as String;
+    return translations;
   }
-
-  /// Get Turkish name for given number (1-99)
-  static String getTurkishName(int number) {
-    if (number < 1 || number > 99) {
-      throw RangeError('Number must be between 1 and 99');
-    }
-    return _names[number - 1]['turkish'] as String;
-  }
-
-  /// Get Bulgarian name for given number (1-99)
-  static String getBulgarianName(int number) {
-    if (number < 1 || number > 99) {
-      throw RangeError('Number must be between 1 and 99');
-    }
-    return _names[number - 1]['bulgarian'] as String;
-  }
-
-  /// Get description for given number (1-99)
-  static String getDescription(int number) {
-    if (number < 1 || number > 99) {
-      throw RangeError('Number must be between 1 and 99');
-    }
-    return _names[number - 1]['description'] as String;
-  }
-
-  /// Get list of all English names
-  static List<String> getAllEnglishNames() {
-    return _names.map((name) => name['english'] as String).toList();
-  }
-
-  /// Get list of all Arabic names
-  static List<String> getAllArabicNames() {
-    return _names.map((name) => name['arabic'] as String).toList();
-  }
-
-  /// Get list of all Turkish names
-  static List<String> getAllTurkishNames() {
-    return _names.map((name) => name['turkish'] as String).toList();
-  }
-
-  /// Get list of all Bulgarian names
-  static List<String> getAllBulgarianNames() {
-    return _names.map((name) => name['bulgarian'] as String).toList();
-  }
-
-  static const List<Map<String, String>> _names = [
-    {
-      'english': 'Ar-Rahman',
-      'arabic': 'الرَّحْمَنُ',
-      'turkish': 'Rahman',
-      'bulgarian': 'Всемилостивият',
-      'description': 'The Most Gracious',
-    },
-    {
-      'english': 'Ar-Raheem',
-      'arabic': 'الرَّحِيمُ',
-      'turkish': 'Rahim',
-      'bulgarian': 'Милосърдният',
-      'description': 'The Most Merciful',
-    },
-    // Add all 99 names here...
-  ];
 }
