@@ -37,6 +37,7 @@
 - List dependencies and requirements
 - Provide clear installation instructions
 
+
 # Publishing
 - Run `flutter pub publish --dry-run` before publishing
 - Ensure all tests pass
