@@ -1,17 +1,17 @@
-# A CI configuration to auto-publish pub packages.
+# .github/workflows/publish.yml
+name: Publish to pub.dev
 
-name: Publish
-
-on: 
+on:
   push:
-    branches:
-      - main
+    tags:
+    - 'v[0-9]+.[0-9]+.[0-9]+' # for tags like: 'v1.2.3'
 
 jobs:
   publish:
-    uses: dart-lang/ecosystem/.github/workflows/publish.yaml@main
-    permissions: 
-      id-token: write
+    permissions:
+      id-token: write # Required for authentication using OIDC
+    uses: dart-lang/setup-dart/.github/workflows/publish.yml@v1
     with:
+      # Specify the github actions deployment environment
       environment: cemal_esmaulhusna
-      write-comments: false
+      # working-directory: path/to/package/within/repository
