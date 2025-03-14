@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.0.0
+
+* First stable release
+* Added more comprehensive language support
+* Optimized performance for name retrieval
+* Improved error handling and user feedback
+* Updated documentation with detailed usage examples
+* Ensured compatibility with latest Flutter versions
+* Fixed all known bugs from previous versions
+
 ## 0.0.5
 
 * Improved translation accuracy for existing languages
