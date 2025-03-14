@@ -1,12 +1,5 @@
 # Changelog
 
-## 1.0.2
-
-* Fixed versioning issues for proper pub.dev publishing
-* Updated package metadata for better discoverability
-* Minor documentation improvements
-* Ensured compatibility with the latest Flutter release
-
 ## 1.0.0
 
 * First stable release
