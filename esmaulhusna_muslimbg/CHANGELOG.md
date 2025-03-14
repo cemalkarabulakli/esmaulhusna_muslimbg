@@ -2,7 +2,6 @@
 
 ## 0.0.5
 
-* Added new language support for Russian and German
 * Improved translation accuracy for existing languages
 * Enhanced error handling for invalid language codes
 * Added new method `getSupportedLanguages()` to get available translations

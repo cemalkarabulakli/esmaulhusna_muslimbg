@@ -5,7 +5,7 @@
 ![Version](https://img.shields.io/badge/version-0.0.5-green)
 ![Null Safety](https://img.shields.io/badge/null%20safety-enabled-green)
 
-A comprehensive Flutter package providing the **99 Names of Allah (Esmaul Husna)** with translations and meanings in multiple languages. Currently supports **Bulgarian, English, Turkish, Russian, and German**. Perfect for Islamic applications, prayer apps, and educational software.
+A comprehensive Flutter package providing the **99 Names of Allah (Esmaul Husna)** with translations and meanings in multiple languages. Currently supports **Bulgarian, English, Turkish**. Perfect for Islamic applications, prayer apps, and educational software.
 
 ## Features
 
@@ -27,7 +27,7 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  esmaulhusna_muslimbg: ^0.0.5
+  esmaulhusna_muslimbg: ^1.0.0
 ```
 
 Then run:
