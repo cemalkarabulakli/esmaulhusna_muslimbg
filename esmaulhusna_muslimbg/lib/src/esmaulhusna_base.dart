@@ -1,73 +1,158 @@
 import 'dart:convert';
 import 'dart:math';
+import 'package:flutter/foundation.dart' show FlutterError, debugPrint;
 import 'package:flutter/services.dart' show rootBundle;
 
 class EsmaulHusna {
-  /// Returns a list of Esmaul Husna (99 Names of Allah) translations for the specified language
+  static const String _assetBasePath =
+      'packages/esmaulhusna_muslimbg/lib/assets/translations';
+
+  static const List<String> _supportedLanguages = [
+    'ar',
+    'bg',
+    'en',
+    'tr',
+    'bs_BA',
+    'mk_MK',
+    'sq_AL',
+    'sq_XK',
+  ];
+
+  static const Map<String, String> _languageAliases = {
+    'ar': 'ar',
+    'arabic': 'ar',
+    'ar_sa': 'ar',
+    'bg': 'bg',
+    'bg_bg': 'bg',
+    'bulgarian': 'bg',
+    'en': 'en',
+    'en_gb': 'en',
+    'en_us': 'en',
+    'english': 'en',
+    'tr': 'tr',
+    'tr_tr': 'tr',
+    'turkish': 'tr',
+    'bs': 'bs_BA',
+    'bs_ba': 'bs_BA',
+    'mk': 'mk_MK',
+    'mk_mk': 'mk_MK',
+    'sq': 'sq_AL',
+    'sq_al': 'sq_AL',
+    'sq_xk': 'sq_XK',
+  };
+
+  static final Map<String, Future<List<Map<String, String>>>> _cache = {};
+
+  /// Returns the canonical locale codes supported by this package.
+  static List<String> getSupportedLanguages() =>
+      List.unmodifiable(_supportedLanguages);
+
+  /// Returns a list of Esmaul Husna translations for the specified language.
   ///
-  /// [language] parameter accepts following values:
-  /// - 'english': Returns English translations
-  /// - 'arabic': Returns Arabic translations
-  /// - 'turkish': Returns Turkish translations
-  /// - 'bulgarian': Returns Bulgarian translations
+  /// Common values include:
+  /// - 'ar'
+  /// - 'bg'
+  /// - 'en'
+  /// - 'tr'
+  /// - 'bs_BA'
+  /// - 'mk_MK'
+  /// - 'sq_AL'
+  /// - 'sq_XK'
   ///
   /// Returns a List of Maps containing:
   /// - 'arabic': Arabic text of the name
   /// - 'name': Translated name in specified language
-  /// - 'description': Description/meaning in specified language
-  static Future<List<Map<String, String>>> getNames(String language) async {
-    return _loadTranslation(language);
+  /// - 'translation': Description/meaning in specified language
+  static Future<List<Map<String, String>>> getNames(String language) {
+    final resolvedLanguage = _resolveLanguage(language);
+    return _cache.putIfAbsent(
+      resolvedLanguage,
+      () => _loadTranslation(resolvedLanguage),
+    );
   }
 
-  /// Returns a random name from the 99 Names of Allah in the specified language
+  /// Returns a random name from the Esmaul Husna dataset in the specified
+  /// language.
   ///
   /// [language] parameter accepts the same values as [getNames]
   ///
   /// Returns a Map containing:
   /// - 'arabic': Arabic text of the name
   /// - 'name': Translated name in specified language
-  /// - 'description': Description/meaning in specified language
+  /// - 'translation': Description/meaning in specified language
   static Future<Map<String, String>> getRandomName(String language) async {
     final names = await getNames(language);
+    if (names.isEmpty) {
+      throw StateError('No Esmaul Husna data available for "$language".');
+    }
+
     final random = Random();
     return names[random.nextInt(names.length)];
   }
 
-  /// Loads and parses translations from JSON file for the specified language
-  static Future<List<Map<String, String>>> _loadTranslation(
-      String language) async {
-    const int namesCount = 100;
-    final translations = List<Map<String, String>>.generate(
-      namesCount,
-      (_) => const {},
-    );
-    language = "${language}_esmaulhusna";
-    try {
-      final jsonString = await rootBundle.loadString(
-          'packages/esmaulhusna_muslimbg/lib/assets/translations/$language.json');
-      final jsonTranslations = jsonDecode(jsonString) as Map<String, dynamic>;
-
-      for (var i = 1; i <= namesCount; i++) {
-        final number = i.toString();
-        if (!jsonTranslations.containsKey(number)) continue;
-
-        final translation = jsonTranslations[number];
-        translations[i - 1] = translation is Map
-            ? {
-                'arabic': translation['arabic'] as String? ?? '',
-                'name': translation['name'] as String? ?? '',
-                'translation': translation['translation'] as String? ?? '',
-              }
-            : {
-                'arabic': translation.toString(),
-                'name': '',
-                'translation': '',
-              };
-      }
-    } catch (e) {
-      print('Error loading translations for $language: $e');
+  static String _resolveLanguage(String language) {
+    final normalizedLanguage = language.trim().replaceAll('-', '_');
+    if (normalizedLanguage.isEmpty) {
+      return 'en';
     }
 
-    return translations;
+    if (_supportedLanguages.contains(normalizedLanguage)) {
+      return normalizedLanguage;
+    }
+
+    return _languageAliases[normalizedLanguage.toLowerCase()] ?? 'en';
+  }
+
+  static Future<List<Map<String, String>>> _loadTranslation(
+    String language,
+  ) async {
+    try {
+      final jsonString = await _loadTranslationJson(language);
+      final jsonTranslations = jsonDecode(jsonString) as Map<String, dynamic>;
+      final numericKeys =
+          jsonTranslations.keys.map(int.tryParse).whereType<int>().toList()
+            ..sort();
+
+      return numericKeys.map((key) {
+        final translation = jsonTranslations[key.toString()];
+        if (translation is Map) {
+          return {
+            'arabic': translation['arabic'] as String? ?? '',
+            'name': translation['name'] as String? ?? '',
+            'translation': translation['translation'] as String? ?? '',
+          };
+        }
+
+        return {
+          'arabic': translation?.toString() ?? '',
+          'name': '',
+          'translation': '',
+        };
+      }).toList(growable: false);
+    } catch (e) {
+      debugPrint('Error loading translations for $language: $e');
+      return const [];
+    }
+  }
+
+  static Future<String> _loadTranslationJson(String language) async {
+    final assetCandidates = [
+      '$_assetBasePath/$language.json',
+      '$_assetBasePath/${language}_esmaulhusna.json',
+    ];
+
+    for (final assetPath in assetCandidates) {
+      try {
+        return await rootBundle.loadString(assetPath);
+      } on FlutterError {
+        continue;
+      }
+    }
+
+    if (language != 'en') {
+      return _loadTranslationJson('en');
+    }
+
+    throw FlutterError('Unable to load translation assets for "$language".');
   }
 }

@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.1.0 - Unreleased
+
+* Add canonical locale files for `bg`, `en`, `tr`, `bs_BA`, `mk_MK`, `sq_AL`, and `sq_XK`
+* Add locale alias support for short codes like `bs`, `mk`, and `sq`
+* Add `getSupportedLanguages()` to expose the package's canonical locale codes
+* Add safe English fallback behavior for locale compatibility datasets
+* Refresh package documentation, usage examples, and SEO-focused README copy
+* Add `MuslimBG` production app references with store links
+* Add a basic package test suite for locale support
+
 ## 1.0.3
 
 * First stable release

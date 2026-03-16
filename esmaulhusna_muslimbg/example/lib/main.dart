@@ -26,7 +26,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text('Esmaul Husna')),
       body: FutureBuilder<List<Map<String, String>>>(
-        future: EsmaulHusna.getNames('bg'),
+        future: EsmaulHusna.getNames('bs_BA'),
         builder: (context, snapshot) {
           if (snapshot.hasError) {
             return Center(child: Text('Error: ${snapshot.error}'));

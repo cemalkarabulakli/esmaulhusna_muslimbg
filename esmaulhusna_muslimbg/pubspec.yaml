@@ -1,9 +1,9 @@
 name: esmaulhusna_muslimbg
-description: A Flutter package providing access to the 99 Names of Allah (Esmaul Husna) in English,Turkish and Bulgarian with descriptions.
+description: Flutter package for Esmaul Husna / Asma ul Husna with Arabic text, meanings, offline JSON data, and Balkan locale support for Islamic apps.
 version: 1.0.3
 repository: https://github.com/cemalkarabulakli/esmaulhusna_muslimbg
 homepage: https://github.com/cemalkarabulakli/esmaulhusna_muslimbg
-issue_tracker: https://github.com/cemalkarabulakli/esmaulhusna/issues
+issue_tracker: https://github.com/cemalkarabulakli/esmaulhusna_muslimbg/issues
 documentation: https://github.com/cemalkarabulakli/esmaulhusna_muslimbg/wiki
 
 environment:
@@ -52,6 +52,7 @@ flutter:
 
 topics:
   - islam
-  - religion
-  - names
-  - translation
+  - quran
+  - flutter
+  - localization
+  - dua

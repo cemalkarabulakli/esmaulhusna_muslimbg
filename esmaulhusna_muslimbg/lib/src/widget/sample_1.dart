@@ -6,7 +6,7 @@ class EsmaulHusnaListView extends StatelessWidget {
 
   const EsmaulHusnaListView({
     super.key,
-    this.language = 'english',
+    this.language = 'en',
   });
 
   @override
@@ -75,7 +75,7 @@ class RandomEsmaulHusnaWidget extends StatelessWidget {
 
   const RandomEsmaulHusnaWidget({
     super.key,
-    this.language = 'english',
+    this.language = 'en',
   });
 
   @override
