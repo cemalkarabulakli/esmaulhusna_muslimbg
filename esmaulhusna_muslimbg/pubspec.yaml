@@ -1,6 +1,6 @@
 name: esmaulhusna_muslimbg
 description: Flutter package for Esmaul Husna / Asma ul Husna with Arabic text, meanings, offline JSON data, and Balkan locale support for Islamic apps.
-version: 1.0.4
+version: 1.0.6
 repository: https://github.com/cemalkarabulakli/esmaulhusna_muslimbg
 homepage: https://github.com/cemalkarabulakli/esmaulhusna_muslimbg
 issue_tracker: https://github.com/cemalkarabulakli/esmaulhusna_muslimbg/issues
@@ -18,8 +18,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
-  lints: ^2.1.1
+  flutter_lints: ^5.0.0
 
 flutter:
   assets:

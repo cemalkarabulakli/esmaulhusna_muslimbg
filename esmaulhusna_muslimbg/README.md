@@ -31,7 +31,7 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  esmaulhusna_muslimbg: ^1.0.4
+  esmaulhusna_muslimbg: ^1.0.6
 ```
 
 Then run:

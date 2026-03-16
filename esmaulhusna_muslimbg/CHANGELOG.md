@@ -2,7 +2,15 @@
 
 ## 1.1.0 - Unreleased
 
-## 1.0.5
+## 1.0.6
+
+* Rewrite example app with 3-tab layout — names list with language selector, random name card, and locale reference tab
+* Add `.pubignore` to exclude build artifacts and IDE files from the published archive
+* Improve README — add pub.dev badges, full API reference, locale alias table, device locale integration, built-in widget docs, and 1.0.3→1.0.4 migration guide
+* Update `flutter_lints` to `^5.0.0` and remove redundant `lints` dev dependency
+* Clean up `pubspec.yaml` — remove boilerplate comments
+
+## 1.0.4
 
 * Add canonical offline JSON translation files for `ar`, `bg`, `en`, `tr`, `bs_BA`, `mk_MK`, `sq_AL`, and `sq_XK`
 * Add locale alias resolution — short codes (`bs`, `mk`, `sq`), regional variants (`en_US`, `tr_TR`), and full names (`english`, `turkish`) all resolve correctly
