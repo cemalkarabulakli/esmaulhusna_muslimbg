@@ -1,0 +1,16 @@
+# Build artifacts
+build/
+.dart_tool/
+
+# IDE and OS files
+*.iml
+.DS_Store
+.idea/
+.vscode/
+
+# Internal documentation
+PUBLISHING.md
+
+# Example app artifacts
+example/build/
+example/.dart_tool/

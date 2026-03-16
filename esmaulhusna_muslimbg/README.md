@@ -1,52 +1,37 @@
 # esmaulhusna_muslimbg
 
-`esmaulhusna_muslimbg` is a Flutter `pub.dev` package for **Esmaul Husna**, **Asma ul Husna**, and the **99 Names of Allah**. It helps Flutter developers build Islamic apps, Quran apps, dua apps, prayer apps, and Balkan-language mobile experiences with offline access to Arabic names and translated meanings.
+[![pub package](https://img.shields.io/pub/v/esmaulhusna_muslimbg.svg)](https://pub.dev/packages/esmaulhusna_muslimbg)
+[![pub points](https://img.shields.io/pub/points/esmaulhusna_muslimbg)](https://pub.dev/packages/esmaulhusna_muslimbg/score)
+[![likes](https://img.shields.io/pub/likes/esmaulhusna_muslimbg)](https://pub.dev/packages/esmaulhusna_muslimbg/score)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-[pub.dev package](https://pub.dev/packages/esmaulhusna_muslimbg) • [GitHub repository](https://github.com/cemalkarabulakli/esmaulhusna_muslimbg)
+A Flutter package providing the **99 Names of Allah** (Esmaul Husna / Asma ul Husna) with Arabic text and meanings — fully offline, no internet required.
 
-## Why this Flutter package
+Designed for Islamic apps, Quran readers, dua apps, zikr apps, prayer-time apps, and Flutter apps targeting Balkan Muslim communities.
 
-- Offline JSON dataset bundled inside the package
-- Arabic text included for every name
-- Simple async API for `getNames` and `getRandomName`
-- Locale code support for Flutter apps that use Balkan language variants
-- Suitable for Muslim apps, Quran readers, zikr apps, prayer time apps, and Islamic education apps
+[pub.dev](https://pub.dev/packages/esmaulhusna_muslimbg) • [GitHub](https://github.com/cemalkarabulakli/esmaulhusna_muslimbg) • [Issues](https://github.com/cemalkarabulakli/esmaulhusna_muslimbg/issues)
 
-## Supported locale codes
+---
 
-Native dataset files:
+## Features
 
-- `ar`
-- `bg`
-- `en`
+- Fully offline — JSON assets bundled inside the package, no network calls
+- Arabic text for all 99 names
+- 8 locale datasets: `ar`, `bg`, `en`, `tr`, `bs_BA`, `mk_MK`, `sq_AL`, `sq_XK`
+- Flexible locale input — accepts short codes, regional variants, and full language names
+- In-memory caching — repeated calls to `getNames()` load assets only once
+- Built-in `EsmaulHusnaListView` and `RandomEsmaulHusnaWidget` widgets
+- Null-safe, pure Flutter, no native dependencies
 
-Locale compatibility files included in this release:
-
-- `tr`
-- `bs_BA`
-- `mk_MK`
-- `sq_AL`
-- `sq_XK`
-
-Short aliases resolved by the package:
-
-- `bs` -> `bs_BA`
-- `mk` -> `mk_MK`
-- `sq` -> `sq_AL`
-- `english` -> `en`
-- `bulgarian` -> `bg`
-- `turkish` -> `tr`
-- `arabic` -> `ar`
-
-> **Note:** Only the `bg` (Bulgarian) locale has been fully tested end-to-end. The `ar` and `en` datasets are included but have not been fully verified. The `tr`, `bs_BA`, `mk_MK`, `sq_AL`, and `sq_XK` locale files are shipped so Flutter apps can support these locale codes immediately, but their content has not been tested and currently reuses the English dataset until dedicated translations are added.
+---
 
 ## Installation
 
-Add the package to your Flutter app:
+Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  esmaulhusna_muslimbg: ^1.0.3
+  esmaulhusna_muslimbg: ^1.0.4
 ```
 
 Then run:
@@ -55,56 +40,159 @@ Then run:
 flutter pub get
 ```
 
+---
+
 ## Quick start
 
 ```dart
 import 'package:esmaulhusna_muslimbg/esmaulhusna_muslimbg.dart';
 
-final supportedLanguages = EsmaulHusna.getSupportedLanguages();
+// List all 99 names in English
+final names = await EsmaulHusna.getNames('en');
+print(names[0]['arabic']);       // الرَّحْمَنُ
+print(names[0]['name']);         // The Most Gracious
+print(names[0]['translation']);  // The One who has plenty of mercy for all creation
 
-final englishNames = await EsmaulHusna.getNames('en');
-final bosnianNames = await EsmaulHusna.getNames('bs_BA');
-final macedonianNames = await EsmaulHusna.getNames('mk_MK');
-final albanianNamesKosovo = await EsmaulHusna.getNames('sq_XK');
+// Get a random name
+final random = await EsmaulHusna.getRandomName('tr');
+print('${random['arabic']} — ${random['name']}');
 
-final randomName = await EsmaulHusna.getRandomName('bg');
-
-print(supportedLanguages);
-print(randomName['arabic']);
-print(randomName['name']);
-print(randomName['translation']);
+// List all supported locale codes
+print(EsmaulHusna.getSupportedLanguages());
+// [ar, bg, en, tr, bs_BA, mk_MK, sq_AL, sq_XK]
 ```
 
-## Response shape
+---
 
-Each item in the returned list has this structure:
+## Supported locales
+
+| Locale code | Language              | Notes                                         |
+|-------------|-----------------------|-----------------------------------------------|
+| `ar`        | Arabic                | Native dataset                                |
+| `bg`        | Bulgarian             | Native dataset, fully tested end-to-end       |
+| `en`        | English               | Native dataset, used as fallback              |
+| `tr`        | Turkish               | Dedicated dataset                             |
+| `bs_BA`     | Bosnian               | Dedicated dataset                             |
+| `mk_MK`     | Macedonian            | Dedicated dataset                             |
+| `sq_AL`     | Albanian (Albania)    | Dedicated dataset                             |
+| `sq_XK`     | Albanian (Kosovo)     | Dedicated dataset                             |
+
+### Accepted locale aliases
+
+The package resolves these inputs to their canonical locale automatically:
+
+| Input                        | Resolves to |
+|------------------------------|-------------|
+| `ar`, `arabic`, `ar_SA`      | `ar`        |
+| `bg`, `bulgarian`, `bg_BG`   | `bg`        |
+| `en`, `english`, `en_US`, `en_GB` | `en`   |
+| `tr`, `turkish`, `tr_TR`     | `tr`        |
+| `bs`, `bs_BA`                | `bs_BA`     |
+| `mk`, `mk_MK`                | `mk_MK`     |
+| `sq`, `sq_AL`                | `sq_AL`     |
+| `sq_XK`                      | `sq_XK`     |
+
+Hyphens are normalised to underscores — `bs-BA` and `bs_BA` both work. Unknown locales fall back to `en`.
+
+---
+
+## API reference
+
+### `EsmaulHusna.getNames(String language)`
+
+Returns `Future<List<Map<String, String>>>` with all 99 names for the specified locale.
+
+Results are cached in memory — calling `getNames()` multiple times for the same locale loads assets only once.
 
 ```dart
-{
-  'arabic': 'Arabic text of the name',
-  'name': 'Localized name',
-  'translation': 'Localized meaning or explanation'
+final names = await EsmaulHusna.getNames('bg');
+
+for (final name in names) {
+  print(name['arabic']);       // Arabic text
+  print(name['name']);         // Localized name
+  print(name['translation']);  // Localized meaning
 }
 ```
 
-## Example usage in a widget
+### `EsmaulHusna.getRandomName(String language)`
+
+Returns `Future<Map<String, String>>` with a randomly selected name.
+
+Throws `StateError` if no data is available for the given locale.
+
+```dart
+final name = await EsmaulHusna.getRandomName('en');
+print('${name['arabic']} — ${name['name']}');
+```
+
+### `EsmaulHusna.getSupportedLanguages()`
+
+Returns an unmodifiable `List<String>` of all canonical locale codes.
+
+```dart
+final locales = EsmaulHusna.getSupportedLanguages();
+// ['ar', 'bg', 'en', 'tr', 'bs_BA', 'mk_MK', 'sq_AL', 'sq_XK']
+```
+
+---
+
+## Response shape
+
+Each map returned by `getNames()` and `getRandomName()` contains:
+
+| Key           | Type     | Example value                          |
+|---------------|----------|----------------------------------------|
+| `arabic`      | `String` | `الرَّحْمَنُ`                           |
+| `name`        | `String` | `The Most Gracious`                    |
+| `translation` | `String` | `The One who has plenty of mercy...`   |
+
+---
+
+## Built-in widgets
+
+The package ships two ready-to-use widgets.
+
+### `EsmaulHusnaListView`
+
+Scrollable list of all 99 names:
+
+```dart
+import 'package:esmaulhusna_muslimbg/esmaulhusna_muslimbg.dart';
+
+EsmaulHusnaListView(language: 'en')
+```
+
+### `RandomEsmaulHusnaWidget`
+
+Card showing a single randomly picked name:
+
+```dart
+RandomEsmaulHusnaWidget(language: 'tr')
+```
+
+---
+
+## Custom widget example
+
+Build your own UI around the API:
 
 ```dart
 import 'package:esmaulhusna_muslimbg/esmaulhusna_muslimbg.dart';
 import 'package:flutter/material.dart';
 
-class EsmaulHusnaList extends StatelessWidget {
-  const EsmaulHusnaList({super.key});
+class EsmaulHusnaScreen extends StatelessWidget {
+  const EsmaulHusnaScreen({super.key, this.language = 'en'});
+
+  final String language;
 
   @override
   Widget build(BuildContext context) {
     return FutureBuilder<List<Map<String, String>>>(
-      future: EsmaulHusna.getNames('sq_AL'),
+      future: EsmaulHusna.getNames(language),
       builder: (context, snapshot) {
         if (snapshot.hasError) {
           return Center(child: Text('Error: ${snapshot.error}'));
         }
-
         if (!snapshot.hasData) {
           return const Center(child: CircularProgressIndicator());
         }
@@ -114,11 +202,16 @@ class EsmaulHusnaList extends StatelessWidget {
         return ListView.builder(
           itemCount: names.length,
           itemBuilder: (context, index) {
-            final name = names[index];
+            final entry = names[index];
             return ListTile(
-              title: Text(name['name'] ?? ''),
-              subtitle: Text(name['translation'] ?? ''),
-              leading: Text(name['arabic'] ?? ''),
+              leading: CircleAvatar(child: Text('${index + 1}')),
+              title: Text(entry['name'] ?? ''),
+              subtitle: Text(entry['translation'] ?? ''),
+              trailing: Text(
+                entry['arabic'] ?? '',
+                style: const TextStyle(fontSize: 20),
+                textDirection: TextDirection.rtl,
+              ),
             );
           },
         );
@@ -128,26 +221,58 @@ class EsmaulHusnaList extends StatelessWidget {
 }
 ```
 
-## Used in MuslimBG
+---
 
-This package is used inside the **MuslimBG** mobile app as the Esmaul Husna data source.
+## Integrating with the device locale
 
-- Android: [MuslimBG on Google Play](https://play.google.com/store/apps/details?id=com.boboautomate.muslimbg&hl=en&gl=US)
-- iOS: [MuslimBG on the App Store](https://apps.apple.com/app/id6467431798)
+The package normalises hyphens and casing, so you can pass the device locale tag directly:
+
+```dart
+import 'dart:ui';
+import 'package:esmaulhusna_muslimbg/esmaulhusna_muslimbg.dart';
+
+final deviceLocale = PlatformDispatcher.instance.locale;
+final names = await EsmaulHusna.getNames(deviceLocale.toLanguageTag());
+// 'bs-BA', 'mk-MK', 'sq-AL' all resolve correctly
+```
+
+---
+
+## Used in production
+
+This package powers the **MuslimBG** app:
+
+- [Google Play](https://play.google.com/store/apps/details?id=com.boboautomate.muslimbg)
+- [App Store](https://apps.apple.com/app/id6467431798)
+
+---
+
+## Migration guide
+
+### 1.0.3 → 1.0.4
+
+The `description` key in name maps has been renamed to `translation`:
+
+```dart
+// Before (≤ 1.0.3)
+print(name['description']);
+
+// After (1.0.4+)
+print(name['translation']);
+```
+
+---
 
 ## v1.1.0 roadmap
 
-- Stabilize locale support for `bg`, `en`, `tr`, `bs_BA`, `mk_MK`, `sq_AL`, and `sq_XK`
-- Add a typed `EsmaulHusnaName` model instead of raw maps
-- Add `getByIndex`, search, and filtering helpers
-- Export production-ready widgets for list, grid, and detail layouts
-- Replace English fallback content with dedicated Turkish, Bosnian, Macedonian, and Albanian translations
-- Expand automated tests and CI checks for asset consistency
+- Typed `EsmaulHusnaName` model instead of raw maps
+- `getByIndex(int index, String language)` helper
+- Search and filtering helpers
+- Grid and detail layout widgets
+- Expand and verify dedicated translations for all locales
 
-## Repository and package keywords
-
-If you are searching for a Flutter package for **Esmaul Husna**, **Asma ul Husna**, **99 Names of Allah**, **Islamic Flutter package**, **Quran app package**, or **Balkan localization in Flutter**, this package is designed for that use case.
+---
 
 ## License
 
-MIT
+MIT — see [LICENSE](LICENSE)

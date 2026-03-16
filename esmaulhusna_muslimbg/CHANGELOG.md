@@ -2,13 +2,17 @@
 
 ## 1.1.0 - Unreleased
 
-* Add canonical locale files for `bg`, `en`, `tr`, `bs_BA`, `mk_MK`, `sq_AL`, and `sq_XK`
-* Add locale alias support for short codes like `bs`, `mk`, and `sq`
-* Add `getSupportedLanguages()` to expose the package's canonical locale codes
-* Add safe English fallback behavior for locale compatibility datasets
-* Refresh package documentation, usage examples, and SEO-focused README copy
-* Add `MuslimBG` production app references with store links
-* Add a basic package test suite for locale support
+## 1.0.4
+
+* Add canonical offline JSON translation files for `ar`, `bg`, `en`, `tr`, `bs_BA`, `mk_MK`, `sq_AL`, and `sq_XK`
+* Add locale alias resolution — short codes (`bs`, `mk`, `sq`), regional variants (`en_US`, `tr_TR`), and full names (`english`, `turkish`) all resolve correctly
+* Add `getSupportedLanguages()` to expose the list of canonical locale codes
+* Add in-memory cache for `getNames()` — repeated calls for the same locale skip asset re-loading
+* `getRandomName()` now throws a descriptive `StateError` when no data is available
+* Rename translation map key `description` → `translation` for consistency (**breaking** for consumers reading this key)
+* Add unit tests in `test/esmaulhusna_base_test.dart`
+* Update package description and pub.dev topics for better discoverability
+* Fix `issue_tracker` URL
 
 ## 1.0.3
 
