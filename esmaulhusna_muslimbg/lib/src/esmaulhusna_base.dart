@@ -121,6 +121,7 @@ class EsmaulHusna {
             'arabic': translation['arabic'] as String? ?? '',
             'name': translation['name'] as String? ?? '',
             'translation': translation['translation'] as String? ?? '',
+            'audio': translation['audio'] as String? ?? '',
           };
         }
 
@@ -128,6 +129,7 @@ class EsmaulHusna {
           'arabic': translation?.toString() ?? '',
           'name': '',
           'translation': '',
+          'audio': '',
         };
       }).toList(growable: false);
     } catch (e) {

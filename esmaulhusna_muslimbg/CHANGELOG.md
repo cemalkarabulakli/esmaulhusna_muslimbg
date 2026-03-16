@@ -2,6 +2,13 @@
 
 ## 1.1.0 - Unreleased
 
+## 1.0.8
+
+* Add audio support — 99 MP3 files (Ar-Rahman → As-Sabur) bundled in `lib/assets/audio/`
+* Add `audio` field to all translation JSON files (`ar`, `bg`, `bs_BA`, `en`, `sq_AL`, `tr`) — points to `packages/esmaulhusna_muslimbg/lib/assets/audio/{n}_{transliteration}.mp3`; empty string for the Allah entry
+* `getNames()` and `getRandomName()` now return the `audio` asset path alongside `arabic`, `name`, and `translation`
+* Update example app — tapping the Arabic name in the detail sheet plays the pronunciation audio using `audioplayers`
+
 ## 1.0.7
 
 * Replace translation data for `tr`, `bs_BA`, `sq_AL`, and `en` with enriched full-meaning entries — each locale now includes all 100 entries (Allah + 99 names) with detailed meanings

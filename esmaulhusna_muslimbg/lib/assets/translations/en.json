@@ -2,501 +2,601 @@
   "1": {
     "arabic": "ٱللَّهُ",
     "name": "Allah",
-    "translation": "The One and Only God; the proper name of the Lord, worthy of all worship."
+    "translation": "The One and Only God; the proper name of the Lord, worthy of all worship.",
+    "audio": ""
   },
   "2": {
     "arabic": "الرَّحْمَنُ",
     "name": "Ar Rahmaan",
-    "translation": "The One who has plenty of mercy for the believers and the blasphemers in this world and especially for the believers in the hereafter."
+    "translation": "The One who has plenty of mercy for the believers and the blasphemers in this world and especially for the believers in the hereafter.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/1_Ар-Рахман.mp3"
   },
   "3": {
     "arabic": "الرَّحِيمُ",
     "name": "Ar Raheem",
-    "translation": "The One who has plenty of mercy for the believers."
+    "translation": "The One who has plenty of mercy for the believers.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/2_Ар-Рахим.mp3"
   },
   "4": {
     "arabic": "الْمَلِكُ",
     "name": "Al Malik",
-    "translation": "The Sovereign Lord, The One who has absolute ownership and authority over all creation."
+    "translation": "The Sovereign Lord, The One who has absolute ownership and authority over all creation.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/3_Ал-Малик.mp3"
   },
   "5": {
     "arabic": "الْقُدُّوسُ",
     "name": "Al Quddus",
-    "translation": "The One who is pure from any imperfection and clear from children and adversaries."
+    "translation": "The One who is pure from any imperfection and clear from children and adversaries.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/4_Ал-Куддус.mp3"
   },
   "6": {
     "arabic": "السَّلاَمُ",
     "name": "As Salaam",
-    "translation": "The One who grants peace and calm to all creation."
+    "translation": "The One who grants peace and calm to all creation.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/5_Ас-Салам.mp3"
   },
   "7": {
     "arabic": "الْمُؤْمِنُ",
     "name": "Al Mu'min",
-    "translation": "The One who grants safety and security to His creation."
+    "translation": "The One who grants safety and security to His creation.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/6_Ал-Му'мин.mp3"
   },
   "8": {
     "arabic": "الْمُهَيْمِنُ",
     "name": "Al Muhaymin",
-    "translation": "The One who witnesses the saying and deeds of His creatures."
+    "translation": "The One who witnesses the saying and deeds of His creatures.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/7_Ал-Мухаймин.mp3"
   },
   "9": {
     "arabic": "الْعَزِيزُ",
     "name": "Al Azeez",
-    "translation": "The strong, the defeater who is not defeated."
+    "translation": "The strong, the defeater who is not defeated.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/8_Ал-Азиз.mp3"
   },
   "10": {
     "arabic": "الْجَبَّارُ",
     "name": "Al Jabbaar",
-    "translation": "The One that nothing happens in His dominion except that which He willed."
+    "translation": "The One that nothing happens in His dominion except that which He willed.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/9_Ал-Джаббар.mp3"
   },
   "11": {
     "arabic": "الْمُتَكَبِّرُ",
     "name": "Al Mutakabbir",
-    "translation": "The Supreme, The One who is supremely great and above all creation."
+    "translation": "The Supreme, The One who is supremely great and above all creation.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/10_Ал-Мутакаббир.mp3"
   },
   "12": {
     "arabic": "الْخَالِقُ",
     "name": "Al Khaaliq",
-    "translation": "The One who brings everything from non-existence to existence."
+    "translation": "The One who brings everything from non-existence to existence.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/11_Ал-Халик.mp3"
   },
   "13": {
     "arabic": "الْبَارِئُ",
     "name": "Al Baari",
-    "translation": "The Maker, The Creator who has the power to materialize and proportion His creation."
+    "translation": "The Maker, The Creator who has the power to materialize and proportion His creation.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/12_Ал-Бари.mp3"
   },
   "14": {
     "arabic": "الْمُصَوِّرُ",
     "name": "Al Musawwir",
-    "translation": "The Fashioner, The One who forms His creatures in different shapes and forms."
+    "translation": "The Fashioner, The One who forms His creatures in different shapes and forms.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/13_Ал-Мусаууир.mp3"
   },
   "15": {
     "arabic": "الْغَفَّارُ",
     "name": "Al Ghaffaar",
-    "translation": "The One who forgives the sins of His slaves time and time again."
+    "translation": "The One who forgives the sins of His slaves time and time again.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/14_Ал-Гаффар.mp3"
   },
   "16": {
     "arabic": "الْقَهَّارُ",
     "name": "Al Qahhaar",
-    "translation": "The Subduer, The One who has perfect Power and absolute control over all things."
+    "translation": "The Subduer, The One who has perfect Power and absolute control over all things.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/15_Ал-Каххар.mp3"
   },
   "17": {
     "arabic": "الْوَهَّابُ",
     "name": "Al Wahhaab",
-    "translation": "The One who is Generous in giving plenty without any return."
+    "translation": "The One who is Generous in giving plenty without any return.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/16_Ал-Уаххаб.mp3"
   },
   "18": {
     "arabic": "الرَّزَّاقُ",
     "name": "Ar Razzaaq",
-    "translation": "The One who provides all the creatures their needs."
+    "translation": "The One who provides all the creatures their needs.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/17_Ар-Раззак.mp3"
   },
   "19": {
     "arabic": "الْفَتَّاحُ",
     "name": "Al Fattaah",
-    "translation": "The One who opens for His slaves the closed worldly and religious matters."
+    "translation": "The One who opens for His slaves the closed worldly and religious matters.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/18_Ал-Фаттах.mp3"
   },
   "20": {
     "arabic": "اَلْعَلِيْمُ",
     "name": "Al 'Aleem",
-    "translation": "The One nothing is absent from His knowledge."
+    "translation": "The One nothing is absent from His knowledge.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/19_Ал-Алим.mp3"
   },
   "21": {
     "arabic": "الْقَابِضُ",
     "name": "Al Qaabid",
-    "translation": "The One who constricts the sustenance by His wisdom."
+    "translation": "The One who constricts the sustenance by His wisdom.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/20_Ал-Кабид.mp3"
   },
   "22": {
     "arabic": "الْبَاسِطُ",
     "name": "Al Baasit",
-    "translation": "The One who expands and widens."
+    "translation": "The One who expands and widens.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/21_Ал-Басит.mp3"
   },
   "23": {
     "arabic": "الْخَافِضُ",
     "name": "Al Khaafid",
-    "translation": "The One who lowers whoever He willed by His Destruction."
+    "translation": "The One who lowers whoever He willed by His Destruction.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/22_Ал-Хафид.mp3"
   },
   "24": {
     "arabic": "الرَّافِعُ",
     "name": "Ar Raafi'",
-    "translation": "The One who raises whoever He willed by His endowment."
+    "translation": "The One who raises whoever He willed by His endowment.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/23_Ар-Рафи.mp3"
   },
   "25": {
     "arabic": "الْمُعِزُّ",
     "name": "Al Mu'iz",
-    "translation": "He gives esteem to whoever He willed, hence there is no one to degrade Him."
+    "translation": "He gives esteem to whoever He willed, hence there is no one to degrade Him.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/24_Ал-Муиз.mp3"
   },
   "26": {
     "arabic": "المُذِلُّ",
     "name": "Al Mudhil",
-    "translation": "The One who degrades whoever he willed, hence there is no one to give him esteem."
+    "translation": "The One who degrades whoever he willed, hence there is no one to give him esteem.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/25_Ал-Музил.mp3"
   },
   "27": {
     "arabic": "السَّمِيعُ",
     "name": "As Samee'",
-    "translation": "The One who Hears all things that are heard by His Eternal Hearing without an ear, instrument or organ."
+    "translation": "The One who Hears all things that are heard by His Eternal Hearing without an ear, instrument or organ.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/26_Ас-Сами.mp3"
   },
   "28": {
     "arabic": "الْبَصِيرُ",
     "name": "Al Baseer",
-    "translation": "The One who Sees all things that are seen by His Eternal Seeing without a pupil or any other instrument."
+    "translation": "The One who Sees all things that are seen by His Eternal Seeing without a pupil or any other instrument.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/27_Ал-Басир.mp3"
   },
   "29": {
     "arabic": "الْحَكَمُ",
     "name": "Al Hakam",
-    "translation": "The One who is the judge, the arbitrator, the One who has the complete authority to decide between the creatures."
+    "translation": "The One who is the judge, the arbitrator, the One who has the complete authority to decide between the creatures.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/28_Ал-Хакам.mp3"
   },
   "30": {
     "arabic": "الْعَدْلُ",
     "name": "Al 'Adl",
-    "translation": "The One who is entitled to do what He does."
+    "translation": "The One who is entitled to do what He does.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/29_Ал-Адл.mp3"
   },
   "31": {
     "arabic": "اللَّطِيفُ",
     "name": "Al Lateef",
-    "translation": "The One who is kind to His slaves and endows upon them."
+    "translation": "The One who is kind to His slaves and endows upon them.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/30_Ал-Латиф.mp3"
   },
   "32": {
     "arabic": "الْخَبِيرُ",
     "name": "Al Khabeer",
-    "translation": "The One who knows the truth of things."
+    "translation": "The One who knows the truth of things.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/31_Ал-Хабир.mp3"
   },
   "33": {
     "arabic": "الْحَلِيمُ",
     "name": "Al Haleem",
-    "translation": "The One who delays the punishment for those who deserve it and then He might forgive them."
+    "translation": "The One who delays the punishment for those who deserve it and then He might forgive them.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/32_Ал-Халим.mp3"
   },
   "34": {
     "arabic": "الْعَظِيمُ",
     "name": "Al 'Azeem",
-    "translation": "The One deserving the attributes of Exaltment, Glory, Extolement, and complete Majesty."
+    "translation": "The One deserving the attributes of Exaltment, Glory, Extolement, and complete Majesty.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/33_Ал-Азим.mp3"
   },
   "35": {
     "arabic": "الْغَفُورُ",
     "name": "Al Ghafoor",
-    "translation": "The One who forgives a lot."
+    "translation": "The One who forgives a lot.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/34_Ал-Гафур.mp3"
   },
   "36": {
     "arabic": "الشَّكُورُ",
     "name": "Ash Shakoor",
-    "translation": "The One who gives a lot of reward for a little obedience."
+    "translation": "The One who gives a lot of reward for a little obedience.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/35_Аш-Шакур.mp3"
   },
   "37": {
     "arabic": "الْعَلِيُّ",
     "name": "Al 'Aliyy",
-    "translation": "The One who is clear from the attributes of the creatures."
+    "translation": "The One who is clear from the attributes of the creatures.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/36_Ал-Али.mp3"
   },
   "38": {
     "arabic": "الْكَبِيرُ",
     "name": "Al Kabeer",
-    "translation": "The One who is greater than everything in status."
+    "translation": "The One who is greater than everything in status.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/37_Ал-Кабир.mp3"
   },
   "39": {
     "arabic": "الْحَفِيظُ",
     "name": "Al Hafeez",
-    "translation": "The One who protects whatever and whoever He willed to protect."
+    "translation": "The One who protects whatever and whoever He willed to protect.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/38_Ал-Хафиз.mp3"
   },
   "40": {
     "arabic": "المُقيِت",
     "name": "Al Muqeet",
-    "translation": "The One who has the Power."
+    "translation": "The One who has the Power.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/39_Ал-Мукит.mp3"
   },
   "41": {
     "arabic": "الْحسِيبُ",
     "name": "Al Haseeb",
-    "translation": "The One who gives the satisfaction."
+    "translation": "The One who gives the satisfaction.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/40_Ал-Хасиб.mp3"
   },
   "42": {
     "arabic": "الْجَلِيلُ",
     "name": "Al Jaleel",
-    "translation": "The One who is attributed with greatness of Power and Glory of status."
+    "translation": "The One who is attributed with greatness of Power and Glory of status.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/41_Ал-Джалил.mp3"
   },
   "43": {
     "arabic": "الْكَرِيمُ",
     "name": "Al Kareem",
-    "translation": "The One who is clear from abjectness."
+    "translation": "The One who is clear from abjectness.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/42_Ал-Карим.mp3"
   },
   "44": {
     "arabic": "الرَّقِيبُ",
     "name": "Ar Raqeeb",
-    "translation": "The One that nothing is absent from Him."
+    "translation": "The One that nothing is absent from Him.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/43_Ар-Ракиб.mp3"
   },
   "45": {
     "arabic": "الْمُجِيبُ",
     "name": "Al Mujeeb",
-    "translation": "The One who answers the one in need if he asks Him and rescues the yearner if he calls upon Him."
+    "translation": "The One who answers the one in need if he asks Him and rescues the yearner if he calls upon Him.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/44_Ал-Муджиб.mp3"
   },
   "46": {
     "arabic": "الْوَاسِعُ",
     "name": "Al Waasi'",
-    "translation": "The Knowledgeable; The One nothing is absent from His knowledge."
+    "translation": "The Knowledgeable; The One nothing is absent from His knowledge.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/45_Ал-Уаси.mp3"
   },
   "47": {
     "arabic": "الْحَكِيمُ",
     "name": "Al Hakeem",
-    "translation": "The One who is correct in His doings."
+    "translation": "The One who is correct in His doings.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/46_Ал-Хаким.mp3"
   },
   "48": {
     "arabic": "الْوَدُودُ",
     "name": "Al Wudood",
-    "translation": "The One who loves His believing slaves and His believing slaves love Him."
+    "translation": "The One who loves His believing slaves and His believing slaves love Him.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/47_Ал-Уадуд.mp3"
   },
   "49": {
     "arabic": "الْمَجِيدُ",
     "name": "Al Majeed",
-    "translation": "The One who is with perfect Power, High Status, Compassion, Generosity and Kindness."
+    "translation": "The One who is with perfect Power, High Status, Compassion, Generosity and Kindness.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/48_Ал-Маджид.mp3"
   },
   "50": {
     "arabic": "الْبَاعِثُ",
     "name": "Al Baa'ith",
-    "translation": "The One who resurrects His slaves after death for reward and/or punishment."
+    "translation": "The One who resurrects His slaves after death for reward and/or punishment.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/49_Ал-Баис.mp3"
   },
   "51": {
     "arabic": "الشَّهِيدُ",
     "name": "Ash Shaheed",
-    "translation": "The Witness, The One from whom nothing is hidden."
+    "translation": "The Witness, The One from whom nothing is hidden.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/50_Аш-Шахид.mp3"
   },
   "52": {
     "arabic": "الْحَقُّ",
     "name": "Al Haqq",
-    "translation": "The One who truly exists."
+    "translation": "The One who truly exists.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/51_Ал-Хакк.mp3"
   },
   "53": {
     "arabic": "الْوَكِيلُ",
     "name": "Al Wakeel",
-    "translation": "The Trustee, The One who is relied upon for all affairs."
+    "translation": "The Trustee, The One who is relied upon for all affairs.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/52_Ал-Уакил.mp3"
   },
   "54": {
     "arabic": "الْقَوِيُّ",
     "name": "Al Qawiyy",
-    "translation": "The One with the complete Power."
+    "translation": "The One with the complete Power.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/53_Ал-Кауи.mp3"
   },
   "55": {
     "arabic": "الْمَتِينُ",
     "name": "Al Mateen",
-    "translation": "The Firm, The One with steadfast power who never tires."
+    "translation": "The Firm, The One with steadfast power who never tires.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/54_Ал-Матин.mp3"
   },
   "56": {
     "arabic": "الْوَلِيُّ",
     "name": "Al Waliyy",
-    "translation": "The Protecting Friend, The One who supports and manages the affairs of His servants."
+    "translation": "The Protecting Friend, The One who supports and manages the affairs of His servants.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/55_Ал-Уали.mp3"
   },
   "57": {
     "arabic": "الْحَمِيدُ",
     "name": "Al Hameed",
-    "translation": "The praised One who deserves to be praised."
+    "translation": "The praised One who deserves to be praised.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/56_Ал-Хамид.mp3"
   },
   "58": {
     "arabic": "الْمُحْصِي",
     "name": "Al Muhsi",
-    "translation": "The One who the count of things are known to him."
+    "translation": "The One who the count of things are known to him.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/57_Ал-Мухси.mp3"
   },
   "59": {
     "arabic": "الْمُبْدِئُ",
     "name": "Al Mubdi",
-    "translation": "The One who started the human being. That is, He created him."
+    "translation": "The One who started the human being. That is, He created him.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/58_Ал-Мубди.mp3"
   },
   "60": {
     "arabic": "الْمُعِيدُ",
     "name": "Al Mu'eed",
-    "translation": "The One who brings back the creatures after death."
+    "translation": "The One who brings back the creatures after death.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/59_Ал-Муид.mp3"
   },
   "61": {
     "arabic": "الْمُحْيِي",
     "name": "Al Muhiy",
-    "translation": "The One who took out a living human from semen that does not have a soul."
+    "translation": "The One who took out a living human from semen that does not have a soul.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/60_Ал-Мухйи.mp3"
   },
   "62": {
     "arabic": "اَلْمُمِيتُ",
     "name": "Al Mumeet",
-    "translation": "The One who renders the living dead."
+    "translation": "The One who renders the living dead.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/61_Ал-Мумит.mp3"
   },
   "63": {
     "arabic": "الْحَيُّ",
     "name": "Al Haiyy",
-    "translation": "The One attributed with a life that is neither born nor is it coming to an end."
+    "translation": "The One attributed with a life that is neither born nor is it coming to an end.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/62_Ал-Хай.mp3"
   },
   "64": {
     "arabic": "الْقَيُّومُ",
     "name": "Al Qayyoom",
-    "translation": "The One who remains and does not end."
+    "translation": "The One who remains and does not end.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/63_Ал-Кайюм.mp3"
   },
   "65": {
     "arabic": "الْوَاجِدُ",
     "name": "Al Waajid",
-    "translation": "The Rich who is never poor. Al-Wajd is Richness."
+    "translation": "The Rich who is never poor. Al-Wajd is Richness.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/64_Ал-Уаджид.mp3"
   },
   "66": {
     "arabic": "الْمَاجِدُ",
     "name": "Al Maajid",
-    "translation": "The One who is Majid."
+    "translation": "The One who is Majid.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/65_Ал-Маджид.mp3"
   },
   "67": {
     "arabic": "الْواحِدُ",
     "name": "Al Waahid",
-    "translation": "The One without a partner."
+    "translation": "The One without a partner.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/66_Ал-Уахид.mp3"
   },
   "68": {
     "arabic": "اَلاَحَدُ",
     "name": "Al Ahad",
-    "translation": "The One who is unique in His essence and attributes."
+    "translation": "The One who is unique in His essence and attributes.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/67_Ал-Ахад.mp3"
   },
   "69": {
     "arabic": "الصَّمَدُ",
     "name": "As Samad",
-    "translation": "The Master who is relied upon in matters and reverted to in ones needs."
+    "translation": "The Master who is relied upon in matters and reverted to in ones needs.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/68_Ас-Самад.mp3"
   },
   "70": {
     "arabic": "الْقَادِرُ",
     "name": "Al Qaadir",
-    "translation": "The One attributed with Power."
+    "translation": "The One attributed with Power.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/69_Ал-Кадир.mp3"
   },
   "71": {
     "arabic": "الْمُقْتَدِرُ",
     "name": "Al Muqtadir",
-    "translation": "The One with the perfect Power that nothing is withheld from Him."
+    "translation": "The One with the perfect Power that nothing is withheld from Him.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/70_Ал-Муктадир.mp3"
   },
   "72": {
     "arabic": "الْمُقَدِّمُ",
     "name": "Al Muqaddim",
-    "translation": "The One who puts things in their right place. He makes ahead what He wills."
+    "translation": "The One who puts things in their right place. He makes ahead what He wills.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/71_Ал-Мукаддим.mp3"
   },
   "73": {
     "arabic": "الْمُؤَخِّرُ",
     "name": "Al Mu'akhir",
-    "translation": "The One who puts things in their right place. He makes behind what He wills."
+    "translation": "The One who puts things in their right place. He makes behind what He wills.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/72_Ал-Муаххир.mp3"
   },
   "74": {
     "arabic": "الأوَّلُ",
     "name": "Al Awwal",
-    "translation": "The One whose Existence is without a beginning."
+    "translation": "The One whose Existence is without a beginning.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/73_Ал-Аууал.mp3"
   },
   "75": {
     "arabic": "الآخِرُ",
     "name": "Al Aakhir",
-    "translation": "The One whose Existence is without an end."
+    "translation": "The One whose Existence is without an end.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/74_Ал-Ахир.mp3"
   },
   "76": {
     "arabic": "الظَّاهِرُ",
     "name": "Az Zaahir",
-    "translation": "The One that nothing is above Him and nothing is underneath Him, hence He exists without a place."
+    "translation": "The One that nothing is above Him and nothing is underneath Him, hence He exists without a place.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/75_Аз-Захир.mp3"
   },
   "77": {
     "arabic": "الْبَاطِنُ",
     "name": "Al Baatin",
-    "translation": "The One that nothing is above Him and nothing is underneath Him, hence He exists without a place."
+    "translation": "The One that nothing is above Him and nothing is underneath Him, hence He exists without a place.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/76_Ал-Батин.mp3"
   },
   "78": {
     "arabic": "الْوَالِي",
     "name": "Al Waali",
-    "translation": "The One who owns things and manages them."
+    "translation": "The One who owns things and manages them.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/77_Ал-Уали.mp3"
   },
   "79": {
     "arabic": "الْمُتَعَالِي",
     "name": "Al Muta'ali",
-    "translation": "The One who is clear from the attributes of the creation."
+    "translation": "The One who is clear from the attributes of the creation.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/78_Ал-Мутаали.mp3"
   },
   "80": {
     "arabic": "الْبَرُّ",
     "name": "Al Barr",
-    "translation": "The One who is kind to His creatures, who covered them with His sustenance and specified whoever He willed among them by His support, protection, and special mercy."
+    "translation": "The One who is kind to His creatures, who covered them with His sustenance and specified whoever He willed among them by His support, protection, and special mercy.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/79_Ал-Барр.mp3"
   },
   "81": {
     "arabic": "التَّوَابُ",
     "name": "At Tawwaab",
-    "translation": "The One who grants repentance to whoever He willed among His creatures and accepts his repentance."
+    "translation": "The One who grants repentance to whoever He willed among His creatures and accepts his repentance.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/80_Ат-Таууаб.mp3"
   },
   "82": {
     "arabic": "الْمُنْتَقِمُ",
     "name": "Al Muntaqim",
-    "translation": "The One who victoriously prevails over His enemies and punishes them for their sins."
+    "translation": "The One who victoriously prevails over His enemies and punishes them for their sins.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/81_Ал-Мунтаким.mp3"
   },
   "83": {
     "arabic": "العَفُوُّ",
     "name": "Al Afuww",
-    "translation": "The One with wide forgiveness."
+    "translation": "The One with wide forgiveness.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/82_Ал-Афуу.mp3"
   },
   "84": {
     "arabic": "الرَّؤُوفُ",
     "name": "Ar Ra'oof",
-    "translation": "The One with extreme Mercy. The Mercy of Allah is His will to endow upon whoever He willed among His creatures."
+    "translation": "The One with extreme Mercy. The Mercy of Allah is His will to endow upon whoever He willed among His creatures.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/83_Ар-Рауф.mp3"
   },
   "85": {
     "arabic": "مَالِكُ الْمُلْكِ",
     "name": "Maalik Ul Mulk",
-    "translation": "The One who controls the Dominion and gives dominion to whoever He willed."
+    "translation": "The One who controls the Dominion and gives dominion to whoever He willed.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/84_Маликул-Мулк.mp3"
   },
   "86": {
     "arabic": "ذُوالْجَلاَلِ وَالإكْرَامِ",
     "name": "Dhu Al Jalaali Wa Al Ikraam",
-    "translation": "The One who deserves to be Exalted and not denied."
+    "translation": "The One who deserves to be Exalted and not denied.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/85_Зул-Джалали_уал-Икрам.mp3"
   },
   "87": {
     "arabic": "الْمُقْسِطُ",
     "name": "Al Muqsit",
-    "translation": "The One who is Just in His judgment."
+    "translation": "The One who is Just in His judgment.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/86_Ал-Муксит.mp3"
   },
   "88": {
     "arabic": "الْجَامِعُ",
     "name": "Al Jaami'",
-    "translation": "The One who gathers the creatures on a day that there is no doubt about, that is the Day of Judgment."
+    "translation": "The One who gathers the creatures on a day that there is no doubt about, that is the Day of Judgment.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/87_Ал-Джами.mp3"
   },
   "89": {
     "arabic": "الْغَنِيُّ",
     "name": "Al Ghaniyy",
-    "translation": "The One who does not need the creation."
+    "translation": "The One who does not need the creation.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/88_Ал-Гани.mp3"
   },
   "90": {
     "arabic": "الْمُغْنِي",
     "name": "Al Mughi",
-    "translation": "The One who satisfies the necessities of the creatures."
+    "translation": "The One who satisfies the necessities of the creatures.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/89_Ал-Мугни.mp3"
   },
   "91": {
     "arabic": "اَلْمَانِعُ",
     "name": "Al Maani'",
-    "translation": "The Supporter who protects and gives victory to His pious believers."
+    "translation": "The Supporter who protects and gives victory to His pious believers.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/90_Ал-Мани.mp3"
   },
   "92": {
     "arabic": "الضَّارَّ",
     "name": "Ad Daaarr",
-    "translation": "The One who makes harm reach to whoever He willed and benefit to whoever He willed."
+    "translation": "The One who makes harm reach to whoever He willed and benefit to whoever He willed.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/91_Ад-Дарр.mp3"
   },
   "93": {
     "arabic": "النَّافِعُ",
     "name": "An Naafi'",
-    "translation": "The One who gives benefit to whoever He willed."
+    "translation": "The One who gives benefit to whoever He willed.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/92_Ан-Нафи.mp3"
   },
   "94": {
     "arabic": "النُّورُ",
     "name": "An Noor",
-    "translation": "The One who guides."
+    "translation": "The One who guides.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/93_Ан-Нур.mp3"
   },
   "95": {
     "arabic": "الْهَادِي",
     "name": "Al Haadi",
-    "translation": "The One who guides."
+    "translation": "The One who guides.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/94_Ал-Хади.mp3"
   },
   "96": {
     "arabic": "الْبَدِيعُ",
     "name": "Al Badi'",
-    "translation": "The One who created the creation and formed it without any preceding example."
+    "translation": "The One who created the creation and formed it without any preceding example.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/95_Ал-Бади.mp3"
   },
   "97": {
     "arabic": "اَلْبَاقِي",
     "name": "Al Baaqi",
-    "translation": "The One that the state of non-existence is impossible for Him."
+    "translation": "The One that the state of non-existence is impossible for Him.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/96_Ал-Баки.mp3"
   },
   "98": {
     "arabic": "الْوَارِثُ",
     "name": "Al Waarith",
-    "translation": "The One whose Existence remains."
+    "translation": "The One whose Existence remains.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/97_Ал-Уарис.mp3"
   },
   "99": {
     "arabic": "الرَّشِيدُ",
     "name": "Ar Rasheed",
-    "translation": "The One who guides."
+    "translation": "The One who guides.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/98_Ар-Рашид.mp3"
   },
   "100": {
     "arabic": "الصَّبُورُ",
     "name": "As Saboor",
-    "translation": "The One who does not quickly punish the sinners."
+    "translation": "The One who does not quickly punish the sinners.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/99_Ас-Сабур.mp3"
   }
 }

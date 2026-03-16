@@ -17,7 +17,8 @@ Designed for Islamic apps, Quran readers, dua apps, zikr apps, prayer-time apps,
 
 - Fully offline — JSON assets bundled inside the package, no network calls
 - Arabic text for all 99 names
-- 8 locale datasets: `ar`, `bg`, `en`, `tr`, `bs_BA`, `mk_MK`, `sq_AL`, `sq_XK`
+- 6 locale datasets: `ar`, `bg`, `en`, `tr`, `bs_BA`, `sq_AL`
+- **Audio pronunciations** — 99 MP3 files bundled; `getNames()` returns an `audio` asset path per entry
 - Flexible locale input — accepts short codes, regional variants, and full language names
 - In-memory caching — repeated calls to `getNames()` load assets only once
 - Built-in `EsmaulHusnaListView` and `RandomEsmaulHusnaWidget` widgets
@@ -31,7 +32,7 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  esmaulhusna_muslimbg: ^1.0.7
+  esmaulhusna_muslimbg: ^1.0.8
 ```
 
 Then run:
@@ -108,6 +109,7 @@ for (final name in names) {
   print(name['arabic']);       // Arabic text
   print(name['name']);         // Localized name
   print(name['translation']);  // Localized meaning
+  print(name['audio']);        // Asset path for pronunciation MP3
 }
 ```
 
@@ -137,11 +139,44 @@ final locales = EsmaulHusna.getSupportedLanguages();
 
 Each map returned by `getNames()` and `getRandomName()` contains:
 
-| Key           | Type     | Example value                          |
-|---------------|----------|----------------------------------------|
-| `arabic`      | `String` | `الرَّحْمَنُ`                           |
-| `name`        | `String` | `The Most Gracious`                    |
-| `translation` | `String` | `The One who has plenty of mercy...`   |
+| Key | Type | Example value |
+| --- | --- | --- |
+| `arabic` | `String` | Arabic text, e.g. `الرَّحْمَنُ` |
+| `name` | `String` | `The Most Gracious` |
+| `translation` | `String` | `The One who has plenty of mercy...` |
+| `audio` | `String` | Asset path to bundled MP3, or `""` for the Allah entry |
+
+The `audio` field is an empty string for the Allah entry (index 0); all 99 names have a bundled MP3 path.
+
+To play the audio in your app, declare the package assets and use any audio player:
+
+```yaml
+# pubspec.yaml of your app
+flutter:
+  assets:
+    - packages/esmaulhusna_muslimbg/lib/assets/audio/
+```
+
+```dart
+// Example with audioplayers ^6.x
+import 'dart:io';
+import 'package:audioplayers/audioplayers.dart';
+import 'package:flutter/services.dart' show rootBundle;
+import 'package:path_provider/path_provider.dart';
+
+Future<void> playName(Map<String, String> nameEntry) async {
+  final assetPath = nameEntry['audio'] ?? '';
+  if (assetPath.isEmpty) return;
+
+  final data = await rootBundle.load(assetPath);
+  final dir = await getTemporaryDirectory();
+  final file = File('${dir.path}/audio_${assetPath.hashCode}.mp3');
+  if (!file.existsSync()) await file.writeAsBytes(data.buffer.asUint8List());
+
+  final player = AudioPlayer();
+  await player.play(DeviceFileSource(file.path));
+}
+```
 
 ---
 

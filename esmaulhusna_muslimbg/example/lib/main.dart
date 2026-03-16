@@ -1,5 +1,10 @@
+import 'dart:io';
+
+import 'package:audioplayers/audioplayers.dart';
 import 'package:esmaulhusna_muslimbg/esmaulhusna_muslimbg.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart' show rootBundle;
+import 'package:path_provider/path_provider.dart';
 
 void main() {
   runApp(const MyApp());
@@ -92,15 +97,43 @@ class _HomePageState extends State<HomePage> {
 // Tab 1 — Full list with language selector
 // ---------------------------------------------------------------------------
 
-class _NamesListPage extends StatelessWidget {
+class _NamesListPage extends StatefulWidget {
   const _NamesListPage({required this.language});
 
   final String language;
 
   @override
+  State<_NamesListPage> createState() => _NamesListPageState();
+}
+
+class _NamesListPageState extends State<_NamesListPage> {
+  final AudioPlayer _player = AudioPlayer();
+
+  @override
+  void dispose() {
+    _player.dispose();
+    super.dispose();
+  }
+
+  Future<void> _playAudio(String assetPath) async {
+    if (assetPath.isEmpty) return;
+    await _player.stop();
+    // Load asset bytes and write to a temp file with a safe ASCII filename.
+    // This is required for iOS/macOS AVPlayer which needs a valid file URL.
+    final data = await rootBundle.load(assetPath);
+    final bytes = data.buffer.asUint8List();
+    final dir = await getTemporaryDirectory();
+    final file = File('${dir.path}/audio_${assetPath.hashCode}.mp3');
+    if (!file.existsSync()) {
+      await file.writeAsBytes(bytes);
+    }
+    await _player.play(DeviceFileSource(file.path));
+  }
+
+  @override
   Widget build(BuildContext context) {
     return FutureBuilder<List<Map<String, String>>>(
-      future: EsmaulHusna.getNames(language),
+      future: EsmaulHusna.getNames(widget.language),
       builder: (context, snapshot) {
         if (snapshot.hasError) {
           return Center(child: Text('Error: ${snapshot.error}'));
@@ -151,6 +184,7 @@ class _NamesListPage extends StatelessWidget {
     int number,
     Map<String, String> entry,
   ) {
+    final audioPath = entry['audio'] ?? '';
     showModalBottomSheet<void>(
       context: context,
       shape: const RoundedRectangleBorder(
@@ -162,10 +196,19 @@ class _NamesListPage extends StatelessWidget {
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
-                Text(
-                  entry['arabic'] ?? '',
-                  style: const TextStyle(fontSize: 48),
-                  textDirection: TextDirection.rtl,
+                GestureDetector(
+                  onTap: () => _playAudio(audioPath),
+                  child: Column(
+                    children: [
+                      Text(
+                        entry['arabic'] ?? '',
+                        style: const TextStyle(fontSize: 48),
+                        textDirection: TextDirection.rtl,
+                      ),
+                      if (audioPath.isNotEmpty)
+                        const Icon(Icons.volume_up, size: 20),
+                    ],
+                  ),
                 ),
                 const SizedBox(height: 12),
                 Text(

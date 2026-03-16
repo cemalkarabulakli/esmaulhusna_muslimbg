@@ -2,501 +2,601 @@
   "1": {
     "arabic": "ٱللَّهُ",
     "name": "Allah",
-    "translation": "Her türlü övgüye ve ibadete layık olan tek ilah; kendisinden başka ilah olmayan."
+    "translation": "Her türlü övgüye ve ibadete layık olan tek ilah; kendisinden başka ilah olmayan.",
+    "audio": ""
   },
   "2": {
     "arabic": "الرَّحْمَنُ",
     "name": "Er-Rahmân",
-    "translation": "Dünyada bütün mahlûkata merhamet eden, şefkat gösteren, ihsan eden."
+    "translation": "Dünyada bütün mahlûkata merhamet eden, şefkat gösteren, ihsan eden.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/1_Ар-Рахман.mp3"
   },
   "3": {
     "arabic": "الرَّحِيمُ",
     "name": "Er-Rahîm",
-    "translation": "Ahirette, sadece müminlere merhamet eden."
+    "translation": "Ahirette, sadece müminlere merhamet eden.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/2_Ар-Рахим.mp3"
   },
   "4": {
     "arabic": "الْمَلِكُ",
     "name": "El-Melik",
-    "translation": "Mülkün, kâinatın sahibi, mülk ve saltanatı devamlı olan."
+    "translation": "Mülkün, kâinatın sahibi, mülk ve saltanatı devamlı olan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/3_Ал-Малик.mp3"
   },
   "5": {
     "arabic": "الْقُدُّوسُ",
     "name": "El-Kuddûs",
-    "translation": "Her türlü eksiklikten, ayıptan, kusurdan uzak ve pak olan."
+    "translation": "Her türlü eksiklikten, ayıptan, kusurdan uzak ve pak olan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/4_Ал-Куддус.mp3"
   },
   "6": {
     "arabic": "السَّلاَمُ",
     "name": "Es-Selâm",
-    "translation": "Her türlü tehlikeden kullarını selamete çıkaran, cennetteki bahtiyar kullarına selam eden."
+    "translation": "Her türlü tehlikeden kullarını selamete çıkaran, cennetteki bahtiyar kullarına selam eden.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/5_Ас-Салам.mp3"
   },
   "7": {
     "arabic": "الْمُؤْمِنُ",
     "name": "El-Mü'min",
-    "translation": "Güven veren, emin kılan, koruyan, iman nurunu veren."
+    "translation": "Güven veren, emin kılan, koruyan, iman nurunu veren.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/6_Ал-Му'мин.mp3"
   },
   "8": {
     "arabic": "الْمُهَيْمِنُ",
     "name": "El-Müheymin",
-    "translation": "Her şeyi görüp gözeten, her varlığın yaptıklarından haberdar olan."
+    "translation": "Her şeyi görüp gözeten, her varlığın yaptıklarından haberdar olan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/7_Ал-Мухаймин.mp3"
   },
   "9": {
     "arabic": "الْعَزِيزُ",
     "name": "El-Azîz",
-    "translation": "İzzet sahibi, her şeye galip olan, karşı gelinemeyen."
+    "translation": "İzzet sahibi, her şeye galip olan, karşı gelinemeyen.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/8_Ал-Азиз.mp3"
   },
   "10": {
     "arabic": "الْجَبَّارُ",
     "name": "El-Cebbâr",
-    "translation": "Azamet ve kudret sahibi, dilediğini mutlak yapan, kırılanları onaran."
+    "translation": "Azamet ve kudret sahibi, dilediğini mutlak yapan, kırılanları onaran.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/9_Ал-Джаббар.mp3"
   },
   "11": {
     "arabic": "الْمُتَكَبِّرُ",
     "name": "El-Mütekebbir",
-    "translation": "Büyüklükte eşi, benzeri olmayan."
+    "translation": "Büyüklükte eşi, benzeri olmayan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/10_Ал-Мутакаббир.mp3"
   },
   "12": {
     "arabic": "الْخَالِقُ",
     "name": "El-Hâlık",
-    "translation": "Yaratan, yoktan var eden."
+    "translation": "Yaratan, yoktan var eden.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/11_Ал-Халик.mp3"
   },
   "13": {
     "arabic": "الْبَارِئُ",
     "name": "El-Bâri",
-    "translation": "Her şeyi kusursuz ve uyumlu yaratan."
+    "translation": "Her şeyi kusursuz ve uyumlu yaratan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/12_Ал-Бари.mp3"
   },
   "14": {
     "arabic": "الْمُصَوِّرُ",
     "name": "El-Musavvir",
-    "translation": "Varlıklara şekil veren, onları birbirinden farklı özellikte yaratan."
+    "translation": "Varlıklara şekil veren, onları birbirinden farklı özellikte yaratan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/13_Ал-Мусаууир.mp3"
   },
   "15": {
     "arabic": "الْغَفَّارُ",
     "name": "El-Gaffâr",
-    "translation": "Günahları örten ve çok mağfiret eden."
+    "translation": "Günahları örten ve çok mağfiret eden.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/14_Ал-Гаффар.mp3"
   },
   "16": {
     "arabic": "الْقَهَّارُ",
     "name": "El-Kahhâr",
-    "translation": "Her şeye, her istediğini yapacak surette galip ve hakim olan."
+    "translation": "Her şeye, her istediğini yapacak surette galip ve hakim olan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/15_Ал-Каххар.mp3"
   },
   "17": {
     "arabic": "الْوَهَّابُ",
     "name": "El-Vehhâb",
-    "translation": "Karşılıksız hibeler veren, çok fazla ihsan eden."
+    "translation": "Karşılıksız hibeler veren, çok fazla ihsan eden.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/16_Ал-Уаххаб.mp3"
   },
   "18": {
     "arabic": "الرَّزَّاقُ",
     "name": "Er-Rezzâk",
-    "translation": "Bütün mahlûkatın rızkını veren ve ihtiyacını karşılayan."
+    "translation": "Bütün mahlûkatın rızkını veren ve ihtiyacını karşılayan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/17_Ар-Раззак.mp3"
   },
   "19": {
     "arabic": "الْفَتَّاحُ",
     "name": "El-Fettâh",
-    "translation": "Her türlü müşkülleri açan ve kolaylaştıran, darlıktan kurtaran."
+    "translation": "Her türlü müşkülleri açan ve kolaylaştıran, darlıktan kurtaran.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/18_Ал-Фаттах.mp3"
   },
   "20": {
     "arabic": "اَلْعَلِيْمُ",
     "name": "El-Alîm",
-    "translation": "Gizli açık, geçmiş, gelecek, her şeyi en ince detaylarına kadar bilen."
+    "translation": "Gizli açık, geçmiş, gelecek, her şeyi en ince detaylarına kadar bilen.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/19_Ал-Алим.mp3"
   },
   "21": {
     "arabic": "الْقَابِضُ",
     "name": "El-Kâbıd",
-    "translation": "Dilediğinin rızkını daraltan, ruhları kabzeden."
+    "translation": "Dilediğinin rızkını daraltan, ruhları kabzeden.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/20_Ал-Кабид.mp3"
   },
   "22": {
     "arabic": "الْبَاسِطُ",
     "name": "El-Bâsıt",
-    "translation": "Dilediğinin rızkını genişleten, ruhları veren."
+    "translation": "Dilediğinin rızkını genişleten, ruhları veren.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/21_Ал-Басит.mp3"
   },
   "23": {
     "arabic": "الْخَافِضُ",
     "name": "El-Hâfıd",
-    "translation": "Kâfirleri ve zalimleri alçaltan."
+    "translation": "Kâfirleri ve zalimleri alçaltan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/22_Ал-Хафид.mp3"
   },
   "24": {
     "arabic": "الرَّافِعُ",
     "name": "Er-Râfi",
-    "translation": "Şeref verip yükselten."
+    "translation": "Şeref verip yükselten.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/23_Ар-Рафи.mp3"
   },
   "25": {
     "arabic": "الْمُعِزُّ",
     "name": "El-Muizz",
-    "translation": "Dilediğini aziz eden, izzet veren."
+    "translation": "Dilediğini aziz eden, izzet veren.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/24_Ал-Муиз.mp3"
   },
   "26": {
     "arabic": "المُذِلُّ",
     "name": "El-Müzill",
-    "translation": "Dilediğini zillete düşüren, hor ve hakir eden."
+    "translation": "Dilediğini zillete düşüren, hor ve hakir eden.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/25_Ал-Музил.mp3"
   },
   "27": {
     "arabic": "السَّمِيعُ",
     "name": "Es-Semî",
-    "translation": "Her şeyi en iyi işiten."
+    "translation": "Her şeyi en iyi işiten.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/26_Ас-Сами.mp3"
   },
   "28": {
     "arabic": "الْبَصِيرُ",
     "name": "El-Basîr",
-    "translation": "Gizli açık, her şeyi en iyi gören."
+    "translation": "Gizli açık, her şeyi en iyi gören.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/27_Ал-Басир.mp3"
   },
   "29": {
     "arabic": "الْحَكَمُ",
     "name": "El-Hakem",
-    "translation": "Mutlak hakim, hakkı batıldan ayıran, hikmetle hükmeden."
+    "translation": "Mutlak hakim, hakkı batıldan ayıran, hikmetle hükmeden.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/28_Ал-Хакам.mp3"
   },
   "30": {
     "arabic": "الْعَدْلُ",
     "name": "El-Adl",
-    "translation": "Mutlak adil, çok adaletli."
+    "translation": "Mutlak adil, çok adaletli.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/29_Ал-Адл.mp3"
   },
   "31": {
     "arabic": "اللَّطِيفُ",
     "name": "El-Latîf",
-    "translation": "Lütuf ve ihsan sahibi, her şeye vakıf."
+    "translation": "Lütuf ve ihsan sahibi, her şeye vakıf.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/30_Ал-Латиф.mp3"
   },
   "32": {
     "arabic": "الْخَبِيرُ",
     "name": "El-Habîr",
-    "translation": "Her şeyden haberdar olan, her şeyin iç yüzünü bilen."
+    "translation": "Her şeyden haberdar olan, her şeyin iç yüzünü bilen.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/31_Ал-Хабир.mp3"
   },
   "33": {
     "arabic": "الْحَلِيمُ",
     "name": "El-Halîm",
-    "translation": "Hemen cezalandırmayan, yumuşak huylu, hilm sahibi."
+    "translation": "Hemen cezalandırmayan, yumuşak huylu, hilm sahibi.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/32_Ал-Халим.mp3"
   },
   "34": {
     "arabic": "الْعَظِيمُ",
     "name": "El-Azîm",
-    "translation": "Büyüklükte benzeri yok, pek yüce."
+    "translation": "Büyüklükte benzeri yok, pek yüce.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/33_Ал-Азим.mp3"
   },
   "35": {
     "arabic": "الْغَفُورُ",
     "name": "El-Gafûr",
-    "translation": "Affı, mağfireti bol."
+    "translation": "Affı, mağfireti bol.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/34_Ал-Гафур.mp3"
   },
   "36": {
     "arabic": "الشَّكُورُ",
     "name": "Eş-Şekûr",
-    "translation": "Az amele, çok sevap veren."
+    "translation": "Az amele, çok sevap veren.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/35_Аш-Шакур.mp3"
   },
   "37": {
     "arabic": "الْعَلِيُّ",
     "name": "El-Aliyy",
-    "translation": "Yüceler yücesi, çok yüce."
+    "translation": "Yüceler yücesi, çok yüce.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/36_Ал-Али.mp3"
   },
   "38": {
     "arabic": "الْكَبِيرُ",
     "name": "El-Kebîr",
-    "translation": "Büyüklükte benzeri yok, pek büyük."
+    "translation": "Büyüklükte benzeri yok, pek büyük.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/37_Ал-Кабир.mp3"
   },
   "39": {
     "arabic": "الْحَفِيظُ",
     "name": "El-Hafîz",
-    "translation": "Her şeyi koruyucu olan, muhafaza eden."
+    "translation": "Her şeyi koruyucu olan, muhafaza eden.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/38_Ал-Хафиз.mp3"
   },
   "40": {
     "arabic": "المُقيِت",
     "name": "El-Mukît",
-    "translation": "Rızıkları yaratan, bilen, tayin eden, her yaratılmışın rızkını veren."
+    "translation": "Rızıkları yaratan, bilen, tayin eden, her yaratılmışın rızkını veren.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/39_Ал-Мукит.mp3"
   },
   "41": {
     "arabic": "الْحسِيبُ",
     "name": "El-Hasîb",
-    "translation": "Kulların hesabını en iyi gören."
+    "translation": "Kulların hesabını en iyi gören.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/40_Ал-Хасиб.mp3"
   },
   "42": {
     "arabic": "الْجَلِيلُ",
     "name": "El-Celîl",
-    "translation": "Celal ve azamet sahibi."
+    "translation": "Celal ve azamet sahibi.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/41_Ал-Джалил.mp3"
   },
   "43": {
     "arabic": "الْكَرِيمُ",
     "name": "El-Kerîm",
-    "translation": "Lütfu ve keremi bol, karşılıksız veren, çok ikram eden."
+    "translation": "Lütfu ve keremi bol, karşılıksız veren, çok ikram eden.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/42_Ал-Карим.mp3"
   },
   "44": {
     "arabic": "الرَّقِيبُ",
     "name": "Er-Rakîb",
-    "translation": "Her varlığı, her işi her an görüp, gözeten, kontrolü altında tutan."
+    "translation": "Her varlığı, her işi her an görüp, gözeten, kontrolü altında tutan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/43_Ар-Ракиб.mp3"
   },
   "45": {
     "arabic": "الْمُجِيبُ",
     "name": "El-Mücîb",
-    "translation": "Duaları, istekleri kabul eden."
+    "translation": "Duaları, istekleri kabul eden.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/44_Ал-Муджиб.mp3"
   },
   "46": {
     "arabic": "الْوَاسِعُ",
     "name": "El-Vâsi",
-    "translation": "Rahmet, kudret ve ilmi ile her şeyi ihata eden."
+    "translation": "Rahmet, kudret ve ilmi ile her şeyi ihata eden.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/45_Ал-Уаси.mp3"
   },
   "47": {
     "arabic": "الْحَكِيمُ",
     "name": "El-Hakîm",
-    "translation": "Her işi hikmetli, her şeyi hikmetle yaratan."
+    "translation": "Her işi hikmetli, her şeyi hikmetle yaratan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/46_Ал-Хаким.mp3"
   },
   "48": {
     "arabic": "الْوَدُودُ",
     "name": "El-Vedûd",
-    "translation": "Kullarını en çok seven, sevilmeye en çok layık olan."
+    "translation": "Kullarını en çok seven, sevilmeye en çok layık olan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/47_Ал-Уадуд.mp3"
   },
   "49": {
     "arabic": "الْمَجِيدُ",
     "name": "El-Mecîd",
-    "translation": "Her türlü övgüye layık bulunan."
+    "translation": "Her türlü övgüye layık bulunan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/48_Ал-Маджид.mp3"
   },
   "50": {
     "arabic": "الْبَاعِثُ",
     "name": "El-Bâis",
-    "translation": "Ölüleri dirilten, peygamberler gönderen."
+    "translation": "Ölüleri dirilten, peygamberler gönderen.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/49_Ал-Баис.mp3"
   },
   "51": {
     "arabic": "الشَّهِيدُ",
     "name": "Eş-Şehîd",
-    "translation": "Her zaman her yerde hazır ve nazır olan."
+    "translation": "Her zaman her yerde hazır ve nazır olan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/50_Аш-Шахид.mp3"
   },
   "52": {
     "arabic": "الْحَقُّ",
     "name": "El-Hakk",
-    "translation": "Varlığı hiç değişmeden duran, var olan, hakkı ortaya çıkaran."
+    "translation": "Varlığı hiç değişmeden duran, var olan, hakkı ortaya çıkaran.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/51_Ал-Хакк.mp3"
   },
   "53": {
     "arabic": "الْوَكِيلُ",
     "name": "El-Vekîl",
-    "translation": "Kendisine tevekkül edenlerin işlerini en iyi neticeye ulaştıran."
+    "translation": "Kendisine tevekkül edenlerin işlerini en iyi neticeye ulaştıran.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/52_Ал-Уакил.mp3"
   },
   "54": {
     "arabic": "الْقَوِيُّ",
     "name": "El-Kaviyy",
-    "translation": "Kudreti en üstün ve hiç azalmaz."
+    "translation": "Kudreti en üstün ve hiç azalmaz.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/53_Ал-Кауи.mp3"
   },
   "55": {
     "arabic": "الْمَتِينُ",
     "name": "El-Metîn",
-    "translation": "Kuvvet ve kudret kaynağı, pek güçlü."
+    "translation": "Kuvvet ve kudret kaynağı, pek güçlü.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/54_Ал-Матин.mp3"
   },
   "56": {
     "arabic": "الْوَلِيُّ",
     "name": "El-Veliyy",
-    "translation": "İnananların dostu, onları sevip yardım eden."
+    "translation": "İnananların dostu, onları sevip yardım eden.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/55_Ал-Уали.mp3"
   },
   "57": {
     "arabic": "الْحَمِيدُ",
     "name": "El-Hamîd",
-    "translation": "Her türlü hamd ve senaya layık olan."
+    "translation": "Her türlü hamd ve senaya layık olan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/56_Ал-Хамид.mp3"
   },
   "58": {
     "arabic": "الْمُحْصِي",
     "name": "El-Muhsî",
-    "translation": "Yarattığı ve yaratacağı bütün varlıkların sayısını bilen."
+    "translation": "Yarattığı ve yaratacağı bütün varlıkların sayısını bilen.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/57_Ал-Мухси.mp3"
   },
   "59": {
     "arabic": "الْمُبْدِئُ",
     "name": "El-Mübdî",
-    "translation": "Maddesiz, örneksiz yaratan."
+    "translation": "Maddesiz, örneksiz yaratan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/58_Ал-Мубди.mp3"
   },
   "60": {
     "arabic": "الْمُعِيدُ",
     "name": "El-Muîd",
-    "translation": "Yarattıklarını yok edip, sonra tekrar diriltecek olan."
+    "translation": "Yarattıklarını yok edip, sonra tekrar diriltecek olan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/59_Ал-Муид.mp3"
   },
   "61": {
     "arabic": "الْمُحْيِي",
     "name": "El-Muhyî",
-    "translation": "İhya eden, dirilten, can veren."
+    "translation": "İhya eden, dirilten, can veren.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/60_Ал-Мухйи.mp3"
   },
   "62": {
     "arabic": "اَلْمُمِيتُ",
     "name": "El-Mümît",
-    "translation": "Her canlıya ölümü tattıran."
+    "translation": "Her canlıya ölümü tattıran.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/61_Ал-Мумит.mp3"
   },
   "63": {
     "arabic": "الْحَيُّ",
     "name": "El-Hayy",
-    "translation": "Ezeli ve ebedi hayatla diri olan."
+    "translation": "Ezeli ve ebedi hayatla diri olan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/62_Ал-Хай.mp3"
   },
   "64": {
     "arabic": "الْقَيُّومُ",
     "name": "El-Kayyûm",
-    "translation": "Mahlukları varlıkta durduran, zatı ile kaim olan."
+    "translation": "Mahlukları varlıkta durduran, zatı ile kaim olan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/63_Ал-Кайюм.mp3"
   },
   "65": {
     "arabic": "الْوَاجِدُ",
     "name": "El-Vâcid",
-    "translation": "Kendisine hiçbir şey gizli kalmayan, istediğini, istediği vakit bulan."
+    "translation": "Kendisine hiçbir şey gizli kalmayan, istediğini, istediği vakit bulan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/64_Ал-Уаджид.mp3"
   },
   "66": {
     "arabic": "الْمَاجِدُ",
     "name": "El-Mecîd",
-    "translation": "Kadri ve şanı büyük, keremi, ihsanı bol."
+    "translation": "Kadri ve şanı büyük, keremi, ihsanı bol.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/65_Ал-Маджид.mp3"
   },
   "67": {
     "arabic": "الْواحِدُ",
     "name": "El-Vâhid",
-    "translation": "Zat, sıfat ve fiillerinde benzeri ve ortağı olmayan, tek olan."
+    "translation": "Zat, sıfat ve fiillerinde benzeri ve ortağı olmayan, tek olan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/66_Ал-Уахид.mp3"
   },
   "68": {
     "arabic": "اَلاَحَدُ",
     "name": "El-Ehad",
-    "translation": "Bir ve tek olan, şeriki ve naziri bulunmayan."
+    "translation": "Bir ve tek olan, şeriki ve naziri bulunmayan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/67_Ал-Ахад.mp3"
   },
   "69": {
     "arabic": "الصَّمَدُ",
     "name": "Es-Samed",
-    "translation": "Hiçbir şeye ihtiyacı olmayan, herkesin muhtaç olduğu."
+    "translation": "Hiçbir şeye ihtiyacı olmayan, herkesin muhtaç olduğu.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/68_Ас-Самад.mp3"
   },
   "70": {
     "arabic": "الْقَادِرُ",
     "name": "El-Kâdir",
-    "translation": "Dilediğini dilediği gibi yaratmaya muktedir olan."
+    "translation": "Dilediğini dilediği gibi yaratmaya muktedir olan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/69_Ал-Кадир.mp3"
   },
   "71": {
     "arabic": "الْمُقْتَدِرُ",
     "name": "El-Muktedir",
-    "translation": "Dilediği gibi tasarruf eden, her şeyi kolayca yaratan kudret sahibi."
+    "translation": "Dilediği gibi tasarruf eden, her şeyi kolayca yaratan kudret sahibi.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/70_Ал-Муктадир.mp3"
   },
   "72": {
     "arabic": "الْمُقَدِّمُ",
     "name": "El-Mukaddim",
-    "translation": "Dilediğini öne alan, yükselten."
+    "translation": "Dilediğini öne alan, yükselten.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/71_Ал-Мукаддим.mp3"
   },
   "73": {
     "arabic": "الْمُؤَخِّرُ",
     "name": "El-Muahhir",
-    "translation": "Dilediğini sona bırakan, erteleyen, alçaltan."
+    "translation": "Dilediğini sona bırakan, erteleyen, alçaltan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/72_Ал-Муаххир.mp3"
   },
   "74": {
     "arabic": "الأوَّلُ",
     "name": "El-Evvel",
-    "translation": "Ezeli olan, varlığının başlangıcı olmayan."
+    "translation": "Ezeli olan, varlığının başlangıcı olmayan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/73_Ал-Аууал.mp3"
   },
   "75": {
     "arabic": "الآخِرُ",
     "name": "El-Âhir",
-    "translation": "Ebedi olan, varlığının sonu olmayan."
+    "translation": "Ebedi olan, varlığının sonu olmayan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/74_Ал-Ахир.mp3"
   },
   "76": {
     "arabic": "الظَّاهِرُ",
     "name": "Ez-Zâhir",
-    "translation": "Varlığı sayısız delillerle açık olan."
+    "translation": "Varlığı sayısız delillerle açık olan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/75_Аз-Захир.mp3"
   },
   "77": {
     "arabic": "الْبَاطِنُ",
     "name": "El-Bâtın",
-    "translation": "Akılların idrak edemeyeceği, yüceliği gizli olan."
+    "translation": "Akılların idrak edemeyeceği, yüceliği gizli olan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/76_Ал-Батин.mp3"
   },
   "78": {
     "arabic": "الْوَالِي",
     "name": "El-Vâlî",
-    "translation": "Bütün kâinatı idare eden, onların işlerini yoluna koyan."
+    "translation": "Bütün kâinatı idare eden, onların işlerini yoluna koyan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/77_Ал-Уали.mp3"
   },
   "79": {
     "arabic": "الْمُتَعَالِي",
     "name": "El-Müteâlî",
-    "translation": "Son derece yüce olan."
+    "translation": "Son derece yüce olan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/78_Ал-Мутаали.mp3"
   },
   "80": {
     "arabic": "الْبَرُّ",
     "name": "El-Berr",
-    "translation": "İyilik ve ihsanı bol, iyilik ve güzellik sahibi."
+    "translation": "İyilik ve ihsanı bol, iyilik ve güzellik sahibi.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/79_Ал-Барр.mp3"
   },
   "81": {
     "arabic": "التَّوَابُ",
     "name": "Et-Tevvâb",
-    "translation": "Tövbeleri kabul edip, günahları bağışlayan."
+    "translation": "Tövbeleri kabul edip, günahları bağışlayan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/80_Ат-Таууаб.mp3"
   },
   "82": {
     "arabic": "الْمُنْتَقِمُ",
     "name": "El-Müntakim",
-    "translation": "Zalimlerin cezasını veren, intikam alan."
+    "translation": "Zalimlerin cezasını veren, intikam alan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/81_Ал-Мунтаким.mp3"
   },
   "83": {
     "arabic": "العَفُوُّ",
     "name": "El-Afüvv",
-    "translation": "Affı çok olan, günahları affetmeyi seven."
+    "translation": "Affı çok olan, günahları affetmeyi seven.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/82_Ал-Афуу.mp3"
   },
   "84": {
     "arabic": "الرَّؤُوفُ",
     "name": "Er-Raûf",
-    "translation": "Çok merhametli, pek şefkatli."
+    "translation": "Çok merhametli, pek şefkatli.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/83_Ар-Рауф.mp3"
   },
   "85": {
     "arabic": "مَالِكُ الْمُلْكِ",
     "name": "Mâlik-ül Mülk",
-    "translation": "Mülkün, her varlığın sahibi."
+    "translation": "Mülkün, her varlığın sahibi.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/84_Маликул-Мулк.mp3"
   },
   "86": {
     "arabic": "ذُوالْجَلاَلِ وَالإكْرَامِ",
     "name": "Zül-Celâli vel-İkrâm",
-    "translation": "Celal, azamet ve pek büyük ikram sahibi."
+    "translation": "Celal, azamet ve pek büyük ikram sahibi.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/85_Зул-Джалали_уал-Икрам.mp3"
   },
   "87": {
     "arabic": "الْمُقْسِطُ",
     "name": "El-Muksit",
-    "translation": "Her işi birbirine uygun yapan."
+    "translation": "Her işi birbirine uygun yapan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/86_Ал-Муксит.mp3"
   },
   "88": {
     "arabic": "الْجَامِعُ",
     "name": "El-Câmi",
-    "translation": "Mahşerde her mahlûkatı bir araya toplayan."
+    "translation": "Mahşerde her mahlûkatı bir araya toplayan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/87_Ал-Джами.mp3"
   },
   "89": {
     "arabic": "الْغَنِيُّ",
     "name": "El-Ganiyy",
-    "translation": "Her türlü zenginlik sahibi, ihtiyacı olmayan."
+    "translation": "Her türlü zenginlik sahibi, ihtiyacı olmayan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/88_Ал-Гани.mp3"
   },
   "90": {
     "arabic": "الْمُغْنِي",
     "name": "El-Muğnî",
-    "translation": "Müstağni kılan, ihtiyaç gideren, zengin eden."
+    "translation": "Müstağni kılan, ihtiyaç gideren, zengin eden.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/89_Ал-Мугни.mp3"
   },
   "91": {
     "arabic": "اَلْمَانِعُ",
     "name": "El-Mâni",
-    "translation": "Bir şeyin meydana gelmesine izin vermeyen, engelleyen."
+    "translation": "Bir şeyin meydana gelmesine izin vermeyen, engelleyen.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/90_Ал-Мани.mp3"
   },
   "92": {
     "arabic": "الضَّارَّ",
     "name": "Ed-Dârr",
-    "translation": "Elem, zarar verenleri yaratan."
+    "translation": "Elem, zarar verenleri yaratan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/91_Ад-Дарр.mp3"
   },
   "93": {
     "arabic": "النَّافِعُ",
     "name": "En-Nâfi",
-    "translation": "Fayda veren şeyleri yaratan."
+    "translation": "Fayda veren şeyleri yaratan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/92_Ан-Нафи.mp3"
   },
   "94": {
     "arabic": "النُّورُ",
     "name": "En-Nûr",
-    "translation": "Alemleri nurlandıran, dilediğine nur veren."
+    "translation": "Alemleri nurlandıran, dilediğine nur veren.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/93_Ан-Нур.mp3"
   },
   "95": {
     "arabic": "الْهَادِي",
     "name": "El-Hâdî",
-    "translation": "Hidayet veren."
+    "translation": "Hidayet veren.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/94_Ал-Хади.mp3"
   },
   "96": {
     "arabic": "الْبَدِيعُ",
     "name": "El-Bedî",
-    "translation": "Eşi ve benzeri olmayan güzellikler yaratan."
+    "translation": "Eşi ve benzeri olmayan güzellikler yaratan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/95_Ал-Бади.mp3"
   },
   "97": {
     "arabic": "اَلْبَاقِي",
     "name": "El-Bâkî",
-    "translation": "Varlığının sonu olmayan, ebedi olan."
+    "translation": "Varlığının sonu olmayan, ebedi olan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/96_Ал-Баки.mp3"
   },
   "98": {
     "arabic": "الْوَارِثُ",
     "name": "El-Vâris",
-    "translation": "Her şeyin asıl sahibi olan."
+    "translation": "Her şeyin asıl sahibi olan.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/97_Ал-Уарис.mp3"
   },
   "99": {
     "arabic": "الرَّشِيدُ",
     "name": "Er-Reşîd",
-    "translation": "İrşada muhtaç olmayan, doğru yolu gösteren."
+    "translation": "İrşada muhtaç olmayan, doğru yolu gösteren.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/98_Ар-Рашид.mp3"
   },
   "100": {
     "arabic": "الصَّبُورُ",
     "name": "Es-Sabûr",
-    "translation": "Ceza vermede acele etmeyen."
+    "translation": "Ceza vermede acele etmeyen.",
+    "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/99_Ас-Сабур.mp3"
   }
 }
