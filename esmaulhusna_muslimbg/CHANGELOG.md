@@ -2,7 +2,7 @@
 
 ## 1.1.0 - Unreleased
 
-## 1.0.4
+## 1.0.5
 
 * Add canonical offline JSON translation files for `ar`, `bg`, `en`, `tr`, `bs_BA`, `mk_MK`, `sq_AL`, and `sq_XK`
 * Add locale alias resolution — short codes (`bs`, `mk`, `sq`), regional variants (`en_US`, `tr_TR`), and full names (`english`, `turkish`) all resolve correctly
