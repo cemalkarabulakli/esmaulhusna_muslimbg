@@ -31,7 +31,7 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  esmaulhusna_muslimbg: ^1.0.6
+  esmaulhusna_muslimbg: ^1.0.7
 ```
 
 Then run:
@@ -59,7 +59,7 @@ print('${random['arabic']} — ${random['name']}');
 
 // List all supported locale codes
 print(EsmaulHusna.getSupportedLanguages());
-// [ar, bg, en, tr, bs_BA, mk_MK, sq_AL, sq_XK]
+// [ar, bg, bs_BA, en, sq_AL, tr]
 ```
 
 ---
@@ -68,29 +68,26 @@ print(EsmaulHusna.getSupportedLanguages());
 
 | Locale code | Language              | Notes                                         |
 |-------------|-----------------------|-----------------------------------------------|
-| `ar`        | Arabic                | Native dataset                                |
-| `bg`        | Bulgarian             | Native dataset, fully tested end-to-end       |
-| `en`        | English               | Native dataset, used as fallback              |
-| `tr`        | Turkish               | Dedicated dataset                             |
-| `bs_BA`     | Bosnian               | Dedicated dataset                             |
-| `mk_MK`     | Macedonian            | Dedicated dataset                             |
-| `sq_AL`     | Albanian (Albania)    | Dedicated dataset                             |
-| `sq_XK`     | Albanian (Kosovo)     | Dedicated dataset                             |
+| `ar`        | Arabic                | 99 entries                                    |
+| `bg`        | Bulgarian             | 100 entries, fully tested end-to-end          |
+| `bs_BA`     | Bosnian               | 100 entries                                   |
+| `en`        | English               | 100 entries, used as fallback                 |
+| `sq_AL`     | Albanian              | 100 entries                                   |
+| `tr`        | Turkish               | 100 entries                                   |
 
 ### Accepted locale aliases
 
 The package resolves these inputs to their canonical locale automatically:
 
-| Input                        | Resolves to |
-|------------------------------|-------------|
-| `ar`, `arabic`, `ar_SA`      | `ar`        |
-| `bg`, `bulgarian`, `bg_BG`   | `bg`        |
-| `en`, `english`, `en_US`, `en_GB` | `en`   |
-| `tr`, `turkish`, `tr_TR`     | `tr`        |
-| `bs`, `bs_BA`                | `bs_BA`     |
-| `mk`, `mk_MK`                | `mk_MK`     |
-| `sq`, `sq_AL`                | `sq_AL`     |
-| `sq_XK`                      | `sq_XK`     |
+| Input                             | Resolves to                          |
+|-----------------------------------|--------------------------------------|
+| `ar`, `arabic`, `ar_SA`           | `ar`                                 |
+| `bg`, `bulgarian`, `bg_BG`        | `bg`                                 |
+| `bs`, `bs_BA`, `bosnian`          | `bs_BA`                              |
+| `en`, `english`, `en_US`, `en_GB` | `en`                                 |
+| `mk`, `mk_MK`, `macedonian`       | `en` (fallback, translation pending) |
+| `sq`, `sq_AL`, `sq_XK`, `albanian`| `sq_AL`                              |
+| `tr`, `turkish`, `tr_TR`          | `tr`                                 |
 
 Hyphens are normalised to underscores — `bs-BA` and `bs_BA` both work. Unknown locales fall back to `en`.
 

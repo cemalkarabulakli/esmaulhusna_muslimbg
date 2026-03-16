@@ -31,21 +31,53 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   int _selectedIndex = 0;
+  String _language = 'en';
 
-  final List<Widget> _pages = const [
-    _NamesListPage(),
-    _RandomNamePage(),
-    _LocaleSupportPage(),
+  static const _localeOptions = [
+    ('ar', 'Arabic'),
+    ('bg', 'Bulgarian'),
+    ('bs_BA', 'Bosnian'),
+    ('en', 'English'),
+    ('mk_MK', 'Macedonian'),
+    ('sq_AL', 'Albanian'),
+    ('tr', 'Turkish'),
   ];
 
   @override
   Widget build(BuildContext context) {
+    final pages = [
+      _NamesListPage(language: _language),
+      _RandomNamePage(language: _language),
+      const _LocaleSupportPage(),
+    ];
+
     return Scaffold(
-      body: _pages[_selectedIndex],
+      appBar: AppBar(
+        title: const Text('Esmaul Husna'),
+        actions: [
+          Padding(
+            padding: const EdgeInsets.only(right: 12),
+            child: DropdownButton<String>(
+              value: _language,
+              underline: const SizedBox.shrink(),
+              items:
+                  _localeOptions
+                      .map(
+                        (e) => DropdownMenuItem(value: e.$1, child: Text(e.$2)),
+                      )
+                      .toList(),
+              onChanged: (value) {
+                if (value != null) setState(() => _language = value);
+              },
+            ),
+          ),
+        ],
+      ),
+      body: pages[_selectedIndex],
       bottomNavigationBar: NavigationBar(
         selectedIndex: _selectedIndex,
-        onDestinationSelected: (index) =>
-            setState(() => _selectedIndex = index),
+        onDestinationSelected:
+            (index) => setState(() => _selectedIndex = index),
         destinations: const [
           NavigationDestination(icon: Icon(Icons.list), label: 'Names'),
           NavigationDestination(icon: Icon(Icons.shuffle), label: 'Random'),
@@ -60,97 +92,57 @@ class _HomePageState extends State<HomePage> {
 // Tab 1 — Full list with language selector
 // ---------------------------------------------------------------------------
 
-class _NamesListPage extends StatefulWidget {
-  const _NamesListPage();
+class _NamesListPage extends StatelessWidget {
+  const _NamesListPage({required this.language});
 
-  @override
-  State<_NamesListPage> createState() => _NamesListPageState();
-}
-
-class _NamesListPageState extends State<_NamesListPage> {
-  String _language = 'en';
-
-  static const _localeOptions = [
-    ('en', 'English'),
-    ('ar', 'Arabic'),
-    ('tr', 'Turkish'),
-    ('bg', 'Bulgarian'),
-    ('bs_BA', 'Bosnian'),
-    ('mk_MK', 'Macedonian'),
-    ('sq_AL', 'Albanian (AL)'),
-    ('sq_XK', 'Albanian (XK)'),
-  ];
+  final String language;
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('99 Names of Allah'),
-        actions: [
-          Padding(
-            padding: const EdgeInsets.only(right: 12),
-            child: DropdownButton<String>(
-              value: _language,
-              underline: const SizedBox.shrink(),
-              items: _localeOptions
-                  .map((e) => DropdownMenuItem(
-                        value: e.$1,
-                        child: Text(e.$2),
-                      ))
-                  .toList(),
-              onChanged: (value) {
-                if (value != null) setState(() => _language = value);
-              },
-            ),
-          ),
-        ],
-      ),
-      body: FutureBuilder<List<Map<String, String>>>(
-        future: EsmaulHusna.getNames(_language),
-        builder: (context, snapshot) {
-          if (snapshot.hasError) {
-            return Center(child: Text('Error: ${snapshot.error}'));
-          }
-          if (!snapshot.hasData) {
-            return const Center(child: CircularProgressIndicator());
-          }
+    return FutureBuilder<List<Map<String, String>>>(
+      future: EsmaulHusna.getNames(language),
+      builder: (context, snapshot) {
+        if (snapshot.hasError) {
+          return Center(child: Text('Error: ${snapshot.error}'));
+        }
+        if (!snapshot.hasData) {
+          return const Center(child: CircularProgressIndicator());
+        }
 
-          final names = snapshot.data!;
+        final names = snapshot.data!;
 
-          return ListView.separated(
-            itemCount: names.length,
-            separatorBuilder: (_, __) => const Divider(height: 0),
-            itemBuilder: (context, index) {
-              final entry = names[index];
-              return ListTile(
-                leading: CircleAvatar(
-                  backgroundColor:
-                      Theme.of(context).colorScheme.primaryContainer,
-                  child: Text(
-                    '${index + 1}',
-                    style: TextStyle(
-                      color: Theme.of(context).colorScheme.onPrimaryContainer,
-                      fontSize: 12,
-                    ),
+        return ListView.separated(
+          itemCount: names.length,
+          separatorBuilder: (_, __) => const Divider(height: 0),
+          itemBuilder: (context, index) {
+            final entry = names[index];
+            return ListTile(
+              leading: CircleAvatar(
+                backgroundColor: Theme.of(context).colorScheme.primaryContainer,
+                child: Text(
+                  '${index + 1}',
+                  style: TextStyle(
+                    color: Theme.of(context).colorScheme.onPrimaryContainer,
+                    fontSize: 12,
                   ),
                 ),
-                title: Text(entry['name'] ?? ''),
-                subtitle: Text(
-                  entry['translation'] ?? '',
-                  maxLines: 2,
-                  overflow: TextOverflow.ellipsis,
-                ),
-                trailing: Text(
-                  entry['arabic'] ?? '',
-                  style: const TextStyle(fontSize: 22),
-                  textDirection: TextDirection.rtl,
-                ),
-                onTap: () => _showDetail(context, index + 1, entry),
-              );
-            },
-          );
-        },
-      ),
+              ),
+              title: Text(entry['name'] ?? ''),
+              subtitle: Text(
+                entry['translation'] ?? '',
+                maxLines: 2,
+                overflow: TextOverflow.ellipsis,
+              ),
+              trailing: Text(
+                entry['arabic'] ?? '',
+                style: const TextStyle(fontSize: 22),
+                textDirection: TextDirection.rtl,
+              ),
+              onTap: () => _showDetail(context, index + 1, entry),
+            );
+          },
+        );
+      },
     );
   }
 
@@ -164,32 +156,33 @@ class _NamesListPageState extends State<_NamesListPage> {
       shape: const RoundedRectangleBorder(
         borderRadius: BorderRadius.vertical(top: Radius.circular(16)),
       ),
-      builder: (_) => Padding(
-        padding: const EdgeInsets.all(24),
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Text(
-              entry['arabic'] ?? '',
-              style: const TextStyle(fontSize: 48),
-              textDirection: TextDirection.rtl,
+      builder:
+          (_) => Padding(
+            padding: const EdgeInsets.all(24),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Text(
+                  entry['arabic'] ?? '',
+                  style: const TextStyle(fontSize: 48),
+                  textDirection: TextDirection.rtl,
+                ),
+                const SizedBox(height: 12),
+                Text(
+                  '${entry['name']} (#$number)',
+                  style: Theme.of(context).textTheme.titleLarge,
+                  textAlign: TextAlign.center,
+                ),
+                const SizedBox(height: 8),
+                Text(
+                  entry['translation'] ?? '',
+                  style: Theme.of(context).textTheme.bodyMedium,
+                  textAlign: TextAlign.center,
+                ),
+                const SizedBox(height: 24),
+              ],
             ),
-            const SizedBox(height: 12),
-            Text(
-              '${entry['name']} (#$number)',
-              style: Theme.of(context).textTheme.titleLarge,
-              textAlign: TextAlign.center,
-            ),
-            const SizedBox(height: 8),
-            Text(
-              entry['translation'] ?? '',
-              style: Theme.of(context).textTheme.bodyMedium,
-              textAlign: TextAlign.center,
-            ),
-            const SizedBox(height: 24),
-          ],
-        ),
-      ),
+          ),
     );
   }
 }
@@ -199,121 +192,96 @@ class _NamesListPageState extends State<_NamesListPage> {
 // ---------------------------------------------------------------------------
 
 class _RandomNamePage extends StatefulWidget {
-  const _RandomNamePage();
+  const _RandomNamePage({required this.language});
+
+  final String language;
 
   @override
   State<_RandomNamePage> createState() => _RandomNamePageState();
 }
 
 class _RandomNamePageState extends State<_RandomNamePage> {
-  String _language = 'en';
   Future<Map<String, String>>? _future;
 
-  static const _localeOptions = [
-    ('en', 'English'),
-    ('ar', 'Arabic'),
-    ('tr', 'Turkish'),
-    ('bg', 'Bulgarian'),
-    ('bs_BA', 'Bosnian'),
-    ('mk_MK', 'Macedonian'),
-    ('sq_AL', 'Albanian'),
-  ];
-
-  void _refresh() => setState(
-        () => _future = EsmaulHusna.getRandomName(_language),
-      );
+  void _refresh() {
+    final next = EsmaulHusna.getRandomName(widget.language);
+    setState(() => _future = next);
+  }
 
   @override
   void initState() {
     super.initState();
-    _future = EsmaulHusna.getRandomName(_language);
+    _future = EsmaulHusna.getRandomName(widget.language);
+  }
+
+  @override
+  void didUpdateWidget(_RandomNamePage oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    if (oldWidget.language != widget.language) {
+      final next = EsmaulHusna.getRandomName(widget.language);
+      setState(() => _future = next);
+    }
   }
 
   @override
   Widget build(BuildContext context) {
     final scheme = Theme.of(context).colorScheme;
 
-    return Scaffold(
-      appBar: AppBar(title: const Text('Random Name')),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            FutureBuilder<Map<String, String>>(
-              future: _future,
-              builder: (context, snapshot) {
-                if (snapshot.hasError) {
-                  return Text('Error: ${snapshot.error}');
-                }
-                if (!snapshot.hasData) {
-                  return const CircularProgressIndicator();
-                }
+    return Center(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          FutureBuilder<Map<String, String>>(
+            future: _future,
+            builder: (context, snapshot) {
+              if (snapshot.hasError) {
+                return Text('Error: ${snapshot.error}');
+              }
+              if (!snapshot.hasData) {
+                return const CircularProgressIndicator();
+              }
 
-                final name = snapshot.data!;
+              final name = snapshot.data!;
 
-                return Card(
-                  margin: const EdgeInsets.symmetric(horizontal: 32),
-                  elevation: 4,
-                  child: Padding(
-                    padding: const EdgeInsets.all(32),
-                    child: Column(
-                      children: [
-                        Text(
-                          name['arabic'] ?? '',
-                          style: const TextStyle(fontSize: 52),
-                          textDirection: TextDirection.rtl,
+              return Card(
+                margin: const EdgeInsets.symmetric(horizontal: 32),
+                elevation: 4,
+                child: Padding(
+                  padding: const EdgeInsets.all(32),
+                  child: Column(
+                    children: [
+                      Text(
+                        name['arabic'] ?? '',
+                        style: const TextStyle(fontSize: 52),
+                        textDirection: TextDirection.rtl,
+                      ),
+                      const SizedBox(height: 16),
+                      Text(
+                        name['name'] ?? '',
+                        style: Theme.of(context).textTheme.headlineSmall,
+                        textAlign: TextAlign.center,
+                      ),
+                      const SizedBox(height: 8),
+                      Text(
+                        name['translation'] ?? '',
+                        style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                          color: scheme.onSurfaceVariant,
                         ),
-                        const SizedBox(height: 16),
-                        Text(
-                          name['name'] ?? '',
-                          style: Theme.of(context).textTheme.headlineSmall,
-                          textAlign: TextAlign.center,
-                        ),
-                        const SizedBox(height: 8),
-                        Text(
-                          name['translation'] ?? '',
-                          style: Theme.of(context)
-                              .textTheme
-                              .bodyMedium
-                              ?.copyWith(color: scheme.onSurfaceVariant),
-                          textAlign: TextAlign.center,
-                        ),
-                      ],
-                    ),
+                        textAlign: TextAlign.center,
+                      ),
+                    ],
                   ),
-                );
-              },
-            ),
-            const SizedBox(height: 32),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                DropdownButton<String>(
-                  value: _language,
-                  underline: const SizedBox.shrink(),
-                  items: _localeOptions
-                      .map((e) => DropdownMenuItem(
-                            value: e.$1,
-                            child: Text(e.$2),
-                          ))
-                      .toList(),
-                  onChanged: (value) {
-                    if (value != null) {
-                      setState(() => _language = value);
-                      _refresh();
-                    }
-                  },
                 ),
-                const SizedBox(width: 16),
-                FilledButton.icon(
-                  onPressed: _refresh,
-                  icon: const Icon(Icons.shuffle),
-                  label: const Text('New name'),
-                ),
-              ],
-            ),
-          ],
-        ),
+              );
+            },
+          ),
+          const SizedBox(height: 32),
+          FilledButton.icon(
+            onPressed: _refresh,
+            icon: const Icon(Icons.shuffle),
+            label: const Text('New name'),
+          ),
+        ],
       ),
     );
   }
@@ -386,10 +354,7 @@ class _AliasRow extends StatelessWidget {
       child: Row(
         children: [
           Expanded(
-            child: Text(
-              input,
-              style: const TextStyle(fontFamily: 'monospace'),
-            ),
+            child: Text(input, style: const TextStyle(fontFamily: 'monospace')),
           ),
           const Icon(Icons.arrow_forward, size: 16),
           const SizedBox(width: 8),

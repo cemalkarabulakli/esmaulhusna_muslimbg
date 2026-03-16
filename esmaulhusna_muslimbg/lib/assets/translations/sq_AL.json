@@ -1,502 +1,502 @@
 {
-    "1": {
-        "arabic": "ٱللَّهُ",
-        "name": "Allah",
-        "translation": "The One and Only God"
-    },
-    "2": {
-        "arabic": "ٱلرَّحْمَٰنُ",
-        "name": "Ar-Rahmaan",
-        "translation": "The Most or Entirely Merciful"
-    },
-    "3": {
-        "arabic": "ٱلرَّحِيمُ",
-        "name": "Ar-Raheem",
-        "translation": "The Bestower of Mercy"
-    },
-    "4": {
-        "arabic": "ٱلْمَلِكُ",
-        "name": "Al-Malik",
-        "translation": "The King and Owner of Dominion"
-    },
-    "5": {
-        "arabic": "ٱلْقُدُّوسُ",
-        "name": "Al-Quddus",
-        "translation": "The Absolutely Pure"
-    },
-    "6": {
-        "arabic": "ٱلسَّلَامُ",
-        "name": "As-Salaam",
-        "translation": "The Perfection and Giver of Peace"
-    },
-    "7": {
-        "arabic": "ٱلْمُؤْمِنُ",
-        "name": "Al-Mu'min",
-        "translation": "The One Who gives Emaan and Security"
-    },
-    "8": {
-        "arabic": "ٱلْمُهَيْمِنُ",
-        "name": "Al-Muhaymin",
-        "translation": "The Guardian, The Witness, The Overseer"
-    },
-    "9": {
-        "arabic": "ٱلْعَزِيزُ",
-        "name": "Al-Azeez",
-        "translation": "The All Mighty"
-    },
-    "10": {
-        "arabic": "ٱلْجَبَّارُ",
-        "name": "Al-Jabbaar",
-        "translation": "The Compeller, The Restorer"
-    },
-    "11": {
-        "arabic": "ٱلْمُتَكَبِّرُ",
-        "name": "Al-Mutakabbir",
-        "translation": "The Supreme, The Majestic"
-    },
-    "12": {
-        "arabic": "ٱلْخَٰلِقُ",
-        "name": "Al-Khaaliq",
-        "translation": "The Creator, The Maker"
-    },
-    "13": {
-        "arabic": "ٱلْبَارِئُ",
-        "name": "Al-Baari'",
-        "translation": "The Originator"
-    },
-    "14": {
-        "arabic": "ٱلْمُصَوِّرُ",
-        "name": "Al-Musawwir",
-        "translation": "The Fashioner"
-    },
-    "15": {
-        "arabic": "ٱلْغَفَّارُ",
-        "name": "Al-Ghaffaar",
-        "translation": "The All- and Oft-Forgiving"
-    },
-    "16": {
-        "arabic": "ٱلْقَهَّارُ",
-        "name": "Al-Qahhaar",
-        "translation": "The Subduer, The Ever-Dominating"
-    },
-    "17": {
-        "arabic": "ٱلْوَهَّابُ",
-        "name": "Al-Wahhaab",
-        "translation": "The Giver of Gifts"
-    },
-    "18": {
-        "arabic": "ٱلْرَّزَّاقُ",
-        "name": "Ar-Razzaaq",
-        "translation": "The Provider"
-    },
-    "19": {
-        "arabic": "ٱلْفَتَّاحُ",
-        "name": "Al-Fattah",
-        "translation": "The Opener, The Judge"
-    },
-    "20": {
-        "arabic": "ٱلْعَلِيمُ",
-        "name": "Al-'Aleem",
-        "translation": "The All-Knowing, The Omniscient"
-    },
-    "21": {
-        "arabic": "ٱلْقَابِضُ",
-        "name": "Al-Qaabid",
-        "translation": "The Withholder"
-    },
-    "22": {
-        "arabic": "ٱلْبَاسِطُ",
-        "name": "Al-Baasit",
-        "translation": "The Extender"
-    },
-    "23": {
-        "arabic": "ٱلْخَافِضُ",
-        "name": "Al-Khaafidh",
-        "translation": "The Reducer, The Abaser"
-    },
-    "24": {
-        "arabic": "ٱلْرَّافِعُ",
-        "name": "Ar-Raafi'",
-        "translation": "The Exalter, The Elevator"
-    },
-    "25": {
-        "arabic": "ٱلْمُعِزُّ",
-        "name": "Al-Mu'izz",
-        "translation": "The Honourer, The Bestower"
-    },
-    "26": {
-        "arabic": "ٱلْمُذِلُّ",
-        "name": "Al-Muzil",
-        "translation": "The Dishonourer, The Humiliator"
-    },
-    "27": {
-        "arabic": "ٱلسَّمِيعُ",
-        "name": "As-Samee'",
-        "translation": "The All-Hearing"
-    },
-    "28": {
-        "arabic": "ٱلْبَصِيرُ",
-        "name": "Al-Baseer",
-        "translation": "The All-Seeing"
-    },
-    "29": {
-        "arabic": "ٱلْحَكَمُ",
-        "name": "Al-Hakam",
-        "translation": "The Judge, The Giver of Justice"
-    },
-    "30": {
-        "arabic": "ٱلْعَدْلُ",
-        "name": "Al-'Adl",
-        "translation": "The Utterly Just"
-    },
-    "31": {
-        "arabic": "ٱللَّطِيفُ",
-        "name": "Al-Lateef",
-        "translation": "The Subtle One, The Most Gentle"
-    },
-    "32": {
-        "arabic": "ٱلْخَبِيرُ",
-        "name": "Al-Khabeer",
-        "translation": "The Acquainted, The All-Aware"
-    },
-    "33": {
-        "arabic": "ٱلْحَلِيمُ",
-        "name": "Al-Haleem",
-        "translation": "The Most Forbearing"
-    },
-    "34": {
-        "arabic": "ٱلْعَظِيمُ",
-        "name": "Al-'Azeem",
-        "translation": "The Magnificent, The Supreme"
-    },
-    "35": {
-        "arabic": "ٱلْغَفُورُ",
-        "name": "Al-Ghafoor",
-        "translation": "The Forgiving, The Exceedingly Forgiving"
-    },
-    "36": {
-        "arabic": "ٱلشَّكُورُ",
-        "name": "Ash-Shaakoor",
-        "translation": "The Most Appreciative"
-    },
-    "37": {
-        "arabic": "ٱلْعَلِيُّ",
-        "name": "Al-'Alee",
-        "translation": "The Most High, The Exalted"
-    },
-    "38": {
-        "arabic": "ٱلْكَبِيرُ",
-        "name": "Al-Kabeer",
-        "translation": "The Greatest, The Most Grand"
-    },
-    "39": {
-        "arabic": "ٱلْحَفِيظُ",
-        "name": "Al-Hafeedh",
-        "translation": "The Preserver, The All-Heedful and All-Protecting"
-    },
-    "40": {
-        "arabic": "ٱلْمُقيِتُ",
-        "name": "Al-Muqeet",
-        "translation": "The Sustainer, The Maintainer"
-    },
-    "41": {
-        "arabic": "ٱلْحَسِيبُ",
-        "name": "Al-Hasib",
-        "translation": "The Reckoner"
-    },
-    "42": {
-        "arabic": "ٱلْجَلِيلُ",
-        "name": "Al-Jaleel",
-        "translation": "The Majestic"
-    },
-    "43": {
-        "arabic": "ٱلْكَرِيمُ",
-        "name": "Al-Kareem",
-        "translation": "The Most Generous, The Most Esteemed"
-    },
-    "44": {
-        "arabic": "ٱلْرَّقِيبُ",
-        "name": "Ar-Raqeeb",
-        "translation": "The Watchful, The All-Watchful"
-    },
-    "45": {
-        "arabic": "ٱلْمُجِيبُ",
-        "name": "Al-Mujeeb",
-        "translation": "The Responsive, The Answerer"
-    },
-    "46": {
-        "arabic": "ٱلْوَاسِعُ",
-        "name": "Al-Waasi'",
-        "translation": "The All-Encompassing, the Boundless"
-    },
-    "47": {
-        "arabic": "ٱلْحَكِيمُ",
-        "name": "Al-Hakeem",
-        "translation": "The All-Wise"
-    },
-    "48": {
-        "arabic": "ٱلْوَدُودُ",
-        "name": "Al-Wadud",
-        "translation": "The Most Loving"
-    },
-    "49": {
-        "arabic": "ٱلْمَجِيدُ",
-        "name": "Al-Majeed",
-        "translation": "The Glorious, The Most Honorable"
-    },
-    "50": {
-        "arabic": "ٱلْبَاعِثُ",
-        "name": "Al-Baa'ith",
-        "translation": "The Infuser of New Life"
-    },
-    "51": {
-        "arabic": "ٱلْشَّهِيدُ",
-        "name": "As-Shaheed",
-        "translation": "The All Observing Witnessing"
-    },
-    "52": {
-        "arabic": "ٱلْحَقُّ",
-        "name": "Al-Haqq",
-        "translation": "The Absolute Truth"
-    },
-    "53": {
-        "arabic": "ٱلْوَكِيلُ",
-        "name": "Al-Wakeel",
-        "translation": "The Trustee, The Disposer of Affairs"
-    },
-    "54": {
-        "arabic": "ٱلْقَوِيِيُ",
-        "name": "Al-Qawiyy",
-        "translation": "The All-Strong"
-    },
-    "55": {
-        "arabic": "ٱلْمَتِينُ",
-        "name": "Al-Mateen",
-        "translation": "The Firm, The Steadfast"
-    },
-    "56": {
-        "arabic": "ٱلْوَلِيُ",
-        "name": "Al-Walee",
-        "translation": "The Protecting Associate"
-    },
-    "57": {
-        "arabic": "ٱلْحَمِيدُ",
-        "name": "Al-Hameed",
-        "translation": "The Praiseworthy"
-    },
-    "58": {
-        "arabic": "ٱلْمُحْصِي",
-        "name": "Al-Muhsee",
-        "translation": "The All-Enumerating, The Counter"
-    },
-    "59": {
-        "arabic": "ٱلْمُبْدِئُ",
-        "name": "Al-Mubdi'",
-        "translation": "The Originator, The Initiator"
-    },
-    "60": {
-        "arabic": "ٱلْمُعِيدُ",
-        "name": "Al-Mu'id",
-        "translation": "The Restorer, The Reinstater"
-    },
-    "61": {
-        "arabic": "ٱلْمُحْيِي",
-        "name": "Al-Muhyee",
-        "translation": "The Giver of Life"
-    },
-    "62": {
-        "arabic": "ٱلْمُمِيتُ",
-        "name": "Al-Mumeet",
-        "translation": "The Creator of Death"
-    },
-    "63": {
-        "arabic": "ٱلْحَيِّيُ",
-        "name": "Al-Hayy",
-        "translation": "The Ever-Living"
-    },
-    "64": {
-        "arabic": "ٱلْقَيُّومُ",
-        "name": "Al-Qayyoom",
-        "translation": "The Sustainer, The Self-Subsisting"
-    },
-    "65": {
-        "arabic": "ٱلْوَاجِدُ",
-        "name": "Al-Waajid",
-        "translation": "The Perceiver"
-    },
-    "66": {
-        "arabic": "ٱلْمَاجِدُ",
-        "name": "Al-Maajid",
-        "translation": "The Illustrious, The Magnificent"
-    },
-    "67": {
-        "arabic": "ٱلْوَاحِدُ",
-        "name": "Al-Waahid",
-        "translation": "The One, The Indivisible"
-    },
-    "68": {
-        "arabic": "ٱلْأَحَدُ",
-        "name": "Al-Ahad",
-        "translation": "The Unique, The Only One"
-    },
-    "69": {
-        "arabic": "ٱلصَّمَدُ",
-        "name": "As-Samad",
-        "translation": "The Eternal, Satisfier of Needs"
-    },
-    "70": {
-        "arabic": "ٱلْقَادِرُ",
-        "name": "Al-Qaadir",
-        "translation": "The Omnipotent"
-    },
-    "71": {
-        "arabic": "ٱلْمُقْتَدِرُ",
-        "name": "Al-Muqtadir",
-        "translation": "The Powerful"
-    },
-    "72": {
-        "arabic": "ٱلْمُقَدِّمُ",
-        "name": "Al-Muqaddim",
-        "translation": "The Expediter, The Promoter"
-    },
-    "73": {
-        "arabic": "ٱلْمُؤَخِّرُ",
-        "name": "Al-Mu'akhkhir",
-        "translation": "The Delayer"
-    },
-    "74": {
-        "arabic": "ٱلْأوَّلُ",
-        "name": "Al-Awwal",
-        "translation": "The First"
-    },
-    "75": {
-        "arabic": "ٱلْآخِرُ",
-        "name": "Al-Aakhir",
-        "translation": "The Last, The Utmost"
-    },
-    "76": {
-        "arabic": "ٱلظَّٰهِرُ",
-        "name": "Az-Zaahir",
-        "translation": "The Manifest, The All-Surpassing"
-    },
-    "77": {
-        "arabic": "ٱلْبَاطِنُ",
-        "name": "Al-Baatin",
-        "translation": "The Hidden One, Knower of the Hidden"
-    },
-    "78": {
-        "arabic": "ٱلْوَالِي",
-        "name": "Al-Waalee",
-        "translation": "The Sole Governor"
-    },
-    "79": {
-        "arabic": "ٱلْمُتَعَالِي",
-        "name": "Al-Muta'ali",
-        "translation": "The Self Exalted"
-    },
-    "80": {
-        "arabic": "ٱلْبَرُّ",
-        "name": "Al-Barr",
-        "translation": "The Source of All Goodness"
-    },
-    "81": {
-        "arabic": "ٱلتَّوَابُ",
-        "name": "At-Tawwaab",
-        "translation": "The Ever-Pardoning"
-    },
-    "82": {
-        "arabic": "ٱلْمُنْتَقِمُ",
-        "name": "Al-Muntaqim",
-        "translation": "The Avenger"
-    },
-    "83": {
-        "arabic": "ٱلْعَفُوُ",
-        "name": "Al-'Afuww",
-        "translation": "The Pardoner"
-    },
-    "84": {
-        "arabic": "ٱلْرَّؤُوفُ",
-        "name": "Ar-Ra'ooof",
-        "translation": "The Most Kind"
-    },
-    "85": {
-        "arabic": "مَالِكُ ٱلْمُلْكُ",
-        "name": "Maalik-al-Mulk",
-        "translation": "Master of the Dominion, Owner of the Kingdom"
-    },
-    "86": {
-        "arabic": "ذُوالْجَلاَلِ وَالإكْرَامِ",
-        "name": "Thul-Jalaali wal-Ikraam",
-        "translation": "Possessor of Glory and Honour"
-    },
-    "87": {
-        "arabic": "ٱلْمُقْسِطُ",
-        "name": "Al-Muqsiṭ",
-        "translation": "The Just One"
-    },
-    "88": {
-        "arabic": "ٱلْجَامِعُ",
-        "name": "Al-Jaami'",
-        "translation": "The Gatherer, the Uniter"
-    },
-    "89": {
-        "arabic": "ٱلْغَنيُّ",
-        "name": "Al-Ghaniyy",
-        "translation": "The Self-Sufficient, The Wealthy"
-    },
-    "90": {
-        "arabic": "ٱلْمُغْنِيُ",
-        "name": "Al-Mughniyy",
-        "translation": "The Enricher"
-    },
-    "91": {
-        "arabic": "ٱلْمَانِعُ",
-        "name": "Al-Maani'",
-        "translation": "The Withholder"
-    },
-    "92": {
-        "arabic": "ٱلضَّٰرَ",
-        "name": "Ad-Dhaarr",
-        "translation": "The Distresser"
-    },
-    "93": {
-        "arabic": "ٱلنَّافِعُ",
-        "name": "An-Naafi'",
-        "translation": "The Propitious, The Benefactor"
-    },
-    "94": {
-        "arabic": "ٱلْنُورُ",
-        "name": "An-Noor",
-        "translation": "The Light"
-    },
-    "95": {
-        "arabic": "ٱلْهَادِي",
-        "name": "Al-Haadi",
-        "translation": "The Guide"
-    },
-    "96": {
-        "arabic": "ٱلْبَدِيعُ",
-        "name": "Al-Badee'",
-        "translation": "The Incomparable Originator"
-    },
-    "97": {
-        "arabic": "ٱلْبَاقِي",
-        "name": "Al-Baaqi",
-        "translation": "The Ever-Lasting"
-    },
-    "98": {
-        "arabic": "ٱلْوَارِثُ",
-        "name": "Al-Waarith",
-        "translation": "The Inheritor"
-    },
-    "99": {
-        "arabic": "ٱلرَّشِيدُ",
-        "name": "Ar-Rasheed",
-        "translation": "The Guide to the Right Path"
-    },
-    "100": {
-        "arabic": "ٱلصَّبُورُ",
-        "name": "Al-Saboor",
-        "translation": "The Patient"
-    }
+  "1": {
+    "arabic": "ٱللَّهُ",
+    "name": "Allah",
+    "translation": "I vetmi Zot i denjë për adhurim; nuk ka zot tjetër përveç Tij."
+  },
+  "2": {
+    "arabic": "الرَّحْمَنُ",
+    "name": "Ar-Rahman",
+    "translation": "Ai që është i mëshirshëm me të gjitha krijesat në këtë botë."
+  },
+  "3": {
+    "arabic": "الرَّحِيمُ",
+    "name": "Ar-Rahim",
+    "translation": "Ai që është veçanërisht i mëshirshëm me besimtarët në jetën e përtejme."
+  },
+  "4": {
+    "arabic": "الْمَلِكُ",
+    "name": "Al-Malik",
+    "translation": "Sunduesi absolut i gjithçkaje, Zoti i Ditës së Gjykimit."
+  },
+  "5": {
+    "arabic": "الْقُدُّوسُ",
+    "name": "Al-Kuddus",
+    "translation": "Ai që është i lirë nga çdo e metë dhe papërsosmëri."
+  },
+  "6": {
+    "arabic": "السَّلاَمُ",
+    "name": "Es-Selam",
+    "translation": "Ai që është i përsosur dhe dhuron paqe dhe siguri."
+  },
+  "7": {
+    "arabic": "الْمُؤْمِنُ",
+    "name": "Al-Mu'min",
+    "translation": "Ai që jep siguri dhe konfirmon të vërtetën."
+  },
+  "8": {
+    "arabic": "الْمُهَيْمِنُ",
+    "name": "Al-Muhejmin",
+    "translation": "Ai që vëzhgon, ruan dhe mbron gjithçka."
+  },
+  "9": {
+    "arabic": "الْعَزِيزُ",
+    "name": "Al-Aziz",
+    "translation": "Ai që është i plotfuqishëm dhe i pamposhtur."
+  },
+  "10": {
+    "arabic": "الْجَبَّارُ",
+    "name": "Al-Xhebbar",
+    "translation": "Ai që imponon vullnetin e Tij dhe rregullon gjendjen e krijimit."
+  },
+  "11": {
+    "arabic": "الْمُتَكَبِّرُ",
+    "name": "Al-Mutekebbir",
+    "translation": "Ai që është mbi gjithçka dhe të cilit i përket e gjithë madhështia."
+  },
+  "12": {
+    "arabic": "الْخَالِقُ",
+    "name": "Al-Halik",
+    "translation": "Ai që krijon gjithçka nga asgjëja."
+  },
+  "13": {
+    "arabic": "الْبَارِئُ",
+    "name": "Al-Bari",
+    "translation": "Ai që krijon në mënyrë harmonike dhe pa model të mëparshëm."
+  },
+  "14": {
+    "arabic": "الْمُصَوِّرُ",
+    "name": "Al-Musauir",
+    "translation": "Ai që i jep formë dhe pamje çdo krijese."
+  },
+  "15": {
+    "arabic": "الْغَفَّارُ",
+    "name": "Al-Gaffar",
+    "translation": "Ai që fal shumë dhe mbulon mëkatet."
+  },
+  "16": {
+    "arabic": "الْقَهَّارُ",
+    "name": "Al-Kahhar",
+    "translation": "Ai që mposht gjithçka dhe të cilit i nënshtrohet gjithçka."
+  },
+  "17": {
+    "arabic": "الْوَهَّابُ",
+    "name": "Al-Uehab",
+    "translation": "Ai që jep me bollëk pa pritur asgjë në këmbim."
+  },
+  "18": {
+    "arabic": "الرَّزَّاقُ",
+    "name": "Er-Rezzak",
+    "translation": "Ai që siguron furnizim për të gjitha krijesat."
+  },
+  "19": {
+    "arabic": "الْفَتَّاحُ",
+    "name": "Al-Fettah",
+    "translation": "Ai që hap dyert e mëshirës dhe zgjidh të gjitha problemet."
+  },
+  "20": {
+    "arabic": "اَلْعَلِيْمُ",
+    "name": "Al-Alim",
+    "translation": "Ai që di gjithçka, të fshehtën dhe të dukshmen."
+  },
+  "21": {
+    "arabic": "الْقَابِضُ",
+    "name": "Al-Kabid",
+    "translation": "Ai që kufizon furnizimin dhe merr shpirtrat."
+  },
+  "22": {
+    "arabic": "الْبَاسِطُ",
+    "name": "Al-Basit",
+    "translation": "Ai që jep furnizim të bollshëm dhe zgjat jetën."
+  },
+  "23": {
+    "arabic": "الْخَافِضُ",
+    "name": "Al-Hafid",
+    "translation": "Ai që përul jobesimtarët dhe arrogantët."
+  },
+  "24": {
+    "arabic": "الرَّافِعُ",
+    "name": "Er-Rafi",
+    "translation": "Ai që lartëson besimtarët dhe u jep atyre grada të larta."
+  },
+  "25": {
+    "arabic": "الْمُعِزُّ",
+    "name": "Al-Mu'izz",
+    "translation": "Ai që i jep nder dhe fuqi kujt të dojë."
+  },
+  "26": {
+    "arabic": "المُذِلُّ",
+    "name": "Al-Mudhil",
+    "translation": "Ai që heq fuqinë dhe poshtëron kë të dojë."
+  },
+  "27": {
+    "arabic": "السَّمِيعُ",
+    "name": "Es-Semi",
+    "translation": "Ai që dëgjon gjithçka, qoftë edhe pëshpëritjen më të ulët."
+  },
+  "28": {
+    "arabic": "الْبَصِيرُ",
+    "name": "Al-Basir",
+    "translation": "Ai që sheh gjithçka, të dukshmen dhe të fshehtën."
+  },
+  "29": {
+    "arabic": "الْحَكَمُ",
+    "name": "Al-Hakam",
+    "translation": "Ai që gjykon me drejtësi dhe gjykimi i të cilit është përfundimtar."
+  },
+  "30": {
+    "arabic": "الْعَدْلُ",
+    "name": "Al-Adl",
+    "translation": "Ai që është absolutisht i drejtë dhe nuk i bën padrejtësi askujt."
+  },
+  "31": {
+    "arabic": "اللَّطِيفُ",
+    "name": "Al-Latif",
+    "translation": "Ai që është i butë me robërit dhe njeh detajet më të imëta."
+  },
+  "32": {
+    "arabic": "الْخَبِيرُ",
+    "name": "Al-Habir",
+    "translation": "Ai që është i vetëdijshëm për gjithçka dhe nga i cili asgjë nuk është e fshehur."
+  },
+  "33": {
+    "arabic": "الْحَلِيمُ",
+    "name": "Al-Halim",
+    "translation": "Ai që nuk nxiton të ndëshkojë dhe është i durueshëm."
+  },
+  "34": {
+    "arabic": "الْعَظِيمُ",
+    "name": "Al-Azim",
+    "translation": "Ai madhështia e të cilit është e pamatshme."
+  },
+  "35": {
+    "arabic": "الْغَفُورُ",
+    "name": "Al-Gafur",
+    "translation": "Ai që fal mëkatet dhe mbulon turpin."
+  },
+  "36": {
+    "arabic": "الشَّكُورُ",
+    "name": "Esh-Shekur",
+    "translation": "Ai që shpërblen me bollëk për pak vepra."
+  },
+  "37": {
+    "arabic": "الْعَلِيُّ",
+    "name": "Al-Ali",
+    "translation": "Ai që është i lartësuar mbi gjithçka."
+  },
+  "38": {
+    "arabic": "الْكَبِيرُ",
+    "name": "Al-Kebir",
+    "translation": "Ai që është më i madh se çdo gjë e imagjinueshme."
+  },
+  "39": {
+    "arabic": "الْحَفِيظُ",
+    "name": "Al-Hafiz",
+    "translation": "Ai që mbron dhe ruan gjithçka."
+  },
+  "40": {
+    "arabic": "المُقيِت",
+    "name": "Al-Mukit",
+    "translation": "Ai që i jep forcë dhe ushqim çdo krijese."
+  },
+  "41": {
+    "arabic": "الْحسِيبُ",
+    "name": "Al-Hasib",
+    "translation": "Ai që mban llogari dhe është i mjaftueshëm për robërit e Tij."
+  },
+  "42": {
+    "arabic": "الْجَلِيلُ",
+    "name": "Al-Xhelil",
+    "translation": "Ai që zotëron madhështi dhe fuqi."
+  },
+  "43": {
+    "arabic": "الْكَرِيمُ",
+    "name": "Al-Kerim",
+    "translation": "Ai që është pafundësisht bujar dhe fisnik."
+  },
+  "44": {
+    "arabic": "الرَّقِيبُ",
+    "name": "Er-Rekib",
+    "translation": "Ai që vëzhgon gjithçka dhe të cilit asgjë nuk i shpëton."
+  },
+  "45": {
+    "arabic": "الْمُجِيبُ",
+    "name": "Al-Muxhib",
+    "translation": "Ai që u përgjigjet lutjeve të atyre që e thërrasin."
+  },
+  "46": {
+    "arabic": "الْوَاسِعُ",
+    "name": "Al-Uasi",
+    "translation": "Ai, dija, mëshira dhe fuqia e të cilit përfshijnë gjithçka."
+  },
+  "47": {
+    "arabic": "الْحَكِيمُ",
+    "name": "Al-Hakim",
+    "translation": "Ai që bën gjithçka me urtësi dhe qëllim."
+  },
+  "48": {
+    "arabic": "الْوَدُودُ",
+    "name": "Al-Uedud",
+    "translation": "Ai që i do robërit e Tij të drejtë dhe duhet prej tyre."
+  },
+  "49": {
+    "arabic": "الْمَجِيدُ",
+    "name": "Al-Mexhid",
+    "translation": "Ai që lavdërohet dhe zotëron nder të përsosur."
+  },
+  "50": {
+    "arabic": "الْبَاعِثُ",
+    "name": "Al-Ba'ith",
+    "translation": "Ai që do t'i ringjallë njerëzit pas vdekjes."
+  },
+  "51": {
+    "arabic": "الشَّهِيدُ",
+    "name": "Esh-Shehid",
+    "translation": "Ai që dëshmon gjithçka dhe nga i cili asgjë nuk është e fshehur."
+  },
+  "52": {
+    "arabic": "الْحَقُّ",
+    "name": "Al-Hakk",
+    "translation": "Ai që është e Vërteta Absolute dhe ekzistenca e të cilit është e pamohueshme."
+  },
+  "53": {
+    "arabic": "الْوَكِيلُ",
+    "name": "Al-Uekil",
+    "translation": "Ai tek i cili mbështetemi dhe që kujdeset për çështjet në mënyrën më të mirë."
+  },
+  "54": {
+    "arabic": "الْقَوِيُّ",
+    "name": "Al-Kavi",
+    "translation": "Ai që zotëron forcë të përsosur."
+  },
+  "55": {
+    "arabic": "الْمَتِينُ",
+    "name": "Al-Metin",
+    "translation": "Ai forca e të cilit është e palëkundur."
+  },
+  "56": {
+    "arabic": "الْوَلِيُّ",
+    "name": "Al-Ueli",
+    "translation": "Miku dhe Mbrojtësi i besimtarëve."
+  },
+  "57": {
+    "arabic": "الْحَمِيدُ",
+    "name": "Al-Hamid",
+    "translation": "Ai të cilit i përket çdo lavdërim."
+  },
+  "58": {
+    "arabic": "الْمُحْصِي",
+    "name": "Al-Muhsi",
+    "translation": "Ai që njeh numrin dhe sasinë e gjithçkaje."
+  },
+  "59": {
+    "arabic": "الْمُبْدِئُ",
+    "name": "Al-Mubdi",
+    "translation": "Ai që krijon nga fillimi."
+  },
+  "60": {
+    "arabic": "الْمُعِيدُ",
+    "name": "Al-Mu'id",
+    "translation": "Ai që rikthen jetën pas vdekjes."
+  },
+  "61": {
+    "arabic": "الْمُحْيِي",
+    "name": "Al-Muhji",
+    "translation": "Ai që jep jetë."
+  },
+  "62": {
+    "arabic": "اَلْمُمِيتُ",
+    "name": "Al-Mumit",
+    "translation": "Ai që jep vdekje."
+  },
+  "63": {
+    "arabic": "الْحَيُّ",
+    "name": "Al-Hajj",
+    "translation": "Ai që është përjetësisht i gjallë."
+  },
+  "64": {
+    "arabic": "الْقَيُّومُ",
+    "name": "Al-Kajjum",
+    "translation": "Ai që varet vetëm nga Vetja dhe nga i cili varet gjithçka."
+  },
+  "65": {
+    "arabic": "الْوَاجِدُ",
+    "name": "Al-Uaxhid",
+    "translation": "Ai që zotëron gjithçka dhe të cilit nuk i mungon asgjë."
+  },
+  "66": {
+    "arabic": "الْمَاجِدُ",
+    "name": "Al-Maxhid",
+    "translation": "Ai që është fisnik dhe madhështor."
+  },
+  "67": {
+    "arabic": "الْواحِدُ",
+    "name": "Al-Uahid",
+    "translation": "Ai që është Një në thelbin dhe atributet e Tij."
+  },
+  "68": {
+    "arabic": "اَلاَحَدُ",
+    "name": "Al-Ahad",
+    "translation": "Ai që është unik dhe i pandashëm."
+  },
+  "69": {
+    "arabic": "الصَّمَدُ",
+    "name": "Es-Samed",
+    "translation": "Ai të cilit i drejtohen të gjithë, dhe Ai nuk ka nevojë për askënd."
+  },
+  "70": {
+    "arabic": "الْقَادِرُ",
+    "name": "Al-Kadir",
+    "translation": "Ai që mund të bëjë çfarë të dojë."
+  },
+  "71": {
+    "arabic": "الْمُقْتَدِرُ",
+    "name": "Al-Muktedir",
+    "translation": "Ai fuqia e të cilit është absolute."
+  },
+  "72": {
+    "arabic": "الْمُقَدِّمُ",
+    "name": "Al-Mukaddim",
+    "translation": "Ai që çon përpara kë të dojë."
+  },
+  "73": {
+    "arabic": "الْمُؤَخِّرُ",
+    "name": "Al-Mu'ahhir",
+    "translation": "Ai që vonon kë të dojë."
+  },
+  "74": {
+    "arabic": "الأوَّلُ",
+    "name": "Al-Euel",
+    "translation": "Ai që nuk ka fillim."
+  },
+  "75": {
+    "arabic": "الآخِرُ",
+    "name": "Al-Ahir",
+    "translation": "Ai që nuk ka fund."
+  },
+  "76": {
+    "arabic": "الظَّاهِرُ",
+    "name": "Edh-Dhahir",
+    "translation": "Ai ekzistenca e të cilit është e dukshme përmes veprave të Tij."
+  },
+  "77": {
+    "arabic": "الْبَاطِنُ",
+    "name": "Al-Batin",
+    "translation": "Ai që është i fshehur nga shikimi dhe njeh të fshehtat."
+  },
+  "78": {
+    "arabic": "الْوَالِي",
+    "name": "Al-Uali",
+    "translation": "Ai që qeveris të gjitha gjërat."
+  },
+  "79": {
+    "arabic": "الْمُتَعَالِي",
+    "name": "Al-Muteali",
+    "translation": "Ai që është mbi çdo të metë."
+  },
+  "80": {
+    "arabic": "الْبَرُّ",
+    "name": "Al-Berr",
+    "translation": "Ai që është burimi i çdo mirësie."
+  },
+  "81": {
+    "arabic": "التَّوَابُ",
+    "name": "Et-Teuab",
+    "translation": "Ai që pranon pendimin e robërve."
+  },
+  "82": {
+    "arabic": "الْمُنْتَقِمُ",
+    "name": "Al-Muntekim",
+    "translation": "Ai që ndëshkon keqbërësit me drejtësi."
+  },
+  "83": {
+    "arabic": "العَفُوُّ",
+    "name": "Al-Afuu",
+    "translation": "Ai që fal dhe shlyen mëkatet."
+  },
+  "84": {
+    "arabic": "الرَّؤُوفُ",
+    "name": "Er-Rauf",
+    "translation": "Ai që është i butë dhe i mëshirshëm."
+  },
+  "85": {
+    "arabic": "مَالِكُ الْمُلْكِ",
+    "name": "Malik-ul-Mulk",
+    "translation": "Pronari absolut i gjithçkaje."
+  },
+  "86": {
+    "arabic": "ذُوالْجَلاَلِ وَالإكْرَامِ",
+    "name": "Dhul-Xhelali uel-Ikram",
+    "translation": "Ai që zotëron madhështi dhe nder."
+  },
+  "87": {
+    "arabic": "الْمُقْسِطُ",
+    "name": "Al-Muksit",
+    "translation": "Ai që vendos drejtësinë."
+  },
+  "88": {
+    "arabic": "الْجَامِعُ",
+    "name": "Al-Xhami",
+    "translation": "Ai që do t'i tubojë njerëzit në Ditën e Gjykimit."
+  },
+  "89": {
+    "arabic": "الْغَنِيُّ",
+    "name": "Al-Gani",
+    "translation": "Ai që është i pavarur dhe i pasur."
+  },
+  "90": {
+    "arabic": "الْمُغْنِي",
+    "name": "Al-Mugni",
+    "translation": "Ai që i jep pasuri kujt të dojë."
+  },
+  "91": {
+    "arabic": "اَلْمَانِعُ",
+    "name": "Al-Mani",
+    "translation": "Ai që parandalon të keqen dhe dëmin."
+  },
+  "92": {
+    "arabic": "الضَّارَّ",
+    "name": "Ed-Darr",
+    "translation": "Ai që jep sprova dhe dëme sipas urtësisë së Tij."
+  },
+  "93": {
+    "arabic": "النَّافِعُ",
+    "name": "En-Nafi",
+    "translation": "Ai që jep dobi dhe mirësi."
+  },
+  "94": {
+    "arabic": "النُّورُ",
+    "name": "En-Nur",
+    "translation": "Ai që ndriçon qiejt dhe tokën."
+  },
+  "95": {
+    "arabic": "الْهَادِي",
+    "name": "Al-Hadi",
+    "translation": "Ai që udhëzon në rrugën e drejtë."
+  },
+  "96": {
+    "arabic": "الْبَدِيعُ",
+    "name": "Al-Bedi",
+    "translation": "Ai që krijon pa shembull të mëparshëm."
+  },
+  "97": {
+    "arabic": "اَلْبَاقِي",
+    "name": "Al-Baki",
+    "translation": "Ai që mbetet përgjithmonë."
+  },
+  "98": {
+    "arabic": "الْوَارِثُ",
+    "name": "Al-Uarith",
+    "translation": "Ai që mbetet kur gjithçka zhduket."
+  },
+  "99": {
+    "arabic": "الرَّشِيدُ",
+    "name": "Er-Reshid",
+    "translation": "Ai që udhëzon drejt mirësisë dhe të vërtetës."
+  },
+  "100": {
+    "arabic": "الصَّبُورُ",
+    "name": "Es-Sabur",
+    "translation": "Ai që është pafundësisht i durueshëm."
+  }
 }

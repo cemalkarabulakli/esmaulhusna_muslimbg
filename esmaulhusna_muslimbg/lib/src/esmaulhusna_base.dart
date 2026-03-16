@@ -10,12 +10,10 @@ class EsmaulHusna {
   static const List<String> _supportedLanguages = [
     'ar',
     'bg',
-    'en',
-    'tr',
     'bs_BA',
-    'mk_MK',
+    'en',
     'sq_AL',
-    'sq_XK',
+    'tr',
   ];
 
   static const Map<String, String> _languageAliases = {
@@ -25,20 +23,23 @@ class EsmaulHusna {
     'bg': 'bg',
     'bg_bg': 'bg',
     'bulgarian': 'bg',
+    'bs': 'bs_BA',
+    'bs_ba': 'bs_BA',
+    'bosnian': 'bs_BA',
     'en': 'en',
     'en_gb': 'en',
     'en_us': 'en',
     'english': 'en',
+    'mk': 'en',
+    'mk_mk': 'en',
+    'macedonian': 'en',
+    'sq': 'sq_AL',
+    'sq_al': 'sq_AL',
+    'sq_xk': 'sq_AL',
+    'albanian': 'sq_AL',
     'tr': 'tr',
     'tr_tr': 'tr',
     'turkish': 'tr',
-    'bs': 'bs_BA',
-    'bs_ba': 'bs_BA',
-    'mk': 'mk_MK',
-    'mk_mk': 'mk_MK',
-    'sq': 'sq_AL',
-    'sq_al': 'sq_AL',
-    'sq_xk': 'sq_XK',
   };
 
   static final Map<String, Future<List<Map<String, String>>>> _cache = {};

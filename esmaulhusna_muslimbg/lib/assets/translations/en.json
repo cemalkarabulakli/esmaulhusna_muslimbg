@@ -1,502 +1,502 @@
 {
-    "1": {
-        "arabic": "ٱللَّهُ",
-        "name": "Allah",
-        "translation": "The One and Only God"
-    },
-    "2": {
-        "arabic": "ٱلرَّحْمَٰنُ",
-        "name": "Ar-Rahmaan",
-        "translation": "The Most or Entirely Merciful"
-    },
-    "3": {
-        "arabic": "ٱلرَّحِيمُ",
-        "name": "Ar-Raheem",
-        "translation": "The Bestower of Mercy"
-    },
-    "4": {
-        "arabic": "ٱلْمَلِكُ",
-        "name": "Al-Malik",
-        "translation": "The King and Owner of Dominion"
-    },
-    "5": {
-        "arabic": "ٱلْقُدُّوسُ",
-        "name": "Al-Quddus",
-        "translation": "The Absolutely Pure"
-    },
-    "6": {
-        "arabic": "ٱلسَّلَامُ",
-        "name": "As-Salaam",
-        "translation": "The Perfection and Giver of Peace"
-    },
-    "7": {
-        "arabic": "ٱلْمُؤْمِنُ",
-        "name": "Al-Mu'min",
-        "translation": "The One Who gives Emaan and Security"
-    },
-    "8": {
-        "arabic": "ٱلْمُهَيْمِنُ",
-        "name": "Al-Muhaymin",
-        "translation": "The Guardian, The Witness, The Overseer"
-    },
-    "9": {
-        "arabic": "ٱلْعَزِيزُ",
-        "name": "Al-Azeez",
-        "translation": "The All Mighty"
-    },
-    "10": {
-        "arabic": "ٱلْجَبَّارُ",
-        "name": "Al-Jabbaar",
-        "translation": "The Compeller, The Restorer"
-    },
-    "11": {
-        "arabic": "ٱلْمُتَكَبِّرُ",
-        "name": "Al-Mutakabbir",
-        "translation": "The Supreme, The Majestic"
-    },
-    "12": {
-        "arabic": "ٱلْخَٰلِقُ",
-        "name": "Al-Khaaliq",
-        "translation": "The Creator, The Maker"
-    },
-    "13": {
-        "arabic": "ٱلْبَارِئُ",
-        "name": "Al-Baari'",
-        "translation": "The Originator"
-    },
-    "14": {
-        "arabic": "ٱلْمُصَوِّرُ",
-        "name": "Al-Musawwir",
-        "translation": "The Fashioner"
-    },
-    "15": {
-        "arabic": "ٱلْغَفَّارُ",
-        "name": "Al-Ghaffaar",
-        "translation": "The All- and Oft-Forgiving"
-    },
-    "16": {
-        "arabic": "ٱلْقَهَّارُ",
-        "name": "Al-Qahhaar",
-        "translation": "The Subduer, The Ever-Dominating"
-    },
-    "17": {
-        "arabic": "ٱلْوَهَّابُ",
-        "name": "Al-Wahhaab",
-        "translation": "The Giver of Gifts"
-    },
-    "18": {
-        "arabic": "ٱلْرَّزَّاقُ",
-        "name": "Ar-Razzaaq",
-        "translation": "The Provider"
-    },
-    "19": {
-        "arabic": "ٱلْفَتَّاحُ",
-        "name": "Al-Fattah",
-        "translation": "The Opener, The Judge"
-    },
-    "20": {
-        "arabic": "ٱلْعَلِيمُ",
-        "name": "Al-'Aleem",
-        "translation": "The All-Knowing, The Omniscient"
-    },
-    "21": {
-        "arabic": "ٱلْقَابِضُ",
-        "name": "Al-Qaabid",
-        "translation": "The Withholder"
-    },
-    "22": {
-        "arabic": "ٱلْبَاسِطُ",
-        "name": "Al-Baasit",
-        "translation": "The Extender"
-    },
-    "23": {
-        "arabic": "ٱلْخَافِضُ",
-        "name": "Al-Khaafidh",
-        "translation": "The Reducer, The Abaser"
-    },
-    "24": {
-        "arabic": "ٱلْرَّافِعُ",
-        "name": "Ar-Raafi'",
-        "translation": "The Exalter, The Elevator"
-    },
-    "25": {
-        "arabic": "ٱلْمُعِزُّ",
-        "name": "Al-Mu'izz",
-        "translation": "The Honourer, The Bestower"
-    },
-    "26": {
-        "arabic": "ٱلْمُذِلُّ",
-        "name": "Al-Muzil",
-        "translation": "The Dishonourer, The Humiliator"
-    },
-    "27": {
-        "arabic": "ٱلسَّمِيعُ",
-        "name": "As-Samee'",
-        "translation": "The All-Hearing"
-    },
-    "28": {
-        "arabic": "ٱلْبَصِيرُ",
-        "name": "Al-Baseer",
-        "translation": "The All-Seeing"
-    },
-    "29": {
-        "arabic": "ٱلْحَكَمُ",
-        "name": "Al-Hakam",
-        "translation": "The Judge, The Giver of Justice"
-    },
-    "30": {
-        "arabic": "ٱلْعَدْلُ",
-        "name": "Al-'Adl",
-        "translation": "The Utterly Just"
-    },
-    "31": {
-        "arabic": "ٱللَّطِيفُ",
-        "name": "Al-Lateef",
-        "translation": "The Subtle One, The Most Gentle"
-    },
-    "32": {
-        "arabic": "ٱلْخَبِيرُ",
-        "name": "Al-Khabeer",
-        "translation": "The Acquainted, The All-Aware"
-    },
-    "33": {
-        "arabic": "ٱلْحَلِيمُ",
-        "name": "Al-Haleem",
-        "translation": "The Most Forbearing"
-    },
-    "34": {
-        "arabic": "ٱلْعَظِيمُ",
-        "name": "Al-'Azeem",
-        "translation": "The Magnificent, The Supreme"
-    },
-    "35": {
-        "arabic": "ٱلْغَفُورُ",
-        "name": "Al-Ghafoor",
-        "translation": "The Forgiving, The Exceedingly Forgiving"
-    },
-    "36": {
-        "arabic": "ٱلشَّكُورُ",
-        "name": "Ash-Shaakoor",
-        "translation": "The Most Appreciative"
-    },
-    "37": {
-        "arabic": "ٱلْعَلِيُّ",
-        "name": "Al-'Alee",
-        "translation": "The Most High, The Exalted"
-    },
-    "38": {
-        "arabic": "ٱلْكَبِيرُ",
-        "name": "Al-Kabeer",
-        "translation": "The Greatest, The Most Grand"
-    },
-    "39": {
-        "arabic": "ٱلْحَفِيظُ",
-        "name": "Al-Hafeedh",
-        "translation": "The Preserver, The All-Heedful and All-Protecting"
-    },
-    "40": {
-        "arabic": "ٱلْمُقيِتُ",
-        "name": "Al-Muqeet",
-        "translation": "The Sustainer, The Maintainer"
-    },
-    "41": {
-        "arabic": "ٱلْحَسِيبُ",
-        "name": "Al-Hasib",
-        "translation": "The Reckoner"
-    },
-    "42": {
-        "arabic": "ٱلْجَلِيلُ",
-        "name": "Al-Jaleel",
-        "translation": "The Majestic"
-    },
-    "43": {
-        "arabic": "ٱلْكَرِيمُ",
-        "name": "Al-Kareem",
-        "translation": "The Most Generous, The Most Esteemed"
-    },
-    "44": {
-        "arabic": "ٱلْرَّقِيبُ",
-        "name": "Ar-Raqeeb",
-        "translation": "The Watchful, The All-Watchful"
-    },
-    "45": {
-        "arabic": "ٱلْمُجِيبُ",
-        "name": "Al-Mujeeb",
-        "translation": "The Responsive, The Answerer"
-    },
-    "46": {
-        "arabic": "ٱلْوَاسِعُ",
-        "name": "Al-Waasi'",
-        "translation": "The All-Encompassing, the Boundless"
-    },
-    "47": {
-        "arabic": "ٱلْحَكِيمُ",
-        "name": "Al-Hakeem",
-        "translation": "The All-Wise"
-    },
-    "48": {
-        "arabic": "ٱلْوَدُودُ",
-        "name": "Al-Wadud",
-        "translation": "The Most Loving"
-    },
-    "49": {
-        "arabic": "ٱلْمَجِيدُ",
-        "name": "Al-Majeed",
-        "translation": "The Glorious, The Most Honorable"
-    },
-    "50": {
-        "arabic": "ٱلْبَاعِثُ",
-        "name": "Al-Baa'ith",
-        "translation": "The Infuser of New Life"
-    },
-    "51": {
-        "arabic": "ٱلْشَّهِيدُ",
-        "name": "As-Shaheed",
-        "translation": "The All Observing Witnessing"
-    },
-    "52": {
-        "arabic": "ٱلْحَقُّ",
-        "name": "Al-Haqq",
-        "translation": "The Absolute Truth"
-    },
-    "53": {
-        "arabic": "ٱلْوَكِيلُ",
-        "name": "Al-Wakeel",
-        "translation": "The Trustee, The Disposer of Affairs"
-    },
-    "54": {
-        "arabic": "ٱلْقَوِيِيُ",
-        "name": "Al-Qawiyy",
-        "translation": "The All-Strong"
-    },
-    "55": {
-        "arabic": "ٱلْمَتِينُ",
-        "name": "Al-Mateen",
-        "translation": "The Firm, The Steadfast"
-    },
-    "56": {
-        "arabic": "ٱلْوَلِيُ",
-        "name": "Al-Walee",
-        "translation": "The Protecting Associate"
-    },
-    "57": {
-        "arabic": "ٱلْحَمِيدُ",
-        "name": "Al-Hameed",
-        "translation": "The Praiseworthy"
-    },
-    "58": {
-        "arabic": "ٱلْمُحْصِي",
-        "name": "Al-Muhsee",
-        "translation": "The All-Enumerating, The Counter"
-    },
-    "59": {
-        "arabic": "ٱلْمُبْدِئُ",
-        "name": "Al-Mubdi'",
-        "translation": "The Originator, The Initiator"
-    },
-    "60": {
-        "arabic": "ٱلْمُعِيدُ",
-        "name": "Al-Mu'id",
-        "translation": "The Restorer, The Reinstater"
-    },
-    "61": {
-        "arabic": "ٱلْمُحْيِي",
-        "name": "Al-Muhyee",
-        "translation": "The Giver of Life"
-    },
-    "62": {
-        "arabic": "ٱلْمُمِيتُ",
-        "name": "Al-Mumeet",
-        "translation": "The Creator of Death"
-    },
-    "63": {
-        "arabic": "ٱلْحَيِّيُ",
-        "name": "Al-Hayy",
-        "translation": "The Ever-Living"
-    },
-    "64": {
-        "arabic": "ٱلْقَيُّومُ",
-        "name": "Al-Qayyoom",
-        "translation": "The Sustainer, The Self-Subsisting"
-    },
-    "65": {
-        "arabic": "ٱلْوَاجِدُ",
-        "name": "Al-Waajid",
-        "translation": "The Perceiver"
-    },
-    "66": {
-        "arabic": "ٱلْمَاجِدُ",
-        "name": "Al-Maajid",
-        "translation": "The Illustrious, The Magnificent"
-    },
-    "67": {
-        "arabic": "ٱلْوَاحِدُ",
-        "name": "Al-Waahid",
-        "translation": "The One, The Indivisible"
-    },
-    "68": {
-        "arabic": "ٱلْأَحَدُ",
-        "name": "Al-Ahad",
-        "translation": "The Unique, The Only One"
-    },
-    "69": {
-        "arabic": "ٱلصَّمَدُ",
-        "name": "As-Samad",
-        "translation": "The Eternal, Satisfier of Needs"
-    },
-    "70": {
-        "arabic": "ٱلْقَادِرُ",
-        "name": "Al-Qaadir",
-        "translation": "The Omnipotent"
-    },
-    "71": {
-        "arabic": "ٱلْمُقْتَدِرُ",
-        "name": "Al-Muqtadir",
-        "translation": "The Powerful"
-    },
-    "72": {
-        "arabic": "ٱلْمُقَدِّمُ",
-        "name": "Al-Muqaddim",
-        "translation": "The Expediter, The Promoter"
-    },
-    "73": {
-        "arabic": "ٱلْمُؤَخِّرُ",
-        "name": "Al-Mu'akhkhir",
-        "translation": "The Delayer"
-    },
-    "74": {
-        "arabic": "ٱلْأوَّلُ",
-        "name": "Al-Awwal",
-        "translation": "The First"
-    },
-    "75": {
-        "arabic": "ٱلْآخِرُ",
-        "name": "Al-Aakhir",
-        "translation": "The Last, The Utmost"
-    },
-    "76": {
-        "arabic": "ٱلظَّٰهِرُ",
-        "name": "Az-Zaahir",
-        "translation": "The Manifest, The All-Surpassing"
-    },
-    "77": {
-        "arabic": "ٱلْبَاطِنُ",
-        "name": "Al-Baatin",
-        "translation": "The Hidden One, Knower of the Hidden"
-    },
-    "78": {
-        "arabic": "ٱلْوَالِي",
-        "name": "Al-Waalee",
-        "translation": "The Sole Governor"
-    },
-    "79": {
-        "arabic": "ٱلْمُتَعَالِي",
-        "name": "Al-Muta'ali",
-        "translation": "The Self Exalted"
-    },
-    "80": {
-        "arabic": "ٱلْبَرُّ",
-        "name": "Al-Barr",
-        "translation": "The Source of All Goodness"
-    },
-    "81": {
-        "arabic": "ٱلتَّوَابُ",
-        "name": "At-Tawwaab",
-        "translation": "The Ever-Pardoning"
-    },
-    "82": {
-        "arabic": "ٱلْمُنْتَقِمُ",
-        "name": "Al-Muntaqim",
-        "translation": "The Avenger"
-    },
-    "83": {
-        "arabic": "ٱلْعَفُوُ",
-        "name": "Al-'Afuww",
-        "translation": "The Pardoner"
-    },
-    "84": {
-        "arabic": "ٱلْرَّؤُوفُ",
-        "name": "Ar-Ra'ooof",
-        "translation": "The Most Kind"
-    },
-    "85": {
-        "arabic": "مَالِكُ ٱلْمُلْكُ",
-        "name": "Maalik-al-Mulk",
-        "translation": "Master of the Dominion, Owner of the Kingdom"
-    },
-    "86": {
-        "arabic": "ذُوالْجَلاَلِ وَالإكْرَامِ",
-        "name": "Thul-Jalaali wal-Ikraam",
-        "translation": "Possessor of Glory and Honour"
-    },
-    "87": {
-        "arabic": "ٱلْمُقْسِطُ",
-        "name": "Al-Muqsiṭ",
-        "translation": "The Just One"
-    },
-    "88": {
-        "arabic": "ٱلْجَامِعُ",
-        "name": "Al-Jaami'",
-        "translation": "The Gatherer, the Uniter"
-    },
-    "89": {
-        "arabic": "ٱلْغَنيُّ",
-        "name": "Al-Ghaniyy",
-        "translation": "The Self-Sufficient, The Wealthy"
-    },
-    "90": {
-        "arabic": "ٱلْمُغْنِيُ",
-        "name": "Al-Mughniyy",
-        "translation": "The Enricher"
-    },
-    "91": {
-        "arabic": "ٱلْمَانِعُ",
-        "name": "Al-Maani'",
-        "translation": "The Withholder"
-    },
-    "92": {
-        "arabic": "ٱلضَّٰرَ",
-        "name": "Ad-Dhaarr",
-        "translation": "The Distresser"
-    },
-    "93": {
-        "arabic": "ٱلنَّافِعُ",
-        "name": "An-Naafi'",
-        "translation": "The Propitious, The Benefactor"
-    },
-    "94": {
-        "arabic": "ٱلْنُورُ",
-        "name": "An-Noor",
-        "translation": "The Light"
-    },
-    "95": {
-        "arabic": "ٱلْهَادِي",
-        "name": "Al-Haadi",
-        "translation": "The Guide"
-    },
-    "96": {
-        "arabic": "ٱلْبَدِيعُ",
-        "name": "Al-Badee'",
-        "translation": "The Incomparable Originator"
-    },
-    "97": {
-        "arabic": "ٱلْبَاقِي",
-        "name": "Al-Baaqi",
-        "translation": "The Ever-Lasting"
-    },
-    "98": {
-        "arabic": "ٱلْوَارِثُ",
-        "name": "Al-Waarith",
-        "translation": "The Inheritor"
-    },
-    "99": {
-        "arabic": "ٱلرَّشِيدُ",
-        "name": "Ar-Rasheed",
-        "translation": "The Guide to the Right Path"
-    },
-    "100": {
-        "arabic": "ٱلصَّبُورُ",
-        "name": "Al-Saboor",
-        "translation": "The Patient"
-    }
+  "1": {
+    "arabic": "ٱللَّهُ",
+    "name": "Allah",
+    "translation": "The One and Only God; the proper name of the Lord, worthy of all worship."
+  },
+  "2": {
+    "arabic": "الرَّحْمَنُ",
+    "name": "Ar Rahmaan",
+    "translation": "The One who has plenty of mercy for the believers and the blasphemers in this world and especially for the believers in the hereafter."
+  },
+  "3": {
+    "arabic": "الرَّحِيمُ",
+    "name": "Ar Raheem",
+    "translation": "The One who has plenty of mercy for the believers."
+  },
+  "4": {
+    "arabic": "الْمَلِكُ",
+    "name": "Al Malik",
+    "translation": "The Sovereign Lord, The One who has absolute ownership and authority over all creation."
+  },
+  "5": {
+    "arabic": "الْقُدُّوسُ",
+    "name": "Al Quddus",
+    "translation": "The One who is pure from any imperfection and clear from children and adversaries."
+  },
+  "6": {
+    "arabic": "السَّلاَمُ",
+    "name": "As Salaam",
+    "translation": "The One who grants peace and calm to all creation."
+  },
+  "7": {
+    "arabic": "الْمُؤْمِنُ",
+    "name": "Al Mu'min",
+    "translation": "The One who grants safety and security to His creation."
+  },
+  "8": {
+    "arabic": "الْمُهَيْمِنُ",
+    "name": "Al Muhaymin",
+    "translation": "The One who witnesses the saying and deeds of His creatures."
+  },
+  "9": {
+    "arabic": "الْعَزِيزُ",
+    "name": "Al Azeez",
+    "translation": "The strong, the defeater who is not defeated."
+  },
+  "10": {
+    "arabic": "الْجَبَّارُ",
+    "name": "Al Jabbaar",
+    "translation": "The One that nothing happens in His dominion except that which He willed."
+  },
+  "11": {
+    "arabic": "الْمُتَكَبِّرُ",
+    "name": "Al Mutakabbir",
+    "translation": "The Supreme, The One who is supremely great and above all creation."
+  },
+  "12": {
+    "arabic": "الْخَالِقُ",
+    "name": "Al Khaaliq",
+    "translation": "The One who brings everything from non-existence to existence."
+  },
+  "13": {
+    "arabic": "الْبَارِئُ",
+    "name": "Al Baari",
+    "translation": "The Maker, The Creator who has the power to materialize and proportion His creation."
+  },
+  "14": {
+    "arabic": "الْمُصَوِّرُ",
+    "name": "Al Musawwir",
+    "translation": "The Fashioner, The One who forms His creatures in different shapes and forms."
+  },
+  "15": {
+    "arabic": "الْغَفَّارُ",
+    "name": "Al Ghaffaar",
+    "translation": "The One who forgives the sins of His slaves time and time again."
+  },
+  "16": {
+    "arabic": "الْقَهَّارُ",
+    "name": "Al Qahhaar",
+    "translation": "The Subduer, The One who has perfect Power and absolute control over all things."
+  },
+  "17": {
+    "arabic": "الْوَهَّابُ",
+    "name": "Al Wahhaab",
+    "translation": "The One who is Generous in giving plenty without any return."
+  },
+  "18": {
+    "arabic": "الرَّزَّاقُ",
+    "name": "Ar Razzaaq",
+    "translation": "The One who provides all the creatures their needs."
+  },
+  "19": {
+    "arabic": "الْفَتَّاحُ",
+    "name": "Al Fattaah",
+    "translation": "The One who opens for His slaves the closed worldly and religious matters."
+  },
+  "20": {
+    "arabic": "اَلْعَلِيْمُ",
+    "name": "Al 'Aleem",
+    "translation": "The One nothing is absent from His knowledge."
+  },
+  "21": {
+    "arabic": "الْقَابِضُ",
+    "name": "Al Qaabid",
+    "translation": "The One who constricts the sustenance by His wisdom."
+  },
+  "22": {
+    "arabic": "الْبَاسِطُ",
+    "name": "Al Baasit",
+    "translation": "The One who expands and widens."
+  },
+  "23": {
+    "arabic": "الْخَافِضُ",
+    "name": "Al Khaafid",
+    "translation": "The One who lowers whoever He willed by His Destruction."
+  },
+  "24": {
+    "arabic": "الرَّافِعُ",
+    "name": "Ar Raafi'",
+    "translation": "The One who raises whoever He willed by His endowment."
+  },
+  "25": {
+    "arabic": "الْمُعِزُّ",
+    "name": "Al Mu'iz",
+    "translation": "He gives esteem to whoever He willed, hence there is no one to degrade Him."
+  },
+  "26": {
+    "arabic": "المُذِلُّ",
+    "name": "Al Mudhil",
+    "translation": "The One who degrades whoever he willed, hence there is no one to give him esteem."
+  },
+  "27": {
+    "arabic": "السَّمِيعُ",
+    "name": "As Samee'",
+    "translation": "The One who Hears all things that are heard by His Eternal Hearing without an ear, instrument or organ."
+  },
+  "28": {
+    "arabic": "الْبَصِيرُ",
+    "name": "Al Baseer",
+    "translation": "The One who Sees all things that are seen by His Eternal Seeing without a pupil or any other instrument."
+  },
+  "29": {
+    "arabic": "الْحَكَمُ",
+    "name": "Al Hakam",
+    "translation": "The One who is the judge, the arbitrator, the One who has the complete authority to decide between the creatures."
+  },
+  "30": {
+    "arabic": "الْعَدْلُ",
+    "name": "Al 'Adl",
+    "translation": "The One who is entitled to do what He does."
+  },
+  "31": {
+    "arabic": "اللَّطِيفُ",
+    "name": "Al Lateef",
+    "translation": "The One who is kind to His slaves and endows upon them."
+  },
+  "32": {
+    "arabic": "الْخَبِيرُ",
+    "name": "Al Khabeer",
+    "translation": "The One who knows the truth of things."
+  },
+  "33": {
+    "arabic": "الْحَلِيمُ",
+    "name": "Al Haleem",
+    "translation": "The One who delays the punishment for those who deserve it and then He might forgive them."
+  },
+  "34": {
+    "arabic": "الْعَظِيمُ",
+    "name": "Al 'Azeem",
+    "translation": "The One deserving the attributes of Exaltment, Glory, Extolement, and complete Majesty."
+  },
+  "35": {
+    "arabic": "الْغَفُورُ",
+    "name": "Al Ghafoor",
+    "translation": "The One who forgives a lot."
+  },
+  "36": {
+    "arabic": "الشَّكُورُ",
+    "name": "Ash Shakoor",
+    "translation": "The One who gives a lot of reward for a little obedience."
+  },
+  "37": {
+    "arabic": "الْعَلِيُّ",
+    "name": "Al 'Aliyy",
+    "translation": "The One who is clear from the attributes of the creatures."
+  },
+  "38": {
+    "arabic": "الْكَبِيرُ",
+    "name": "Al Kabeer",
+    "translation": "The One who is greater than everything in status."
+  },
+  "39": {
+    "arabic": "الْحَفِيظُ",
+    "name": "Al Hafeez",
+    "translation": "The One who protects whatever and whoever He willed to protect."
+  },
+  "40": {
+    "arabic": "المُقيِت",
+    "name": "Al Muqeet",
+    "translation": "The One who has the Power."
+  },
+  "41": {
+    "arabic": "الْحسِيبُ",
+    "name": "Al Haseeb",
+    "translation": "The One who gives the satisfaction."
+  },
+  "42": {
+    "arabic": "الْجَلِيلُ",
+    "name": "Al Jaleel",
+    "translation": "The One who is attributed with greatness of Power and Glory of status."
+  },
+  "43": {
+    "arabic": "الْكَرِيمُ",
+    "name": "Al Kareem",
+    "translation": "The One who is clear from abjectness."
+  },
+  "44": {
+    "arabic": "الرَّقِيبُ",
+    "name": "Ar Raqeeb",
+    "translation": "The One that nothing is absent from Him."
+  },
+  "45": {
+    "arabic": "الْمُجِيبُ",
+    "name": "Al Mujeeb",
+    "translation": "The One who answers the one in need if he asks Him and rescues the yearner if he calls upon Him."
+  },
+  "46": {
+    "arabic": "الْوَاسِعُ",
+    "name": "Al Waasi'",
+    "translation": "The Knowledgeable; The One nothing is absent from His knowledge."
+  },
+  "47": {
+    "arabic": "الْحَكِيمُ",
+    "name": "Al Hakeem",
+    "translation": "The One who is correct in His doings."
+  },
+  "48": {
+    "arabic": "الْوَدُودُ",
+    "name": "Al Wudood",
+    "translation": "The One who loves His believing slaves and His believing slaves love Him."
+  },
+  "49": {
+    "arabic": "الْمَجِيدُ",
+    "name": "Al Majeed",
+    "translation": "The One who is with perfect Power, High Status, Compassion, Generosity and Kindness."
+  },
+  "50": {
+    "arabic": "الْبَاعِثُ",
+    "name": "Al Baa'ith",
+    "translation": "The One who resurrects His slaves after death for reward and/or punishment."
+  },
+  "51": {
+    "arabic": "الشَّهِيدُ",
+    "name": "Ash Shaheed",
+    "translation": "The Witness, The One from whom nothing is hidden."
+  },
+  "52": {
+    "arabic": "الْحَقُّ",
+    "name": "Al Haqq",
+    "translation": "The One who truly exists."
+  },
+  "53": {
+    "arabic": "الْوَكِيلُ",
+    "name": "Al Wakeel",
+    "translation": "The Trustee, The One who is relied upon for all affairs."
+  },
+  "54": {
+    "arabic": "الْقَوِيُّ",
+    "name": "Al Qawiyy",
+    "translation": "The One with the complete Power."
+  },
+  "55": {
+    "arabic": "الْمَتِينُ",
+    "name": "Al Mateen",
+    "translation": "The Firm, The One with steadfast power who never tires."
+  },
+  "56": {
+    "arabic": "الْوَلِيُّ",
+    "name": "Al Waliyy",
+    "translation": "The Protecting Friend, The One who supports and manages the affairs of His servants."
+  },
+  "57": {
+    "arabic": "الْحَمِيدُ",
+    "name": "Al Hameed",
+    "translation": "The praised One who deserves to be praised."
+  },
+  "58": {
+    "arabic": "الْمُحْصِي",
+    "name": "Al Muhsi",
+    "translation": "The One who the count of things are known to him."
+  },
+  "59": {
+    "arabic": "الْمُبْدِئُ",
+    "name": "Al Mubdi",
+    "translation": "The One who started the human being. That is, He created him."
+  },
+  "60": {
+    "arabic": "الْمُعِيدُ",
+    "name": "Al Mu'eed",
+    "translation": "The One who brings back the creatures after death."
+  },
+  "61": {
+    "arabic": "الْمُحْيِي",
+    "name": "Al Muhiy",
+    "translation": "The One who took out a living human from semen that does not have a soul."
+  },
+  "62": {
+    "arabic": "اَلْمُمِيتُ",
+    "name": "Al Mumeet",
+    "translation": "The One who renders the living dead."
+  },
+  "63": {
+    "arabic": "الْحَيُّ",
+    "name": "Al Haiyy",
+    "translation": "The One attributed with a life that is neither born nor is it coming to an end."
+  },
+  "64": {
+    "arabic": "الْقَيُّومُ",
+    "name": "Al Qayyoom",
+    "translation": "The One who remains and does not end."
+  },
+  "65": {
+    "arabic": "الْوَاجِدُ",
+    "name": "Al Waajid",
+    "translation": "The Rich who is never poor. Al-Wajd is Richness."
+  },
+  "66": {
+    "arabic": "الْمَاجِدُ",
+    "name": "Al Maajid",
+    "translation": "The One who is Majid."
+  },
+  "67": {
+    "arabic": "الْواحِدُ",
+    "name": "Al Waahid",
+    "translation": "The One without a partner."
+  },
+  "68": {
+    "arabic": "اَلاَحَدُ",
+    "name": "Al Ahad",
+    "translation": "The One who is unique in His essence and attributes."
+  },
+  "69": {
+    "arabic": "الصَّمَدُ",
+    "name": "As Samad",
+    "translation": "The Master who is relied upon in matters and reverted to in ones needs."
+  },
+  "70": {
+    "arabic": "الْقَادِرُ",
+    "name": "Al Qaadir",
+    "translation": "The One attributed with Power."
+  },
+  "71": {
+    "arabic": "الْمُقْتَدِرُ",
+    "name": "Al Muqtadir",
+    "translation": "The One with the perfect Power that nothing is withheld from Him."
+  },
+  "72": {
+    "arabic": "الْمُقَدِّمُ",
+    "name": "Al Muqaddim",
+    "translation": "The One who puts things in their right place. He makes ahead what He wills."
+  },
+  "73": {
+    "arabic": "الْمُؤَخِّرُ",
+    "name": "Al Mu'akhir",
+    "translation": "The One who puts things in their right place. He makes behind what He wills."
+  },
+  "74": {
+    "arabic": "الأوَّلُ",
+    "name": "Al Awwal",
+    "translation": "The One whose Existence is without a beginning."
+  },
+  "75": {
+    "arabic": "الآخِرُ",
+    "name": "Al Aakhir",
+    "translation": "The One whose Existence is without an end."
+  },
+  "76": {
+    "arabic": "الظَّاهِرُ",
+    "name": "Az Zaahir",
+    "translation": "The One that nothing is above Him and nothing is underneath Him, hence He exists without a place."
+  },
+  "77": {
+    "arabic": "الْبَاطِنُ",
+    "name": "Al Baatin",
+    "translation": "The One that nothing is above Him and nothing is underneath Him, hence He exists without a place."
+  },
+  "78": {
+    "arabic": "الْوَالِي",
+    "name": "Al Waali",
+    "translation": "The One who owns things and manages them."
+  },
+  "79": {
+    "arabic": "الْمُتَعَالِي",
+    "name": "Al Muta'ali",
+    "translation": "The One who is clear from the attributes of the creation."
+  },
+  "80": {
+    "arabic": "الْبَرُّ",
+    "name": "Al Barr",
+    "translation": "The One who is kind to His creatures, who covered them with His sustenance and specified whoever He willed among them by His support, protection, and special mercy."
+  },
+  "81": {
+    "arabic": "التَّوَابُ",
+    "name": "At Tawwaab",
+    "translation": "The One who grants repentance to whoever He willed among His creatures and accepts his repentance."
+  },
+  "82": {
+    "arabic": "الْمُنْتَقِمُ",
+    "name": "Al Muntaqim",
+    "translation": "The One who victoriously prevails over His enemies and punishes them for their sins."
+  },
+  "83": {
+    "arabic": "العَفُوُّ",
+    "name": "Al Afuww",
+    "translation": "The One with wide forgiveness."
+  },
+  "84": {
+    "arabic": "الرَّؤُوفُ",
+    "name": "Ar Ra'oof",
+    "translation": "The One with extreme Mercy. The Mercy of Allah is His will to endow upon whoever He willed among His creatures."
+  },
+  "85": {
+    "arabic": "مَالِكُ الْمُلْكِ",
+    "name": "Maalik Ul Mulk",
+    "translation": "The One who controls the Dominion and gives dominion to whoever He willed."
+  },
+  "86": {
+    "arabic": "ذُوالْجَلاَلِ وَالإكْرَامِ",
+    "name": "Dhu Al Jalaali Wa Al Ikraam",
+    "translation": "The One who deserves to be Exalted and not denied."
+  },
+  "87": {
+    "arabic": "الْمُقْسِطُ",
+    "name": "Al Muqsit",
+    "translation": "The One who is Just in His judgment."
+  },
+  "88": {
+    "arabic": "الْجَامِعُ",
+    "name": "Al Jaami'",
+    "translation": "The One who gathers the creatures on a day that there is no doubt about, that is the Day of Judgment."
+  },
+  "89": {
+    "arabic": "الْغَنِيُّ",
+    "name": "Al Ghaniyy",
+    "translation": "The One who does not need the creation."
+  },
+  "90": {
+    "arabic": "الْمُغْنِي",
+    "name": "Al Mughi",
+    "translation": "The One who satisfies the necessities of the creatures."
+  },
+  "91": {
+    "arabic": "اَلْمَانِعُ",
+    "name": "Al Maani'",
+    "translation": "The Supporter who protects and gives victory to His pious believers."
+  },
+  "92": {
+    "arabic": "الضَّارَّ",
+    "name": "Ad Daaarr",
+    "translation": "The One who makes harm reach to whoever He willed and benefit to whoever He willed."
+  },
+  "93": {
+    "arabic": "النَّافِعُ",
+    "name": "An Naafi'",
+    "translation": "The One who gives benefit to whoever He willed."
+  },
+  "94": {
+    "arabic": "النُّورُ",
+    "name": "An Noor",
+    "translation": "The One who guides."
+  },
+  "95": {
+    "arabic": "الْهَادِي",
+    "name": "Al Haadi",
+    "translation": "The One who guides."
+  },
+  "96": {
+    "arabic": "الْبَدِيعُ",
+    "name": "Al Badi'",
+    "translation": "The One who created the creation and formed it without any preceding example."
+  },
+  "97": {
+    "arabic": "اَلْبَاقِي",
+    "name": "Al Baaqi",
+    "translation": "The One that the state of non-existence is impossible for Him."
+  },
+  "98": {
+    "arabic": "الْوَارِثُ",
+    "name": "Al Waarith",
+    "translation": "The One whose Existence remains."
+  },
+  "99": {
+    "arabic": "الرَّشِيدُ",
+    "name": "Ar Rasheed",
+    "translation": "The One who guides."
+  },
+  "100": {
+    "arabic": "الصَّبُورُ",
+    "name": "As Saboor",
+    "translation": "The One who does not quickly punish the sinners."
+  }
 }

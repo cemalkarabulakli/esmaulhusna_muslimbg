@@ -2,6 +2,15 @@
 
 ## 1.1.0 - Unreleased
 
+## 1.0.7
+
+* Replace translation data for `tr`, `bs_BA`, `sq_AL`, and `en` with enriched full-meaning entries — each locale now includes all 100 entries (Allah + 99 names) with detailed meanings
+* Remove `sq_XK` locale — file removed; `sq_xk` alias now resolves to `sq_AL`
+* Remove `mk_MK` from supported locales (translation pending) — `mk`/`mk_MK`/`macedonian` aliases fall back to `en`
+* Add `albanian`, `bosnian` full-name aliases
+* Fix `setState()` async bug in example app — `Future` now assigned before `setState` call
+* Update example app language dropdown to reflect current supported locales: `ar`, `bg`, `bs_BA`, `en`, `sq_AL`, `tr`
+
 ## 1.0.6
 
 * Rewrite example app with 3-tab layout — names list with language selector, random name card, and locale reference tab
