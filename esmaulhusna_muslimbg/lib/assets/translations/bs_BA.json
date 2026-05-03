@@ -128,7 +128,7 @@
   "22": {
     "arabic": "الْبَاسِطُ",
     "name": "El-Basit",
-    "translation": "Onaj koji obilno daje opskrbu i produžava život.",
+    "translation": "Onaj koji obilno proširuje opskrbu kome hoće.",
     "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/21_Ал-Басит.mp3"
   },
   "23": {
@@ -434,7 +434,7 @@
   "73": {
     "arabic": "الْمُؤَخِّرُ",
     "name": "El-Muahhir",
-    "translation": "Onaj koji ostavlja po strani koga hoće.",
+    "translation": "Onaj koji odgađa koga hoće.",
     "audio": "packages/esmaulhusna_muslimbg/lib/assets/audio/72_Ал-Муаххир.mp3"
   },
   "74": {

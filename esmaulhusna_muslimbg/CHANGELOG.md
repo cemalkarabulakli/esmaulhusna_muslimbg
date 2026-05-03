@@ -2,6 +2,11 @@
 
 ## 1.1.0 - Unreleased
 
+## 1.0.9
+
+* Fix `bs_BA` translation for #22 El-Basit — corrected to "Onaj koji obilno proširuje opskrbu kome hoće." (removed incorrect "prolongs life" addition)
+* Fix `bs_BA` translation for #73 El-Muahhir — corrected to "Onaj koji odgađa koga hoće." (The Delayer, not "leaves aside")
+
 ## 1.0.8
 
 * Add audio support — 99 MP3 files (Ar-Rahman → As-Sabur) bundled in `lib/assets/audio/`
